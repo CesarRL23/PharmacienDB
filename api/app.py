@@ -1,108 +1,284 @@
 # api/app.py
-from fastapi import FastAPI
-from pydantic import BaseModel
-from sentence_transformers import SentenceTransformer
-from pymongo import MongoClient
-import os, numpy as np
-from dotenv import load_dotenv
-from fastapi import HTTPException, Path
+from fastapi import FastAPI, HTTPException, Path, Query
 from pydantic import BaseModel, Field
+from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
 from typing import List, Optional
-import uuid
-import datetime
+from datetime import datetime
 from bson import ObjectId
 
-
 load_dotenv()
-MONGO_URI = os.getenv("MONGO_URI","mongodb://localhost:27017")
-DB_NAME = os.getenv("DB_NAME","rag_pharmacien")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+DB_NAME = os.getenv("DB_NAME", "rag_pharmacien")
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
-model = SentenceTransformer("all-MiniLM-L6-v2")
 
-app = FastAPI()
+app = FastAPI(title="Pharmacien API", version="2.0")
 
-class SearchRequest(BaseModel):
-    query: str
-    top_k: int = 5
-
-@app.post("/search")
-def search(req: SearchRequest):
-    q_emb = model.encode(req.query).tolist()
-    try:
-        pipeline = [
-            { "$search": { "knnBeta": { "vector": q_emb, "path": "embeddings", "k": req.top_k } } },
-            { "$project": { "title": 1, "content": 1, "related_medicamento": 1, "score": { "$meta": "searchScore" } } }
-        ]
-        results = list(db.documents.aggregate(pipeline))
-        return {"source": "atlas_knn", "results": results}
-    except Exception:
-        # fallback brute force cosine
-        docs = list(db.documents.find({"embeddings": {"$ne": None}}))
-        def cos(a,b):
-            a = np.array(a); b = np.array(b)
-            return float(np.dot(a,b)/(np.linalg.norm(a)*np.linalg.norm(b)+1e-9))
-        scored = [(d, cos(q_emb, d["embeddings"])) for d in docs]
-        scored.sort(key=lambda x: x[1], reverse=True)
-        top = [ {"_id": s[0]["_id"], "title": s[0]["title"], "score": s[1]} for s in scored[:req.top_k] ]
-        return {"source":"brute_force","results": top}
-    
-
-# Helper para convertir ObjectId a str en responses
+# Helper para convertir ObjectId a str
 def safe_doc(doc):
     if not doc:
         return None
-    doc["_id"] = str(doc["_id"])
+    if "_id" in doc:
+        doc["_id"] = str(doc["_id"])
     return doc
 
-class DocumentIn(BaseModel):
-    title: str
-    content: str
-    doc_type: Optional[str] = "product_description"
-    language: Optional[str] = "es"
-    related_medicamento: Optional[str] = None
-    tags: Optional[List[str]] = []
-    images: Optional[List[str]] = []
-    metadata: Optional[dict] = {}
 
-class DocumentOut(DocumentIn):
+# Proveedores
+class ProveedorIn(BaseModel):
+    nombre: str
+    telefono: str
+    direccion: str
+    ciudad: str
+
+class ProveedorOut(ProveedorIn):
     _id: str
 
-# GET all documents (paginated simple)
-@app.get("/documents", response_model=List[DocumentOut])
-def get_documents(limit: int = 50, skip: int = 0):
-    cursor = db.documents.find().skip(int(skip)).limit(int(limit))
-    docs = [safe_doc(d) for d in cursor]
-    return docs
+# Medicamentos
+class CategoriaEmbed(BaseModel):
+    nombre: str
+    descripcion: str
 
-# GET document by id
-@app.get("/documents/{doc_id}", response_model=DocumentOut)
-def get_document_by_id(doc_id: str = Path(..., description="Document ObjectId as string")):
-    from bson import ObjectId
-    try:
-        oid = ObjectId(doc_id)
-    except Exception:
-        raise HTTPException(status_code=400, detail="Invalid document id")
-    doc = db.documents.find_one({"_id": oid})
+class MedicamentoIn(BaseModel):
+    nombre: str
+    precio: float
+    categoria: CategoriaEmbed
+    proveedores: List[str] = []
+
+class MedicamentoOut(MedicamentoIn):
+    _id: str
+
+# Clientes
+class ClienteIn(BaseModel):
+    nombre: str
+    direccion: str
+    telefono: str
+
+class ClienteOut(ClienteIn):
+    _id: str
+
+# Doctores
+class DoctorIn(BaseModel):
+    nombre: str
+    apellido: str
+    especialidad: str
+    telefono: str
+
+class DoctorOut(DoctorIn):
+    _id: str
+
+# Farmacias
+class EmpleadoEmbed(BaseModel):
+    _id: str
+    nombre: str
+    puesto: str
+    telefono: str
+
+class FarmaciaIn(BaseModel):
+    ciudad: str
+    direccion: str
+    telefono: str
+    empleados: List[EmpleadoEmbed] = []
+    medicamentos: List[str] = []
+
+class FarmaciaOut(FarmaciaIn):
+    _id: str
+
+# Citas
+class ClienteRef(BaseModel):
+    _id: str
+    nombre: str
+    telefono: str
+
+class DoctorRef(BaseModel):
+    _id: str
+    nombre: str
+    especialidad: str
+
+class RecetaEmbed(BaseModel):
+    medicamento_id: str
+    medicamento_nombre: str
+    dosis: str
+    duracion: str
+
+class CitaIn(BaseModel):
+    fecha: datetime
+    cliente: ClienteRef
+    doctor: DoctorRef
+    receta: List[RecetaEmbed] = []
+
+class CitaOut(CitaIn):
+    _id: str
+
+# Transacciones
+class TransaccionIn(BaseModel):
+    fecha: datetime
+    totalpagado: float
+    metodopago: str
+    empleado: List[EmpleadoEmbed]
+    citaref: Optional[str] = None
+
+class TransaccionOut(TransaccionIn):
+    _id: str
+
+
+# ============ PROVEEDORES ============
+@app.get("/proveedores", response_model=List[ProveedorOut])
+def get_proveedores(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.proveedores.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/proveedores/{id}", response_model=ProveedorOut)
+def get_proveedor(id: str):
+    doc = db.proveedores.find_one({"_id": id})
     if not doc:
-        raise HTTPException(status_code=404, detail="Document not found")
+        raise HTTPException(status_code=404, detail="Proveedor no encontrado")
     return safe_doc(doc)
 
-# GET all images
-@app.get("/images")
-def get_images(limit: int = 50, skip: int = 0):
-    cursor = db.images.find().skip(int(skip)).limit(int(limit))
-    imgs = [safe_doc(i) for i in cursor]
-    return imgs
-
-# POST create document
-@app.post("/documents", response_model=DocumentOut, status_code=201)
-def create_document(payload: DocumentIn):
+@app.post("/proveedores", response_model=ProveedorOut, status_code=201)
+def create_proveedor(payload: ProveedorIn):
+    import uuid
     data = payload.dict()
-    data["_id"] = ObjectId()  # generate ObjectId
-    data["ingest_ts"] = datetime.datetime.utcnow().isoformat()
-    # Insert to DB
-    db.documents.insert_one(data)
-    data["_id"] = str(data["_id"])
+    data["_id"] = str(uuid.uuid4())
+    db.proveedores.insert_one(data)
     return data
 
+# ============ MEDICAMENTOS ============
+@app.get("/medicamentos", response_model=List[MedicamentoOut])
+def get_medicamentos(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.medicamentos.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/medicamentos/{id}", response_model=MedicamentoOut)
+def get_medicamento(id: str):
+    doc = db.medicamentos.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Medicamento no encontrado")
+    return safe_doc(doc)
+
+@app.post("/medicamentos", response_model=MedicamentoOut, status_code=201)
+def create_medicamento(payload: MedicamentoIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.medicamentos.insert_one(data)
+    return data
+
+# ============ CLIENTES ============
+@app.get("/clientes", response_model=List[ClienteOut])
+def get_clientes(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.clientes.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/clientes/{id}", response_model=ClienteOut)
+def get_cliente(id: str):
+    doc = db.clientes.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Cliente no encontrado")
+    return safe_doc(doc)
+
+@app.post("/clientes", response_model=ClienteOut, status_code=201)
+def create_cliente(payload: ClienteIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.clientes.insert_one(data)
+    return data
+
+# ============ DOCTORES ============
+@app.get("/doctores", response_model=List[DoctorOut])
+def get_doctores(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.doctores.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/doctores/{id}", response_model=DoctorOut)
+def get_doctor(id: str):
+    doc = db.doctores.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Doctor no encontrado")
+    return safe_doc(doc)
+
+@app.post("/doctores", response_model=DoctorOut, status_code=201)
+def create_doctor(payload: DoctorIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.doctores.insert_one(data)
+    return data
+
+# ============ FARMACIAS ============
+@app.get("/farmacias", response_model=List[FarmaciaOut])
+def get_farmacias(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.farmacias.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/farmacias/{id}", response_model=FarmaciaOut)
+def get_farmacia(id: str):
+    doc = db.farmacias.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Farmacia no encontrada")
+    return safe_doc(doc)
+
+@app.post("/farmacias", response_model=FarmaciaOut, status_code=201)
+def create_farmacia(payload: FarmaciaIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.farmacias.insert_one(data)
+    return data
+
+# ============ CITAS ============
+@app.get("/citas", response_model=List[CitaOut])
+def get_citas(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.citas.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/citas/{id}", response_model=CitaOut)
+def get_cita(id: str):
+    doc = db.citas.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Cita no encontrada")
+    return safe_doc(doc)
+
+@app.post("/citas", response_model=CitaOut, status_code=201)
+def create_cita(payload: CitaIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.citas.insert_one(data)
+    return data
+
+# ============ TRANSACCIONES ============
+@app.get("/transacciones", response_model=List[TransaccionOut])
+def get_transacciones(limit: int = Query(50, le=100), skip: int = 0):
+    cursor = db.transacciones.find().skip(skip).limit(limit)
+    return [safe_doc(d) for d in cursor]
+
+@app.get("/transacciones/{id}", response_model=TransaccionOut)
+def get_transaccion(id: str):
+    doc = db.transacciones.find_one({"_id": id})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Transacción no encontrada")
+    return safe_doc(doc)
+
+@app.post("/transacciones", response_model=TransaccionOut, status_code=201)
+def create_transaccion(payload: TransaccionIn):
+    import uuid
+    data = payload.dict()
+    data["_id"] = str(uuid.uuid4())
+    db.transacciones.insert_one(data)
+    return data
+
+# ============ STATS ============
+@app.get("/stats")
+def get_stats():
+    return {
+        "proveedores": db.proveedores.count_documents({}),
+        "medicamentos": db.medicamentos.count_documents({}),
+        "farmacias": db.farmacias.count_documents({}),
+        "clientes": db.clientes.count_documents({}),
+        "doctores": db.doctores.count_documents({}),
+        "citas": db.citas.count_documents({}),
+        "transacciones": db.transacciones.count_documents({})
+    }

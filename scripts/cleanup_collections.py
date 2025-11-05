@@ -3,10 +3,15 @@
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
-client = MongoClient(os.getenv("MONGO_URI","mongodb://localhost:27017"))
-db = client[os.getenv("DB_NAME","rag_pharmacien")]
-cols = ["documents","images","medicamentos","transactions","employees"]
+client = MongoClient(os.getenv("MONGO_URI", "mongodb://localhost:27017"))
+db = client[os.getenv("DB_NAME", "rag_pharmacien")]
+
+cols = ["farmacias", "medicamentos", "clientes", "proveedores", "doctores", "citas", "transacciones"]
+
 for c in cols:
     res = db[c].delete_many({})
     print(f"Cleared {c}: {res.deleted_count} docs")
+
+print("All collections cleaned successfully!")

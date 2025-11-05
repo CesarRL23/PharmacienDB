@@ -1,0 +1,4670 @@
+{
+  "generated_at": "2025-11-05T14:11:58.189081",
+  "counts": {
+    "proveedores": 20,
+    "medicamentos": 50,
+    "farmacias": 10,
+    "clientes": 40,
+    "doctores": 25,
+    "citas": 60,
+    "transacciones": 80,
+    "total": 285
+  },
+  "proveedores": [
+    {
+      "_id": "735021f8-227b-4e1e-a475-0ef45f35bb6e",
+      "nombre": "Farmacéutica Nacional",
+      "telefono": "+52-817-358-6155",
+      "direccion": "Av. Industrial 6425",
+      "ciudad": "Puebla"
+    },
+    {
+      "_id": "df329fab-8002-4961-ac1a-eded359be720",
+      "nombre": "Laboratorios del Valle",
+      "telefono": "+52-505-604-3238",
+      "direccion": "Av. Industrial 9845",
+      "ciudad": "Querétaro"
+    },
+    {
+      "_id": "49ea6083-15b8-4709-8d9f-0d31f2866075",
+      "nombre": "MediSupply SA",
+      "telefono": "+52-554-382-8291",
+      "direccion": "Av. Industrial 9278",
+      "ciudad": "Ciudad de México"
+    },
+    {
+      "_id": "27782492-a10a-4727-9c65-dd85de5c0fb0",
+      "nombre": "Distribuidora Salud",
+      "telefono": "+52-308-686-2512",
+      "direccion": "Av. Industrial 8063",
+      "ciudad": "Puebla"
+    },
+    {
+      "_id": "e25b8244-ece7-4ef6-bde6-65fa897d7eb5",
+      "nombre": "Pharma Express",
+      "telefono": "+52-942-283-3802",
+      "direccion": "Av. Industrial 5731",
+      "ciudad": "Guadalajara"
+    },
+    {
+      "_id": "e43e9699-12da-4014-88ad-f09a3f9f48a7",
+      "nombre": "Medicamentos del Norte",
+      "telefono": "+52-438-230-6901",
+      "direccion": "Av. Industrial 2923",
+      "ciudad": "Querétaro"
+    },
+    {
+      "_id": "99480e6d-ed7e-444c-945e-27121e6bb47d",
+      "nombre": "Laboratorios Unidos",
+      "telefono": "+52-745-979-9901",
+      "direccion": "Av. Industrial 2875",
+      "ciudad": "Monterrey"
+    },
+    {
+      "_id": "6f9f5fe2-3a9a-4c7b-ab78-9c047afc8ef8",
+      "nombre": "Suministros Médicos",
+      "telefono": "+52-721-375-7163",
+      "direccion": "Av. Industrial 6362",
+      "ciudad": "Puebla"
+    },
+    {
+      "_id": "a00655a7-36b0-4989-b89e-205a27c71893",
+      "nombre": "Farma Distribución",
+      "telefono": "+52-249-296-9011",
+      "direccion": "Av. Industrial 2637",
+      "ciudad": "Puebla"
+    },
+    {
+      "_id": "feaeb99f-8053-4bef-9254-353e9a42fc5c",
+      "nombre": "Productos Farmacéuticos",
+      "telefono": "+52-264-800-3094",
+      "direccion": "Av. Industrial 293",
+      "ciudad": "Guadalajara"
+    },
+    {
+      "_id": "9bcfe97f-3127-4921-982c-b140d5ce08ea",
+      "nombre": "Laboratorios Modernos",
+      "telefono": "+52-211-231-6460",
+      "direccion": "Av. Industrial 8089",
+      "ciudad": "Tijuana"
+    },
+    {
+      "_id": "b093ed5f-a86f-42a6-a0ed-d06da01d8420",
+      "nombre": "Distribuidora Central",
+      "telefono": "+52-669-399-3271",
+      "direccion": "Av. Industrial 787",
+      "ciudad": "Querétaro"
+    },
+    {
+      "_id": "e8499c56-52f3-47e3-b980-9d3dc70872d9",
+      "nombre": "Pharma Solutions",
+      "telefono": "+52-455-653-4293",
+      "direccion": "Av. Industrial 2837",
+      "ciudad": "Ciudad de México"
+    },
+    {
+      "_id": "a6242a96-c12b-497d-b3c6-de53df4b14d6",
+      "nombre": "Medicamentos Premium",
+      "telefono": "+52-358-539-9882",
+      "direccion": "Av. Industrial 1897",
+      "ciudad": "Querétaro"
+    },
+    {
+      "_id": "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd",
+      "nombre": "Laboratorios Avanzados",
+      "telefono": "+52-965-305-1875",
+      "direccion": "Av. Industrial 3735",
+      "ciudad": "León"
+    },
+    {
+      "_id": "7f1c2e39-1b00-45b9-a757-089d94a7fadb",
+      "nombre": "Suministros Profesionales",
+      "telefono": "+52-222-557-2748",
+      "direccion": "Av. Industrial 5638",
+      "ciudad": "Ciudad de México"
+    },
+    {
+      "_id": "4ac51b6d-793d-42a6-80d4-7c93ad3d2467",
+      "nombre": "Farma Global",
+      "telefono": "+52-687-255-5245",
+      "direccion": "Av. Industrial 3666",
+      "ciudad": "Puebla"
+    },
+    {
+      "_id": "96860049-3d3a-43c2-9f3d-8a39e34bfeb2",
+      "nombre": "Distribuidora Elite",
+      "telefono": "+52-748-495-5043",
+      "direccion": "Av. Industrial 1347",
+      "ciudad": "Ciudad de México"
+    },
+    {
+      "_id": "8df3c03c-2931-4ba8-8c41-50303b1ea27b",
+      "nombre": "Laboratorios Especializados",
+      "telefono": "+52-719-456-5154",
+      "direccion": "Av. Industrial 2838",
+      "ciudad": "Tijuana"
+    },
+    {
+      "_id": "400d8fee-3104-4544-a7d8-8eaf16b37566",
+      "nombre": "Medicamentos Integrales",
+      "telefono": "+52-965-920-3122",
+      "direccion": "Av. Industrial 8332",
+      "ciudad": "León"
+    }
+  ],
+  "medicamentos": [
+    {
+      "_id": "91cc5fa3-f422-4e11-9769-408a9d04eb1c",
+      "nombre": "Paracetamol",
+      "precio": 974.6,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "e25b8244-ece7-4ef6-bde6-65fa897d7eb5"
+      ]
+    },
+    {
+      "_id": "2a348419-7268-4f7e-aa1f-0d22dc440226",
+      "nombre": "Ibuprofeno",
+      "precio": 298.22,
+      "categoria": {
+        "nombre": "Cardiológicos",
+        "descripcion": "Para el corazón"
+      },
+      "proveedores": [
+        "99480e6d-ed7e-444c-945e-27121e6bb47d",
+        "96860049-3d3a-43c2-9f3d-8a39e34bfeb2"
+      ]
+    },
+    {
+      "_id": "5115eee7-d2a4-4be6-bbeb-ff30bb3f99e4",
+      "nombre": "Amoxicilina",
+      "precio": 1075.76,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "735021f8-227b-4e1e-a475-0ef45f35bb6e"
+      ]
+    },
+    {
+      "_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+      "nombre": "Aspirina",
+      "precio": 185.6,
+      "categoria": {
+        "nombre": "Analgésicos",
+        "descripcion": "Medicamentos para el dolor"
+      },
+      "proveedores": [
+        "27782492-a10a-4727-9c65-dd85de5c0fb0"
+      ]
+    },
+    {
+      "_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+      "nombre": "Omeprazol",
+      "precio": 516.83,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "8df3c03c-2931-4ba8-8c41-50303b1ea27b",
+        "7f1c2e39-1b00-45b9-a757-089d94a7fadb"
+      ]
+    },
+    {
+      "_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+      "nombre": "Loratadina",
+      "precio": 1075.65,
+      "categoria": {
+        "nombre": "Antihistamínicos",
+        "descripcion": "Tratan alergias"
+      },
+      "proveedores": [
+        "df329fab-8002-4961-ac1a-eded359be720",
+        "27782492-a10a-4727-9c65-dd85de5c0fb0"
+      ]
+    },
+    {
+      "_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+      "nombre": "Metformina",
+      "precio": 859.32,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd",
+        "735021f8-227b-4e1e-a475-0ef45f35bb6e"
+      ]
+    },
+    {
+      "_id": "b858ab36-322f-46f0-89a2-dc9d373ecc46",
+      "nombre": "Atorvastatina",
+      "precio": 310.92,
+      "categoria": {
+        "nombre": "Dermatológicos",
+        "descripcion": "Para la piel"
+      },
+      "proveedores": [
+        "99480e6d-ed7e-444c-945e-27121e6bb47d"
+      ]
+    },
+    {
+      "_id": "66a4d54f-c905-436f-97bf-f87796a6289f",
+      "nombre": "Losartán",
+      "precio": 298.13,
+      "categoria": {
+        "nombre": "Antihistamínicos",
+        "descripcion": "Tratan alergias"
+      },
+      "proveedores": [
+        "400d8fee-3104-4544-a7d8-8eaf16b37566"
+      ]
+    },
+    {
+      "_id": "f10e1c6f-2187-44e0-bb06-b83bca608fcf",
+      "nombre": "Diclofenaco",
+      "precio": 509.82,
+      "categoria": {
+        "nombre": "Vitaminas",
+        "descripcion": "Suplementos vitamínicos"
+      },
+      "proveedores": [
+        "400d8fee-3104-4544-a7d8-8eaf16b37566",
+        "27782492-a10a-4727-9c65-dd85de5c0fb0"
+      ]
+    },
+    {
+      "_id": "efdc498d-4b1c-411a-9788-50ef24343a06",
+      "nombre": "Cetirizina",
+      "precio": 422.62,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "8df3c03c-2931-4ba8-8c41-50303b1ea27b",
+        "e25b8244-ece7-4ef6-bde6-65fa897d7eb5",
+        "400d8fee-3104-4544-a7d8-8eaf16b37566"
+      ]
+    },
+    {
+      "_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+      "nombre": "Ranitidina",
+      "precio": 603.65,
+      "categoria": {
+        "nombre": "Analgésicos",
+        "descripcion": "Medicamentos para el dolor"
+      },
+      "proveedores": [
+        "a00655a7-36b0-4989-b89e-205a27c71893"
+      ]
+    },
+    {
+      "_id": "06ffe45a-f3a6-449d-a4e0-8c835b2db930",
+      "nombre": "Ciprofloxacino",
+      "precio": 406.02,
+      "categoria": {
+        "nombre": "Vitaminas",
+        "descripcion": "Suplementos vitamínicos"
+      },
+      "proveedores": [
+        "4ac51b6d-793d-42a6-80d4-7c93ad3d2467"
+      ]
+    },
+    {
+      "_id": "22465cd9-2f47-4821-a80d-9429e385f35f",
+      "nombre": "Azitromicina",
+      "precio": 1217.3,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "27782492-a10a-4727-9c65-dd85de5c0fb0"
+      ]
+    },
+    {
+      "_id": "96b6d75c-57ba-41ad-b1fe-4e357e9c6aef",
+      "nombre": "Naproxeno",
+      "precio": 67.23,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "b093ed5f-a86f-42a6-a0ed-d06da01d8420",
+        "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd"
+      ]
+    },
+    {
+      "_id": "e919d171-a398-483c-a0ce-842714243a4e",
+      "nombre": "Clonazepam",
+      "precio": 489.13,
+      "categoria": {
+        "nombre": "Dermatológicos",
+        "descripcion": "Para la piel"
+      },
+      "proveedores": [
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c"
+      ]
+    },
+    {
+      "_id": "65dd27c2-2488-414e-afb8-12fd959b6169",
+      "nombre": "Alprazolam",
+      "precio": 1033.46,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "b093ed5f-a86f-42a6-a0ed-d06da01d8420",
+        "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd",
+        "400d8fee-3104-4544-a7d8-8eaf16b37566"
+      ]
+    },
+    {
+      "_id": "6b17ca24-4f44-4fe1-9e79-cf7633345c9a",
+      "nombre": "Fluoxetina",
+      "precio": 56.74,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "96860049-3d3a-43c2-9f3d-8a39e34bfeb2",
+        "400d8fee-3104-4544-a7d8-8eaf16b37566",
+        "99480e6d-ed7e-444c-945e-27121e6bb47d"
+      ]
+    },
+    {
+      "_id": "2a083d8c-16b8-44a8-b04f-d9af2bffb8da",
+      "nombre": "Sertralina",
+      "precio": 980.71,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "9bcfe97f-3127-4921-982c-b140d5ce08ea"
+      ]
+    },
+    {
+      "_id": "a8cd3e37-2423-4a3e-91d8-a04fe12258ee",
+      "nombre": "Enalapril",
+      "precio": 365.4,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "400d8fee-3104-4544-a7d8-8eaf16b37566",
+        "e8499c56-52f3-47e3-b980-9d3dc70872d9"
+      ]
+    },
+    {
+      "_id": "3e1438b9-af7c-4ec8-9b20-4473b6b676ea",
+      "nombre": "Captopril",
+      "precio": 335.24,
+      "categoria": {
+        "nombre": "Respiratorios",
+        "descripcion": "Para el sistema respiratorio"
+      },
+      "proveedores": [
+        "df329fab-8002-4961-ac1a-eded359be720",
+        "96860049-3d3a-43c2-9f3d-8a39e34bfeb2"
+      ]
+    },
+    {
+      "_id": "e86657d1-b39f-4bc8-b205-b5f062a8e6a9",
+      "nombre": "Hidroclorotiazida",
+      "precio": 225.54,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "a6242a96-c12b-497d-b3c6-de53df4b14d6"
+      ]
+    },
+    {
+      "_id": "372f274e-9aea-49a6-a517-414155bbc312",
+      "nombre": "Furosemida",
+      "precio": 481.28,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "49ea6083-15b8-4709-8d9f-0d31f2866075"
+      ]
+    },
+    {
+      "_id": "8d5239ba-4e46-417f-95ad-01a84045f4ce",
+      "nombre": "Prednisona",
+      "precio": 961.29,
+      "categoria": {
+        "nombre": "Analgésicos",
+        "descripcion": "Medicamentos para el dolor"
+      },
+      "proveedores": [
+        "49ea6083-15b8-4709-8d9f-0d31f2866075"
+      ]
+    },
+    {
+      "_id": "f5b0afec-2ef1-4355-ba34-29d343f44fd1",
+      "nombre": "Dexametasona",
+      "precio": 1192.63,
+      "categoria": {
+        "nombre": "Analgésicos",
+        "descripcion": "Medicamentos para el dolor"
+      },
+      "proveedores": [
+        "9bcfe97f-3127-4921-982c-b140d5ce08ea",
+        "735021f8-227b-4e1e-a475-0ef45f35bb6e",
+        "e43e9699-12da-4014-88ad-f09a3f9f48a7"
+      ]
+    },
+    {
+      "_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+      "nombre": "Salbutamol",
+      "precio": 1100.62,
+      "categoria": {
+        "nombre": "Cardiológicos",
+        "descripcion": "Para el corazón"
+      },
+      "proveedores": [
+        "a6242a96-c12b-497d-b3c6-de53df4b14d6",
+        "b093ed5f-a86f-42a6-a0ed-d06da01d8420"
+      ]
+    },
+    {
+      "_id": "17318d19-c451-484f-9059-417208fd1d4a",
+      "nombre": "Montelukast",
+      "precio": 528.57,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "7f1c2e39-1b00-45b9-a757-089d94a7fadb",
+        "735021f8-227b-4e1e-a475-0ef45f35bb6e"
+      ]
+    },
+    {
+      "_id": "335c6a82-6855-428b-90d4-e8758c033988",
+      "nombre": "Insulina",
+      "precio": 670.71,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "6f9f5fe2-3a9a-4c7b-ab78-9c047afc8ef8",
+        "a00655a7-36b0-4989-b89e-205a27c71893",
+        "9bcfe97f-3127-4921-982c-b140d5ce08ea"
+      ]
+    },
+    {
+      "_id": "0f739ffd-361a-4e26-9412-6632e5ffd0a4",
+      "nombre": "Glibenclamida",
+      "precio": 424.0,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "e43e9699-12da-4014-88ad-f09a3f9f48a7",
+        "99480e6d-ed7e-444c-945e-27121e6bb47d"
+      ]
+    },
+    {
+      "_id": "1d125f2a-ccf1-45fb-bf1b-9a85df297a79",
+      "nombre": "Levotiroxina",
+      "precio": 261.44,
+      "categoria": {
+        "nombre": "Antihistamínicos",
+        "descripcion": "Tratan alergias"
+      },
+      "proveedores": [
+        "8df3c03c-2931-4ba8-8c41-50303b1ea27b",
+        "a00655a7-36b0-4989-b89e-205a27c71893",
+        "df329fab-8002-4961-ac1a-eded359be720"
+      ]
+    },
+    {
+      "_id": "45a6dabd-fa04-42c7-849c-1e270fa283dc",
+      "nombre": "Vitamina C",
+      "precio": 864.64,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "400d8fee-3104-4544-a7d8-8eaf16b37566"
+      ]
+    },
+    {
+      "_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+      "nombre": "Vitamina D",
+      "precio": 917.57,
+      "categoria": {
+        "nombre": "Cardiológicos",
+        "descripcion": "Para el corazón"
+      },
+      "proveedores": [
+        "49ea6083-15b8-4709-8d9f-0d31f2866075",
+        "6f9f5fe2-3a9a-4c7b-ab78-9c047afc8ef8",
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c"
+      ]
+    },
+    {
+      "_id": "17c20c1e-8b85-4f1a-9a83-ab7eb0c3032f",
+      "nombre": "Complejo B",
+      "precio": 89.24,
+      "categoria": {
+        "nombre": "Antibióticos",
+        "descripcion": "Combaten infecciones bacterianas"
+      },
+      "proveedores": [
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c",
+        "9bcfe97f-3127-4921-982c-b140d5ce08ea",
+        "49ea6083-15b8-4709-8d9f-0d31f2866075"
+      ]
+    },
+    {
+      "_id": "be3dd8a7-a1f4-4c50-982d-40dff151f48e",
+      "nombre": "Calcio",
+      "precio": 1016.95,
+      "categoria": {
+        "nombre": "Gastrointestinales",
+        "descripcion": "Para el sistema digestivo"
+      },
+      "proveedores": [
+        "735021f8-227b-4e1e-a475-0ef45f35bb6e",
+        "b093ed5f-a86f-42a6-a0ed-d06da01d8420",
+        "e25b8244-ece7-4ef6-bde6-65fa897d7eb5"
+      ]
+    },
+    {
+      "_id": "5a58ea85-fc31-4d7b-bea4-1f55d7b17fa7",
+      "nombre": "Hierro",
+      "precio": 900.48,
+      "categoria": {
+        "nombre": "Antihistamínicos",
+        "descripcion": "Tratan alergias"
+      },
+      "proveedores": [
+        "a6242a96-c12b-497d-b3c6-de53df4b14d6",
+        "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd"
+      ]
+    },
+    {
+      "_id": "f0228dd4-6e80-4165-bdf7-93df49c43c4f",
+      "nombre": "Ketoconazol",
+      "precio": 798.71,
+      "categoria": {
+        "nombre": "Vitaminas",
+        "descripcion": "Suplementos vitamínicos"
+      },
+      "proveedores": [
+        "e43e9699-12da-4014-88ad-f09a3f9f48a7",
+        "7f1c2e39-1b00-45b9-a757-089d94a7fadb"
+      ]
+    },
+    {
+      "_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+      "nombre": "Clotrimazol",
+      "precio": 350.28,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "49ea6083-15b8-4709-8d9f-0d31f2866075"
+      ]
+    },
+    {
+      "_id": "6dbeafb5-ab1c-47c1-b2ac-c5e34a5155aa",
+      "nombre": "Aciclovir",
+      "precio": 1254.32,
+      "categoria": {
+        "nombre": "Respiratorios",
+        "descripcion": "Para el sistema respiratorio"
+      },
+      "proveedores": [
+        "7f1c2e39-1b00-45b9-a757-089d94a7fadb",
+        "96860049-3d3a-43c2-9f3d-8a39e34bfeb2"
+      ]
+    },
+    {
+      "_id": "4c711c99-4d06-42be-8458-c37cbca6cf18",
+      "nombre": "Pantoprazol",
+      "precio": 489.8,
+      "categoria": {
+        "nombre": "Vitaminas",
+        "descripcion": "Suplementos vitamínicos"
+      },
+      "proveedores": [
+        "96860049-3d3a-43c2-9f3d-8a39e34bfeb2"
+      ]
+    },
+    {
+      "_id": "67c3177b-6138-4928-b687-30943cc02216",
+      "nombre": "Esomeprazol",
+      "precio": 79.25,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "df329fab-8002-4961-ac1a-eded359be720"
+      ]
+    },
+    {
+      "_id": "ab2aebda-52a2-42d8-ac21-84ed8f1fbf46",
+      "nombre": "Tramadol",
+      "precio": 1397.83,
+      "categoria": {
+        "nombre": "Antihistamínicos",
+        "descripcion": "Tratan alergias"
+      },
+      "proveedores": [
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c",
+        "54b55ab1-fcb3-47ba-9f1b-ed57bf4277fd",
+        "e43e9699-12da-4014-88ad-f09a3f9f48a7"
+      ]
+    },
+    {
+      "_id": "e333a9b1-03ef-4a38-a50c-2b9d81756540",
+      "nombre": "Codeína",
+      "precio": 1444.41,
+      "categoria": {
+        "nombre": "Cardiológicos",
+        "descripcion": "Para el corazón"
+      },
+      "proveedores": [
+        "99480e6d-ed7e-444c-945e-27121e6bb47d"
+      ]
+    },
+    {
+      "_id": "36a68c22-6e41-495f-b241-44cc3df91d9a",
+      "nombre": "Morfina",
+      "precio": 571.41,
+      "categoria": {
+        "nombre": "Dermatológicos",
+        "descripcion": "Para la piel"
+      },
+      "proveedores": [
+        "49ea6083-15b8-4709-8d9f-0d31f2866075",
+        "e8499c56-52f3-47e3-b980-9d3dc70872d9",
+        "a6242a96-c12b-497d-b3c6-de53df4b14d6"
+      ]
+    },
+    {
+      "_id": "608b23ed-d02d-44ba-af7a-66e3a8507ddd",
+      "nombre": "Gabapentina",
+      "precio": 1225.89,
+      "categoria": {
+        "nombre": "Respiratorios",
+        "descripcion": "Para el sistema respiratorio"
+      },
+      "proveedores": [
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c",
+        "6f9f5fe2-3a9a-4c7b-ab78-9c047afc8ef8"
+      ]
+    },
+    {
+      "_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+      "nombre": "Pregabalina",
+      "precio": 593.17,
+      "categoria": {
+        "nombre": "Cardiológicos",
+        "descripcion": "Para el corazón"
+      },
+      "proveedores": [
+        "8df3c03c-2931-4ba8-8c41-50303b1ea27b",
+        "27782492-a10a-4727-9c65-dd85de5c0fb0",
+        "b093ed5f-a86f-42a6-a0ed-d06da01d8420"
+      ]
+    },
+    {
+      "_id": "fdc61546-cfea-47a6-a2f9-3b35cd792376",
+      "nombre": "Warfarina",
+      "precio": 205.78,
+      "categoria": {
+        "nombre": "Antiinflamatorios",
+        "descripcion": "Reducen la inflamación"
+      },
+      "proveedores": [
+        "a6242a96-c12b-497d-b3c6-de53df4b14d6"
+      ]
+    },
+    {
+      "_id": "5c43cb1e-e4e0-4633-ba65-24d26c556e6d",
+      "nombre": "Clopidogrel",
+      "precio": 974.57,
+      "categoria": {
+        "nombre": "Respiratorios",
+        "descripcion": "Para el sistema respiratorio"
+      },
+      "proveedores": [
+        "e43e9699-12da-4014-88ad-f09a3f9f48a7"
+      ]
+    },
+    {
+      "_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+      "nombre": "Simvastatina",
+      "precio": 1481.85,
+      "categoria": {
+        "nombre": "Dermatológicos",
+        "descripcion": "Para la piel"
+      },
+      "proveedores": [
+        "feaeb99f-8053-4bef-9254-353e9a42fc5c"
+      ]
+    },
+    {
+      "_id": "4d3b04d5-8b70-4b73-9517-042593e67e20",
+      "nombre": "Amlodipino",
+      "precio": 588.36,
+      "categoria": {
+        "nombre": "Respiratorios",
+        "descripcion": "Para el sistema respiratorio"
+      },
+      "proveedores": [
+        "99480e6d-ed7e-444c-945e-27121e6bb47d",
+        "e25b8244-ece7-4ef6-bde6-65fa897d7eb5"
+      ]
+    },
+    {
+      "_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+      "nombre": "Carvedilol",
+      "precio": 695.78,
+      "categoria": {
+        "nombre": "Vitaminas",
+        "descripcion": "Suplementos vitamínicos"
+      },
+      "proveedores": [
+        "df329fab-8002-4961-ac1a-eded359be720"
+      ]
+    }
+  ],
+  "farmacias": [
+    {
+      "_id": "87af0188-6d61-4b4a-ac52-0d048afdafec",
+      "ciudad": "Puebla",
+      "direccion": "Calle 81 #765",
+      "telefono": "+52-577-594-9247",
+      "empleados": [
+        {
+          "_id": "f4d1d5bb-9655-4012-873a-0a08f6f3547c",
+          "nombre": "José García",
+          "puesto": "Auxiliar",
+          "telefono": "+52-762-620-6174"
+        },
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar",
+          "telefono": "+52-390-935-8586"
+        },
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar",
+          "telefono": "+52-815-603-3390"
+        },
+        {
+          "_id": "5ac294f6-ca7e-4e81-902e-d61d76519b40",
+          "nombre": "José López",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-117-681-6518"
+        }
+      ],
+      "medicamentos": [
+        "Omeprazol",
+        "Dexametasona",
+        "Furosemida",
+        "Carvedilol",
+        "Ketoconazol",
+        "Clopidogrel",
+        "Loratadina",
+        "Aspirina",
+        "Metformina",
+        "Vitamina C",
+        "Codeína",
+        "Warfarina",
+        "Prednisona",
+        "Ranitidina",
+        "Vitamina D",
+        "Paracetamol",
+        "Esomeprazol",
+        "Alprazolam",
+        "Cetirizina",
+        "Insulina",
+        "Clotrimazol",
+        "Montelukast"
+      ]
+    },
+    {
+      "_id": "62567e9e-0f9f-4130-b3b4-a39760eec54c",
+      "ciudad": "Ciudad de México",
+      "direccion": "Calle 78 #226",
+      "telefono": "+52-638-236-2086",
+      "empleados": [
+        {
+          "_id": "5a30f7eb-fa19-404e-a424-4cddd21c849c",
+          "nombre": "Ana Torres",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-670-483-9945"
+        },
+        {
+          "_id": "5ac294f6-ca7e-4e81-902e-d61d76519b40",
+          "nombre": "José López",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-117-681-6518"
+        },
+        {
+          "_id": "4dd5cd3f-4ad8-4cde-af3b-dc7969ec551c",
+          "nombre": "Ana Torres",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-305-810-9605"
+        }
+      ],
+      "medicamentos": [
+        "Pantoprazol",
+        "Clotrimazol",
+        "Calcio",
+        "Vitamina C",
+        "Omeprazol",
+        "Complejo B",
+        "Ranitidina",
+        "Gabapentina",
+        "Captopril",
+        "Alprazolam",
+        "Insulina",
+        "Clopidogrel"
+      ]
+    },
+    {
+      "_id": "e2139280-b5d8-489e-a6d9-3813ffb83b7e",
+      "ciudad": "Querétaro",
+      "direccion": "Calle 43 #458",
+      "telefono": "+52-309-175-5764",
+      "empleados": [
+        {
+          "_id": "8c514b9c-8182-4f85-903e-a617a180ad0b",
+          "nombre": "Laura Flores",
+          "puesto": "Gerente",
+          "telefono": "+52-443-554-1196"
+        },
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero",
+          "telefono": "+52-361-692-5249"
+        },
+        {
+          "_id": "38d2a9cd-ac76-43a3-a2e9-17f3ee8bbec9",
+          "nombre": "Juan Torres",
+          "puesto": "Cajero",
+          "telefono": "+52-430-761-3624"
+        },
+        {
+          "_id": "4dd5cd3f-4ad8-4cde-af3b-dc7969ec551c",
+          "nombre": "Ana Torres",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-305-810-9605"
+        }
+      ],
+      "medicamentos": [
+        "Amoxicilina",
+        "Hidroclorotiazida",
+        "Enalapril",
+        "Atorvastatina",
+        "Pantoprazol",
+        "Ciprofloxacino",
+        "Omeprazol",
+        "Hierro",
+        "Complejo B",
+        "Metformina",
+        "Ranitidina",
+        "Clotrimazol",
+        "Ibuprofeno",
+        "Vitamina C",
+        "Losartán",
+        "Warfarina",
+        "Aspirina",
+        "Carvedilol",
+        "Prednisona",
+        "Tramadol",
+        "Glibenclamida",
+        "Calcio"
+      ]
+    },
+    {
+      "_id": "55e680bd-e42d-446b-a266-f602ba797803",
+      "ciudad": "León",
+      "direccion": "Calle 94 #860",
+      "telefono": "+52-384-643-1532",
+      "empleados": [
+        {
+          "_id": "2feff975-ca7a-4fd1-827b-673d1d6dde14",
+          "nombre": "Laura Flores",
+          "puesto": "Cajero",
+          "telefono": "+52-378-315-1864"
+        },
+        {
+          "_id": "88eaf800-e497-44d2-b6ca-77c14f45dbe5",
+          "nombre": "María Ramírez",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-292-123-6879"
+        }
+      ],
+      "medicamentos": [
+        "Pregabalina",
+        "Azitromicina",
+        "Aciclovir",
+        "Codeína",
+        "Atorvastatina",
+        "Metformina",
+        "Captopril",
+        "Ciprofloxacino",
+        "Pantoprazol",
+        "Fluoxetina",
+        "Levotiroxina",
+        "Furosemida"
+      ]
+    },
+    {
+      "_id": "ece4b21b-9917-445a-8e73-ba62ca4334a0",
+      "ciudad": "Ciudad de México",
+      "direccion": "Calle 47 #738",
+      "telefono": "+52-221-327-6399",
+      "empleados": [
+        {
+          "_id": "2372ea5e-a178-4107-a05f-65b3850343be",
+          "nombre": "Ana Rodríguez",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-367-569-5338"
+        },
+        {
+          "_id": "9c1866f1-4cb2-4d51-adff-d3ae08140085",
+          "nombre": "María López",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-245-175-6438"
+        },
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente",
+          "telefono": "+52-692-812-2434"
+        },
+        {
+          "_id": "3117e123-7989-4064-890d-4af1a32c753d",
+          "nombre": "Juan López",
+          "puesto": "Gerente",
+          "telefono": "+52-908-990-8992"
+        },
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero",
+          "telefono": "+52-969-945-7536"
+        }
+      ],
+      "medicamentos": [
+        "Naproxeno",
+        "Ranitidina",
+        "Codeína",
+        "Calcio",
+        "Diclofenaco",
+        "Salbutamol",
+        "Ibuprofeno",
+        "Morfina",
+        "Montelukast",
+        "Gabapentina",
+        "Simvastatina",
+        "Captopril",
+        "Prednisona",
+        "Clotrimazol",
+        "Clopidogrel",
+        "Hidroclorotiazida",
+        "Hierro",
+        "Furosemida",
+        "Warfarina",
+        "Ciprofloxacino"
+      ]
+    },
+    {
+      "_id": "591993ca-1d0e-498a-a9e7-4822fac7221f",
+      "ciudad": "Ciudad de México",
+      "direccion": "Calle 21 #447",
+      "telefono": "+52-577-996-2941",
+      "empleados": [
+        {
+          "_id": "b11d52ac-4a98-42fe-b5da-f262683eb7d6",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar",
+          "telefono": "+52-352-383-7643"
+        },
+        {
+          "_id": "88eaf800-e497-44d2-b6ca-77c14f45dbe5",
+          "nombre": "María Ramírez",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-292-123-6879"
+        },
+        {
+          "_id": "2feff975-ca7a-4fd1-827b-673d1d6dde14",
+          "nombre": "Laura Flores",
+          "puesto": "Cajero",
+          "telefono": "+52-378-315-1864"
+        }
+      ],
+      "medicamentos": [
+        "Glibenclamida",
+        "Dexametasona",
+        "Ketoconazol",
+        "Vitamina D",
+        "Pantoprazol",
+        "Pregabalina",
+        "Losartán",
+        "Aciclovir",
+        "Paracetamol",
+        "Ibuprofeno",
+        "Codeína",
+        "Fluoxetina",
+        "Hierro",
+        "Aspirina",
+        "Amoxicilina",
+        "Simvastatina",
+        "Ciprofloxacino",
+        "Morfina"
+      ]
+    },
+    {
+      "_id": "33c3cebf-dc48-4772-bee7-f29f80340d66",
+      "ciudad": "Tijuana",
+      "direccion": "Calle 60 #599",
+      "telefono": "+52-541-678-3659",
+      "empleados": [
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero",
+          "telefono": "+52-969-945-7536"
+        },
+        {
+          "_id": "31cf4684-97dc-4219-909c-9008a34e65e1",
+          "nombre": "Ana González",
+          "puesto": "Auxiliar",
+          "telefono": "+52-749-625-7187"
+        },
+        {
+          "_id": "636e1064-eed5-4904-bfe4-7bdad42cb282",
+          "nombre": "Miguel García",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-433-930-5190"
+        },
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero",
+          "telefono": "+52-361-692-5249"
+        },
+        {
+          "_id": "40fb856b-3167-483e-a8fb-8a823131a9af",
+          "nombre": "Luis Flores",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-270-726-5614"
+        }
+      ],
+      "medicamentos": [
+        "Esomeprazol",
+        "Enalapril",
+        "Morfina",
+        "Ciprofloxacino",
+        "Montelukast",
+        "Clopidogrel",
+        "Ranitidina",
+        "Captopril",
+        "Azitromicina",
+        "Dexametasona",
+        "Warfarina",
+        "Pregabalina",
+        "Simvastatina"
+      ]
+    },
+    {
+      "_id": "93f8a41a-fcd1-4255-acd7-9d0892a642ad",
+      "ciudad": "Monterrey",
+      "direccion": "Calle 91 #968",
+      "telefono": "+52-285-753-5900",
+      "empleados": [
+        {
+          "_id": "0b14c3c0-b9bb-495d-8b0f-853722a54b96",
+          "nombre": "Ana López",
+          "puesto": "Auxiliar",
+          "telefono": "+52-816-225-5103"
+        },
+        {
+          "_id": "9c1866f1-4cb2-4d51-adff-d3ae08140085",
+          "nombre": "María López",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-245-175-6438"
+        },
+        {
+          "_id": "f9f824cf-591b-43e4-8005-417bb6404a5b",
+          "nombre": "Patricia Rodríguez",
+          "puesto": "Cajero",
+          "telefono": "+52-406-662-8507"
+        },
+        {
+          "_id": "6f9e2cca-59f2-49ba-b563-4e021b8afaa3",
+          "nombre": "Miguel Martínez",
+          "puesto": "Auxiliar",
+          "telefono": "+52-182-305-7032"
+        },
+        {
+          "_id": "bdf9e108-5aa0-49b7-a3ca-74587b5b5c0e",
+          "nombre": "Laura Martínez",
+          "puesto": "Auxiliar",
+          "telefono": "+52-483-508-3213"
+        }
+      ],
+      "medicamentos": [
+        "Gabapentina",
+        "Clotrimazol",
+        "Levotiroxina",
+        "Hierro",
+        "Naproxeno",
+        "Clonazepam",
+        "Clopidogrel",
+        "Ketoconazol",
+        "Salbutamol",
+        "Calcio",
+        "Ibuprofeno",
+        "Pantoprazol"
+      ]
+    },
+    {
+      "_id": "fa68c726-e016-4245-a4c0-815cf045f437",
+      "ciudad": "Monterrey",
+      "direccion": "Calle 85 #896",
+      "telefono": "+52-677-972-8848",
+      "empleados": [
+        {
+          "_id": "5ac294f6-ca7e-4e81-902e-d61d76519b40",
+          "nombre": "José López",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-117-681-6518"
+        },
+        {
+          "_id": "f4d1d5bb-9655-4012-873a-0a08f6f3547c",
+          "nombre": "José García",
+          "puesto": "Auxiliar",
+          "telefono": "+52-762-620-6174"
+        },
+        {
+          "_id": "0574c3c1-14d1-40e8-bbc7-bc2122461de2",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar",
+          "telefono": "+52-867-823-3112"
+        }
+      ],
+      "medicamentos": [
+        "Prednisona",
+        "Ibuprofeno",
+        "Esomeprazol",
+        "Vitamina D",
+        "Pregabalina",
+        "Hierro",
+        "Complejo B",
+        "Pantoprazol",
+        "Clotrimazol",
+        "Losartán",
+        "Clonazepam",
+        "Sertralina",
+        "Azitromicina",
+        "Vitamina C",
+        "Carvedilol",
+        "Omeprazol",
+        "Furosemida",
+        "Hidroclorotiazida",
+        "Metformina",
+        "Fluoxetina",
+        "Aspirina",
+        "Amoxicilina"
+      ]
+    },
+    {
+      "_id": "c34bb7a2-a82a-4662-a197-623ee26b8ab7",
+      "ciudad": "Monterrey",
+      "direccion": "Calle 76 #437",
+      "telefono": "+52-806-638-5283",
+      "empleados": [
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero",
+          "telefono": "+52-969-945-7536"
+        },
+        {
+          "_id": "65c581f3-7d29-47e9-a613-8242bca31d7e",
+          "nombre": "Luis Martínez",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-404-523-2267"
+        },
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar",
+          "telefono": "+52-390-935-8586"
+        },
+        {
+          "_id": "4acf1768-00ba-4ef6-8274-fb058ce9da2a",
+          "nombre": "Miguel Ramírez",
+          "puesto": "Farmacéutico",
+          "telefono": "+52-937-695-2150"
+        }
+      ],
+      "medicamentos": [
+        "Carvedilol",
+        "Loratadina",
+        "Levotiroxina",
+        "Omeprazol",
+        "Pregabalina",
+        "Montelukast",
+        "Atorvastatina",
+        "Prednisona",
+        "Insulina",
+        "Codeína",
+        "Fluoxetina"
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "_id": "9b397ef1-27c8-4ad4-a578-c51a21530692",
+      "nombre": "Juan Rodríguez",
+      "direccion": "Calle 185 #829",
+      "telefono": "+52-336-369-1527"
+    },
+    {
+      "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+      "nombre": "Ana García",
+      "direccion": "Calle 119 #249",
+      "telefono": "+52-473-779-9990"
+    },
+    {
+      "_id": "a80760a8-cc3d-4cbd-82e1-cc459db869cc",
+      "nombre": "Carlos Ramírez",
+      "direccion": "Calle 104 #313",
+      "telefono": "+52-415-180-7712"
+    },
+    {
+      "_id": "7276dcc4-a698-48ed-b05d-97d1a18d97ce",
+      "nombre": "Miguel Pérez",
+      "direccion": "Calle 71 #971",
+      "telefono": "+52-312-855-3262"
+    },
+    {
+      "_id": "ecf04a0f-f473-4650-8a16-fe39a04a980c",
+      "nombre": "Miguel Rodríguez",
+      "direccion": "Calle 75 #498",
+      "telefono": "+52-622-482-5414"
+    },
+    {
+      "_id": "e5684641-d1c9-40a7-9bb5-0b1a5a63a6b8",
+      "nombre": "Laura López",
+      "direccion": "Calle 145 #411",
+      "telefono": "+52-536-238-8835"
+    },
+    {
+      "_id": "5fd4b44f-cc26-4552-b814-6f901096601b",
+      "nombre": "María Sánchez",
+      "direccion": "Calle 183 #480",
+      "telefono": "+52-662-824-2380"
+    },
+    {
+      "_id": "d58f0ed4-9722-4d7c-91c6-4e7f4b355044",
+      "nombre": "Carlos González",
+      "direccion": "Calle 91 #717",
+      "telefono": "+52-167-292-6368"
+    },
+    {
+      "_id": "cfe7772d-50b7-4e3b-856f-93f61894f052",
+      "nombre": "Ana Flores",
+      "direccion": "Calle 105 #838",
+      "telefono": "+52-258-890-8746"
+    },
+    {
+      "_id": "cb02ad62-d8fb-44c2-a617-dde70e9a8da2",
+      "nombre": "Juan Pérez",
+      "direccion": "Calle 38 #678",
+      "telefono": "+52-641-650-5994"
+    },
+    {
+      "_id": "a2208dff-0aa4-42ca-a6ff-833da5474a6a",
+      "nombre": "Luis González",
+      "direccion": "Calle 44 #579",
+      "telefono": "+52-519-997-7345"
+    },
+    {
+      "_id": "aa2c1d79-05ff-440a-99d5-09f389d43cd8",
+      "nombre": "Carlos Sánchez",
+      "direccion": "Calle 78 #74",
+      "telefono": "+52-493-616-1010"
+    },
+    {
+      "_id": "3f478d03-1980-418d-8751-c3df3610984d",
+      "nombre": "Juan Martínez",
+      "direccion": "Calle 77 #58",
+      "telefono": "+52-700-418-6609"
+    },
+    {
+      "_id": "a56504b8-7df6-4bdd-b520-f4ee19014503",
+      "nombre": "Miguel Ramírez",
+      "direccion": "Calle 172 #882",
+      "telefono": "+52-959-761-1906"
+    },
+    {
+      "_id": "76a1eeef-875b-4cf8-929e-4ecc47fb1f29",
+      "nombre": "María Rodríguez",
+      "direccion": "Calle 151 #444",
+      "telefono": "+52-978-735-4991"
+    },
+    {
+      "_id": "b2180d74-e7c3-4d3f-94e7-70b4af9b36d2",
+      "nombre": "Ana Ramírez",
+      "direccion": "Calle 62 #176",
+      "telefono": "+52-475-928-5775"
+    },
+    {
+      "_id": "4dbecc59-334f-43ff-8307-c719e618b1c5",
+      "nombre": "Carlos Martínez",
+      "direccion": "Calle 53 #537",
+      "telefono": "+52-716-446-3379"
+    },
+    {
+      "_id": "d42e8b3e-42ba-420a-be88-d7ebecb46339",
+      "nombre": "Luis Flores",
+      "direccion": "Calle 60 #428",
+      "telefono": "+52-474-185-6020"
+    },
+    {
+      "_id": "847fce8d-3358-454c-a72e-d0c97f0e7970",
+      "nombre": "Patricia Rodríguez",
+      "direccion": "Calle 148 #793",
+      "telefono": "+52-253-156-3802"
+    },
+    {
+      "_id": "3b524a79-849e-4a18-b982-8fb447c0c57e",
+      "nombre": "María Ramírez",
+      "direccion": "Calle 159 #800",
+      "telefono": "+52-168-344-9429"
+    },
+    {
+      "_id": "44a0efb6-b524-4002-82f7-167185ac702a",
+      "nombre": "María Rodríguez",
+      "direccion": "Calle 64 #93",
+      "telefono": "+52-889-102-1284"
+    },
+    {
+      "_id": "1e03f535-9467-465a-86dd-6eaab40cf784",
+      "nombre": "Laura Flores",
+      "direccion": "Calle 32 #463",
+      "telefono": "+52-527-176-7138"
+    },
+    {
+      "_id": "26d6cfa1-5874-4317-8c9a-43a182681db0",
+      "nombre": "Laura García",
+      "direccion": "Calle 158 #415",
+      "telefono": "+52-420-756-5521"
+    },
+    {
+      "_id": "a5cab69d-51d8-4849-b1b3-31f2d71e4145",
+      "nombre": "Miguel Torres",
+      "direccion": "Calle 48 #564",
+      "telefono": "+52-693-795-2541"
+    },
+    {
+      "_id": "8d811a69-103b-4172-98aa-5a53fa914228",
+      "nombre": "Miguel Sánchez",
+      "direccion": "Calle 74 #910",
+      "telefono": "+52-410-961-8146"
+    },
+    {
+      "_id": "2aa00ab6-b1b8-40a7-8763-f31c93156155",
+      "nombre": "José Martínez",
+      "direccion": "Calle 189 #918",
+      "telefono": "+52-561-649-7219"
+    },
+    {
+      "_id": "12a093c9-f71b-4b55-8cc4-58d9ccd1b0ff",
+      "nombre": "Carmen López",
+      "direccion": "Calle 119 #85",
+      "telefono": "+52-122-308-9990"
+    },
+    {
+      "_id": "62194205-d6cc-422e-81ac-0faf783b0007",
+      "nombre": "Patricia Rodríguez",
+      "direccion": "Calle 27 #239",
+      "telefono": "+52-902-687-7146"
+    },
+    {
+      "_id": "d4117351-46b5-4c44-a082-4fa2b0cc7c15",
+      "nombre": "Luis Pérez",
+      "direccion": "Calle 71 #539",
+      "telefono": "+52-468-940-3399"
+    },
+    {
+      "_id": "be2d2cdf-12db-4218-bd5b-5ae9a69f14b7",
+      "nombre": "María Sánchez",
+      "direccion": "Calle 145 #185",
+      "telefono": "+52-345-303-3454"
+    },
+    {
+      "_id": "9366ca9c-5744-4562-8039-cec2072e7fa2",
+      "nombre": "José López",
+      "direccion": "Calle 147 #932",
+      "telefono": "+52-560-382-4868"
+    },
+    {
+      "_id": "0aa70407-74ea-47e0-8003-dda177979dd6",
+      "nombre": "Luis González",
+      "direccion": "Calle 8 #281",
+      "telefono": "+52-451-838-9107"
+    },
+    {
+      "_id": "9e248f1f-7b57-4c86-ba9c-49bda95ffb56",
+      "nombre": "Miguel García",
+      "direccion": "Calle 36 #803",
+      "telefono": "+52-692-822-9305"
+    },
+    {
+      "_id": "733592d2-8390-464c-8c45-75a541c2c58a",
+      "nombre": "Carlos Ramírez",
+      "direccion": "Calle 26 #825",
+      "telefono": "+52-395-558-9805"
+    },
+    {
+      "_id": "5eefb9f0-e931-470f-9848-6e3ff25abefc",
+      "nombre": "Patricia González",
+      "direccion": "Calle 53 #821",
+      "telefono": "+52-599-634-5276"
+    },
+    {
+      "_id": "784ce4d1-e359-4564-9411-2c94451c90b3",
+      "nombre": "Carmen Ramírez",
+      "direccion": "Calle 95 #328",
+      "telefono": "+52-889-905-3074"
+    },
+    {
+      "_id": "6bdcc323-bf8c-4fce-84dd-8046a7417915",
+      "nombre": "Luis Pérez",
+      "direccion": "Calle 78 #35",
+      "telefono": "+52-617-305-4649"
+    },
+    {
+      "_id": "709c81d0-a384-41c4-890a-387c35b158f0",
+      "nombre": "Luis López",
+      "direccion": "Calle 130 #762",
+      "telefono": "+52-732-561-4792"
+    },
+    {
+      "_id": "d9a3f231-78f6-498a-b707-8c1da1ffb63a",
+      "nombre": "José López",
+      "direccion": "Calle 119 #413",
+      "telefono": "+52-154-526-5159"
+    },
+    {
+      "_id": "7c818622-1d49-4eaf-b301-55eb144d0e39",
+      "nombre": "Juan Torres",
+      "direccion": "Calle 72 #464",
+      "telefono": "+52-414-844-8618"
+    }
+  ],
+  "doctores": [
+    {
+      "_id": "6f3229d6-31fb-4d87-8c50-46b3eb72bec4",
+      "nombre": "María",
+      "apellido": "Rodríguez",
+      "especialidad": "Pediatría",
+      "telefono": "+52-377-448-6115"
+    },
+    {
+      "_id": "e1003415-53c3-482c-baae-175d133f4798",
+      "nombre": "Carlos",
+      "apellido": "Pérez",
+      "especialidad": "Dermatología",
+      "telefono": "+52-302-409-7418"
+    },
+    {
+      "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+      "nombre": "Juan",
+      "apellido": "González",
+      "especialidad": "Ginecología",
+      "telefono": "+52-183-623-7326"
+    },
+    {
+      "_id": "8c189162-b759-49de-b1ee-dc4f378421d2",
+      "nombre": "María",
+      "apellido": "López",
+      "especialidad": "Cardiología",
+      "telefono": "+52-961-539-2585"
+    },
+    {
+      "_id": "8a6fec28-6049-4ace-af57-67dc7792ba09",
+      "nombre": "Juan",
+      "apellido": "Martínez",
+      "especialidad": "Oftalmología",
+      "telefono": "+52-253-653-2531"
+    },
+    {
+      "_id": "19ccbf8f-af63-448c-877f-e6fee416744a",
+      "nombre": "Carlos",
+      "apellido": "Ramírez",
+      "especialidad": "Cardiología",
+      "telefono": "+52-374-732-8288"
+    },
+    {
+      "_id": "7af81a67-6c8f-419d-8ab8-b20b714725ac",
+      "nombre": "Laura",
+      "apellido": "García",
+      "especialidad": "Pediatría",
+      "telefono": "+52-706-390-7238"
+    },
+    {
+      "_id": "969b56d7-2eb8-4f90-8275-d3926a6bdebe",
+      "nombre": "María",
+      "apellido": "Rodríguez",
+      "especialidad": "Traumatología",
+      "telefono": "+52-698-836-5332"
+    },
+    {
+      "_id": "f54fb2a1-c118-4f44-8c02-8aa2b8167491",
+      "nombre": "Laura",
+      "apellido": "López",
+      "especialidad": "Ginecología",
+      "telefono": "+52-492-861-5807"
+    },
+    {
+      "_id": "b489cd8e-feb8-44ef-98a3-12852dbea0f3",
+      "nombre": "Juan",
+      "apellido": "Martínez",
+      "especialidad": "Pediatría",
+      "telefono": "+52-237-735-6837"
+    },
+    {
+      "_id": "936b9464-7ef3-4257-96f4-1bcd023f99a1",
+      "nombre": "Luis",
+      "apellido": "García",
+      "especialidad": "Neurología",
+      "telefono": "+52-708-259-8363"
+    },
+    {
+      "_id": "39181e28-99ea-46ae-94cc-c0d8c5207c44",
+      "nombre": "Juan",
+      "apellido": "Sánchez",
+      "especialidad": "Dermatología",
+      "telefono": "+52-210-263-7505"
+    },
+    {
+      "_id": "654b2320-1b55-489b-88f3-088dfff8624a",
+      "nombre": "Miguel",
+      "apellido": "Flores",
+      "especialidad": "Medicina General",
+      "telefono": "+52-630-316-9416"
+    },
+    {
+      "_id": "67f5c522-9080-4722-81db-cd4b1c705402",
+      "nombre": "Miguel",
+      "apellido": "Sánchez",
+      "especialidad": "Medicina General",
+      "telefono": "+52-405-127-1575"
+    },
+    {
+      "_id": "85a1830e-2881-471f-8c9a-64a86709c5cb",
+      "nombre": "José",
+      "apellido": "García",
+      "especialidad": "Neurología",
+      "telefono": "+52-529-610-3895"
+    },
+    {
+      "_id": "3217c3e4-8997-4132-8568-afa672392c2f",
+      "nombre": "Miguel",
+      "apellido": "Torres",
+      "especialidad": "Oftalmología",
+      "telefono": "+52-755-727-4656"
+    },
+    {
+      "_id": "56fdadb0-748d-49fd-b0c9-cc09e50584df",
+      "nombre": "Laura",
+      "apellido": "Torres",
+      "especialidad": "Neurología",
+      "telefono": "+52-988-286-3005"
+    },
+    {
+      "_id": "dc26ef46-5ee7-4fa3-a2e9-a684f3d81fdd",
+      "nombre": "Miguel",
+      "apellido": "Rodríguez",
+      "especialidad": "Neurología",
+      "telefono": "+52-516-843-3698"
+    },
+    {
+      "_id": "5224adf6-a39e-4233-a59d-eada4826b1d1",
+      "nombre": "José",
+      "apellido": "Torres",
+      "especialidad": "Ginecología",
+      "telefono": "+52-448-826-9021"
+    },
+    {
+      "_id": "c02687d0-231b-405b-9ef1-4ed876d19d5c",
+      "nombre": "Juan",
+      "apellido": "Torres",
+      "especialidad": "Oftalmología",
+      "telefono": "+52-407-816-7780"
+    },
+    {
+      "_id": "44b7bc3f-2dd9-4ae6-a203-9a4327571715",
+      "nombre": "Juan",
+      "apellido": "González",
+      "especialidad": "Cardiología",
+      "telefono": "+52-183-850-2254"
+    },
+    {
+      "_id": "8de8b9ad-250f-40ee-85ac-7bb3e198eaae",
+      "nombre": "Laura",
+      "apellido": "Sánchez",
+      "especialidad": "Oftalmología",
+      "telefono": "+52-660-222-1803"
+    },
+    {
+      "_id": "c88ea570-8445-446a-8c16-69dbbf63c577",
+      "nombre": "Juan",
+      "apellido": "Sánchez",
+      "especialidad": "Medicina General",
+      "telefono": "+52-325-723-3415"
+    },
+    {
+      "_id": "ba40fcf9-1d89-46a2-a798-1158be82e6b1",
+      "nombre": "María",
+      "apellido": "Sánchez",
+      "especialidad": "Oftalmología",
+      "telefono": "+52-585-685-9939"
+    },
+    {
+      "_id": "9f72d1ca-2b89-4e3f-b84b-da1977d3cae7",
+      "nombre": "Laura",
+      "apellido": "Torres",
+      "especialidad": "Ginecología",
+      "telefono": "+52-255-623-5450"
+    }
+  ],
+  "citas": [
+    {
+      "_id": "f6c2680b-41db-4bfa-a87d-f4b3a13a810f",
+      "fecha": "2025-07-23 00:00:00",
+      "cliente": {
+        "_id": "d4117351-46b5-4c44-a082-4fa2b0cc7c15",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-468-940-3399"
+      },
+      "doctor": {
+        "_id": "b489cd8e-feb8-44ef-98a3-12852dbea0f3",
+        "nombre": "Juan Martínez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "335c6a82-6855-428b-90d4-e8758c033988",
+          "medicamento_nombre": "Insulina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+          "medicamento_nombre": "Vitamina D",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "5 días"
+        },
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "649a6124-2574-4b12-b8fd-c6bee6d86cb2",
+      "fecha": "2025-03-15 00:00:00",
+      "cliente": {
+        "_id": "5eefb9f0-e931-470f-9848-6e3ff25abefc",
+        "nombre": "Patricia González",
+        "telefono": "+52-599-634-5276"
+      },
+      "doctor": {
+        "_id": "b489cd8e-feb8-44ef-98a3-12852dbea0f3",
+        "nombre": "Juan Martínez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "3e1438b9-af7c-4ec8-9b20-4473b6b676ea",
+          "medicamento_nombre": "Captopril",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "372f274e-9aea-49a6-a517-414155bbc312",
+          "medicamento_nombre": "Furosemida",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "a8cd3e37-2423-4a3e-91d8-a04fe12258ee",
+          "medicamento_nombre": "Enalapril",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "50a04f99-d169-482c-bac1-c022a6e8d642",
+      "fecha": "2025-10-18 00:00:00",
+      "cliente": {
+        "_id": "784ce4d1-e359-4564-9411-2c94451c90b3",
+        "nombre": "Carmen Ramírez",
+        "telefono": "+52-889-905-3074"
+      },
+      "doctor": {
+        "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+        "nombre": "Juan González",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+          "medicamento_nombre": "Aspirina",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "5 días"
+        },
+        {
+          "medicamento_id": "608b23ed-d02d-44ba-af7a-66e3a8507ddd",
+          "medicamento_nombre": "Gabapentina",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "b202e565-9fe8-4198-8c0e-c9a7c6c814cb",
+      "fecha": "2024-02-14 00:00:00",
+      "cliente": {
+        "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+        "nombre": "Ana García",
+        "telefono": "+52-473-779-9990"
+      },
+      "doctor": {
+        "_id": "c02687d0-231b-405b-9ef1-4ed876d19d5c",
+        "nombre": "Juan Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "e86657d1-b39f-4bc8-b205-b5f062a8e6a9",
+          "medicamento_nombre": "Hidroclorotiazida",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "13 días"
+        },
+        {
+          "medicamento_id": "fdc61546-cfea-47a6-a2f9-3b35cd792376",
+          "medicamento_nombre": "Warfarina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "5 días"
+        }
+      ]
+    },
+    {
+      "_id": "6aeba772-a005-49a7-aef1-fee3fa4ceacd",
+      "fecha": "2024-12-19 00:00:00",
+      "cliente": {
+        "_id": "784ce4d1-e359-4564-9411-2c94451c90b3",
+        "nombre": "Carmen Ramírez",
+        "telefono": "+52-889-905-3074"
+      },
+      "doctor": {
+        "_id": "969b56d7-2eb8-4f90-8275-d3926a6bdebe",
+        "nombre": "María Rodríguez",
+        "especialidad": "Traumatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "f5b0afec-2ef1-4355-ba34-29d343f44fd1",
+          "medicamento_nombre": "Dexametasona",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "6dbeafb5-ab1c-47c1-b2ac-c5e34a5155aa",
+          "medicamento_nombre": "Aciclovir",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "36a68c22-6e41-495f-b241-44cc3df91d9a",
+          "medicamento_nombre": "Morfina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "930a509f-7164-44d4-953f-86feeba44eb5",
+      "fecha": "2025-04-11 00:00:00",
+      "cliente": {
+        "_id": "d58f0ed4-9722-4d7c-91c6-4e7f4b355044",
+        "nombre": "Carlos González",
+        "telefono": "+52-167-292-6368"
+      },
+      "doctor": {
+        "_id": "8c189162-b759-49de-b1ee-dc4f378421d2",
+        "nombre": "María López",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+          "medicamento_nombre": "Aspirina",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+          "medicamento_nombre": "Loratadina",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+          "medicamento_nombre": "Salbutamol",
+          "dosis": "2 tableta(s) cada 4 horas",
+          "duracion": "12 días"
+        }
+      ]
+    },
+    {
+      "_id": "13d8a40b-7eed-4898-8b10-cf8df41c8b44",
+      "fecha": "2025-12-24 00:00:00",
+      "cliente": {
+        "_id": "8d811a69-103b-4172-98aa-5a53fa914228",
+        "nombre": "Miguel Sánchez",
+        "telefono": "+52-410-961-8146"
+      },
+      "doctor": {
+        "_id": "9f72d1ca-2b89-4e3f-b84b-da1977d3cae7",
+        "nombre": "Laura Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "14 días"
+        }
+      ]
+    },
+    {
+      "_id": "f2640f72-668b-42d6-8fdd-f4e1433d040a",
+      "fecha": "2025-05-31 00:00:00",
+      "cliente": {
+        "_id": "4dbecc59-334f-43ff-8307-c719e618b1c5",
+        "nombre": "Carlos Martínez",
+        "telefono": "+52-716-446-3379"
+      },
+      "doctor": {
+        "_id": "19ccbf8f-af63-448c-877f-e6fee416744a",
+        "nombre": "Carlos Ramírez",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+          "medicamento_nombre": "Aspirina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+          "medicamento_nombre": "Salbutamol",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "5 días"
+        },
+        {
+          "medicamento_id": "17318d19-c451-484f-9059-417208fd1d4a",
+          "medicamento_nombre": "Montelukast",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "5115eee7-d2a4-4be6-bbeb-ff30bb3f99e4",
+          "medicamento_nombre": "Amoxicilina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "10 días"
+        }
+      ]
+    },
+    {
+      "_id": "0c2ca5eb-640b-466c-926e-755d41da0625",
+      "fecha": "2024-08-07 00:00:00",
+      "cliente": {
+        "_id": "3b524a79-849e-4a18-b982-8fb447c0c57e",
+        "nombre": "María Ramírez",
+        "telefono": "+52-168-344-9429"
+      },
+      "doctor": {
+        "_id": "9f72d1ca-2b89-4e3f-b84b-da1977d3cae7",
+        "nombre": "Laura Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+          "medicamento_nombre": "Omeprazol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+          "medicamento_nombre": "Omeprazol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "5 días"
+        }
+      ]
+    },
+    {
+      "_id": "1f2ff0ec-209d-4d6c-92ea-bf5a58570a3d",
+      "fecha": "2024-03-27 00:00:00",
+      "cliente": {
+        "_id": "0aa70407-74ea-47e0-8003-dda177979dd6",
+        "nombre": "Luis González",
+        "telefono": "+52-451-838-9107"
+      },
+      "doctor": {
+        "_id": "ba40fcf9-1d89-46a2-a798-1158be82e6b1",
+        "nombre": "María Sánchez",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+          "medicamento_nombre": "Aspirina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+          "medicamento_nombre": "Metformina",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "a8cd3e37-2423-4a3e-91d8-a04fe12258ee",
+          "medicamento_nombre": "Enalapril",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "45321e37-463e-424f-aa57-8f78b3b831ec",
+      "fecha": "2025-06-17 00:00:00",
+      "cliente": {
+        "_id": "9b397ef1-27c8-4ad4-a578-c51a21530692",
+        "nombre": "Juan Rodríguez",
+        "telefono": "+52-336-369-1527"
+      },
+      "doctor": {
+        "_id": "5224adf6-a39e-4233-a59d-eada4826b1d1",
+        "nombre": "José Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "96b6d75c-57ba-41ad-b1fe-4e357e9c6aef",
+          "medicamento_nombre": "Naproxeno",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "14 días"
+        }
+      ]
+    },
+    {
+      "_id": "d47d4c00-c02d-4e7e-a71f-8feb82bb912f",
+      "fecha": "2025-03-28 00:00:00",
+      "cliente": {
+        "_id": "d9a3f231-78f6-498a-b707-8c1da1ffb63a",
+        "nombre": "José López",
+        "telefono": "+52-154-526-5159"
+      },
+      "doctor": {
+        "_id": "44b7bc3f-2dd9-4ae6-a203-9a4327571715",
+        "nombre": "Juan González",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "ab2aebda-52a2-42d8-ac21-84ed8f1fbf46",
+          "medicamento_nombre": "Tramadol",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "8d5239ba-4e46-417f-95ad-01a84045f4ce",
+          "medicamento_nombre": "Prednisona",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "17318d19-c451-484f-9059-417208fd1d4a",
+          "medicamento_nombre": "Montelukast",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "6 días"
+        }
+      ]
+    },
+    {
+      "_id": "242f5972-fa7a-4ba7-b81d-67ef4e8c9d82",
+      "fecha": "2025-03-26 00:00:00",
+      "cliente": {
+        "_id": "7c818622-1d49-4eaf-b301-55eb144d0e39",
+        "nombre": "Juan Torres",
+        "telefono": "+52-414-844-8618"
+      },
+      "doctor": {
+        "_id": "7af81a67-6c8f-419d-8ab8-b20b714725ac",
+        "nombre": "Laura García",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "45a6dabd-fa04-42c7-849c-1e270fa283dc",
+          "medicamento_nombre": "Vitamina C",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "ab2aebda-52a2-42d8-ac21-84ed8f1fbf46",
+          "medicamento_nombre": "Tramadol",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "5 días"
+        }
+      ]
+    },
+    {
+      "_id": "d81bc2d0-4b4e-49c2-bdab-77533ca9f8fa",
+      "fecha": "2024-10-21 00:00:00",
+      "cliente": {
+        "_id": "cb02ad62-d8fb-44c2-a617-dde70e9a8da2",
+        "nombre": "Juan Pérez",
+        "telefono": "+52-641-650-5994"
+      },
+      "doctor": {
+        "_id": "654b2320-1b55-489b-88f3-088dfff8624a",
+        "nombre": "Miguel Flores",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "5a58ea85-fc31-4d7b-bea4-1f55d7b17fa7",
+          "medicamento_nombre": "Hierro",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "5c43cb1e-e4e0-4633-ba65-24d26c556e6d",
+          "medicamento_nombre": "Clopidogrel",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "12 días"
+        }
+      ]
+    },
+    {
+      "_id": "a9e48427-0cb8-4963-992c-cb83a8885226",
+      "fecha": "2025-01-31 00:00:00",
+      "cliente": {
+        "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+        "nombre": "Ana García",
+        "telefono": "+52-473-779-9990"
+      },
+      "doctor": {
+        "_id": "b489cd8e-feb8-44ef-98a3-12852dbea0f3",
+        "nombre": "Juan Martínez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "17c20c1e-8b85-4f1a-9a83-ab7eb0c3032f",
+          "medicamento_nombre": "Complejo B",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "59572f7e-de45-4004-9e35-e62b877f7c3e",
+      "fecha": "2025-05-16 00:00:00",
+      "cliente": {
+        "_id": "7276dcc4-a698-48ed-b05d-97d1a18d97ce",
+        "nombre": "Miguel Pérez",
+        "telefono": "+52-312-855-3262"
+      },
+      "doctor": {
+        "_id": "7af81a67-6c8f-419d-8ab8-b20b714725ac",
+        "nombre": "Laura García",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "2 tableta(s) cada 4 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "f0228dd4-6e80-4165-bdf7-93df49c43c4f",
+          "medicamento_nombre": "Ketoconazol",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "7 días"
+        }
+      ]
+    },
+    {
+      "_id": "24356fbd-4636-42e3-bee2-39ca3c7a9b1e",
+      "fecha": "2025-03-18 00:00:00",
+      "cliente": {
+        "_id": "9b397ef1-27c8-4ad4-a578-c51a21530692",
+        "nombre": "Juan Rodríguez",
+        "telefono": "+52-336-369-1527"
+      },
+      "doctor": {
+        "_id": "44b7bc3f-2dd9-4ae6-a203-9a4327571715",
+        "nombre": "Juan González",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "12 días"
+        }
+      ]
+    },
+    {
+      "_id": "adb5bc6f-c653-40fe-a6d5-00242bbba1e6",
+      "fecha": "2025-11-18 00:00:00",
+      "cliente": {
+        "_id": "6bdcc323-bf8c-4fce-84dd-8046a7417915",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-617-305-4649"
+      },
+      "doctor": {
+        "_id": "67f5c522-9080-4722-81db-cd4b1c705402",
+        "nombre": "Miguel Sánchez",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "3 tableta(s) cada 24 horas",
+          "duracion": "6 días"
+        }
+      ]
+    },
+    {
+      "_id": "f7bed36a-7263-4ec0-a2a7-b9312e8da7af",
+      "fecha": "2025-05-09 00:00:00",
+      "cliente": {
+        "_id": "a2208dff-0aa4-42ca-a6ff-833da5474a6a",
+        "nombre": "Luis González",
+        "telefono": "+52-519-997-7345"
+      },
+      "doctor": {
+        "_id": "6f3229d6-31fb-4d87-8c50-46b3eb72bec4",
+        "nombre": "María Rodríguez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "67c3177b-6138-4928-b687-30943cc02216",
+          "medicamento_nombre": "Esomeprazol",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "5a2c22ab-d351-4260-b9ed-95a833a9a5a1",
+      "fecha": "2025-05-12 00:00:00",
+      "cliente": {
+        "_id": "709c81d0-a384-41c4-890a-387c35b158f0",
+        "nombre": "Luis López",
+        "telefono": "+52-732-561-4792"
+      },
+      "doctor": {
+        "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+        "nombre": "Juan González",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "372f274e-9aea-49a6-a517-414155bbc312",
+          "medicamento_nombre": "Furosemida",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "9 días"
+        }
+      ]
+    },
+    {
+      "_id": "6ff4751c-c99b-44d4-954f-e9ac901ca2df",
+      "fecha": "2025-09-03 00:00:00",
+      "cliente": {
+        "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+        "nombre": "Ana García",
+        "telefono": "+52-473-779-9990"
+      },
+      "doctor": {
+        "_id": "c88ea570-8445-446a-8c16-69dbbf63c577",
+        "nombre": "Juan Sánchez",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "06ffe45a-f3a6-449d-a4e0-8c835b2db930",
+          "medicamento_nombre": "Ciprofloxacino",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+          "medicamento_nombre": "Omeprazol",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "7 días"
+        }
+      ]
+    },
+    {
+      "_id": "51a8624f-d98d-446d-b90b-9bb8b917f8e3",
+      "fecha": "2024-02-04 00:00:00",
+      "cliente": {
+        "_id": "5fd4b44f-cc26-4552-b814-6f901096601b",
+        "nombre": "María Sánchez",
+        "telefono": "+52-662-824-2380"
+      },
+      "doctor": {
+        "_id": "3217c3e4-8997-4132-8568-afa672392c2f",
+        "nombre": "Miguel Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "a8cd3e37-2423-4a3e-91d8-a04fe12258ee",
+          "medicamento_nombre": "Enalapril",
+          "dosis": "3 tableta(s) cada 24 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "1acfeb19-68f4-4d0e-90f0-d58a381de338",
+      "fecha": "2024-12-18 00:00:00",
+      "cliente": {
+        "_id": "d4117351-46b5-4c44-a082-4fa2b0cc7c15",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-468-940-3399"
+      },
+      "doctor": {
+        "_id": "85a1830e-2881-471f-8c9a-64a86709c5cb",
+        "nombre": "José García",
+        "especialidad": "Neurología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+          "medicamento_nombre": "Salbutamol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "1d47236d-d689-4a38-8eb1-7103c1ed2795",
+      "fecha": "2025-01-25 00:00:00",
+      "cliente": {
+        "_id": "aa2c1d79-05ff-440a-99d5-09f389d43cd8",
+        "nombre": "Carlos Sánchez",
+        "telefono": "+52-493-616-1010"
+      },
+      "doctor": {
+        "_id": "b489cd8e-feb8-44ef-98a3-12852dbea0f3",
+        "nombre": "Juan Martínez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "2de492de-2c21-437d-a7e4-a4b0db1350de",
+      "fecha": "2025-08-07 00:00:00",
+      "cliente": {
+        "_id": "a5cab69d-51d8-4849-b1b3-31f2d71e4145",
+        "nombre": "Miguel Torres",
+        "telefono": "+52-693-795-2541"
+      },
+      "doctor": {
+        "_id": "8a6fec28-6049-4ace-af57-67dc7792ba09",
+        "nombre": "Juan Martínez",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "66a4d54f-c905-436f-97bf-f87796a6289f",
+          "medicamento_nombre": "Losartán",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "36d456ca-2e9d-4eec-906d-cdb037cd159b",
+      "fecha": "2024-05-08 00:00:00",
+      "cliente": {
+        "_id": "d42e8b3e-42ba-420a-be88-d7ebecb46339",
+        "nombre": "Luis Flores",
+        "telefono": "+52-474-185-6020"
+      },
+      "doctor": {
+        "_id": "9f72d1ca-2b89-4e3f-b84b-da1977d3cae7",
+        "nombre": "Laura Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+          "medicamento_nombre": "Vitamina D",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "be3dd8a7-a1f4-4c50-982d-40dff151f48e",
+          "medicamento_nombre": "Calcio",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "442a314a-eda0-4bca-8302-a1405b62a2d6",
+      "fecha": "2024-08-11 00:00:00",
+      "cliente": {
+        "_id": "b2180d74-e7c3-4d3f-94e7-70b4af9b36d2",
+        "nombre": "Ana Ramírez",
+        "telefono": "+52-475-928-5775"
+      },
+      "doctor": {
+        "_id": "dc26ef46-5ee7-4fa3-a2e9-a684f3d81fdd",
+        "nombre": "Miguel Rodríguez",
+        "especialidad": "Neurología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "335c6a82-6855-428b-90d4-e8758c033988",
+          "medicamento_nombre": "Insulina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "54fb68ef-2fe6-47d5-9af1-bc55ac6570fa",
+      "fecha": "2024-09-07 00:00:00",
+      "cliente": {
+        "_id": "44a0efb6-b524-4002-82f7-167185ac702a",
+        "nombre": "María Rodríguez",
+        "telefono": "+52-889-102-1284"
+      },
+      "doctor": {
+        "_id": "5224adf6-a39e-4233-a59d-eada4826b1d1",
+        "nombre": "José Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "335c6a82-6855-428b-90d4-e8758c033988",
+          "medicamento_nombre": "Insulina",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "8d5239ba-4e46-417f-95ad-01a84045f4ce",
+          "medicamento_nombre": "Prednisona",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "b8ca6b4e-16bc-4ec7-b0d8-91404a47143c",
+      "fecha": "2025-09-26 00:00:00",
+      "cliente": {
+        "_id": "62194205-d6cc-422e-81ac-0faf783b0007",
+        "nombre": "Patricia Rodríguez",
+        "telefono": "+52-902-687-7146"
+      },
+      "doctor": {
+        "_id": "39181e28-99ea-46ae-94cc-c0d8c5207c44",
+        "nombre": "Juan Sánchez",
+        "especialidad": "Dermatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "efdc498d-4b1c-411a-9788-50ef24343a06",
+          "medicamento_nombre": "Cetirizina",
+          "dosis": "2 tableta(s) cada 4 horas",
+          "duracion": "10 días"
+        },
+        {
+          "medicamento_id": "335c6a82-6855-428b-90d4-e8758c033988",
+          "medicamento_nombre": "Insulina",
+          "dosis": "3 tableta(s) cada 24 horas",
+          "duracion": "6 días"
+        }
+      ]
+    },
+    {
+      "_id": "f683aa34-a920-437a-9777-f9a0a1ca3c58",
+      "fecha": "2025-03-06 00:00:00",
+      "cliente": {
+        "_id": "e5684641-d1c9-40a7-9bb5-0b1a5a63a6b8",
+        "nombre": "Laura López",
+        "telefono": "+52-536-238-8835"
+      },
+      "doctor": {
+        "_id": "969b56d7-2eb8-4f90-8275-d3926a6bdebe",
+        "nombre": "María Rodríguez",
+        "especialidad": "Traumatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69de3519-5e9e-438c-8fea-66bfcf6778b4",
+          "medicamento_nombre": "Aspirina",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "22fd78fa-33af-4d24-9a42-0deb740e9334",
+      "fecha": "2024-01-23 00:00:00",
+      "cliente": {
+        "_id": "76a1eeef-875b-4cf8-929e-4ecc47fb1f29",
+        "nombre": "María Rodríguez",
+        "telefono": "+52-978-735-4991"
+      },
+      "doctor": {
+        "_id": "5224adf6-a39e-4233-a59d-eada4826b1d1",
+        "nombre": "José Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+          "medicamento_nombre": "Vitamina D",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "0f739ffd-361a-4e26-9412-6632e5ffd0a4",
+          "medicamento_nombre": "Glibenclamida",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "7b2aa4c8-fa98-4f1d-aaa0-5a6cac0756b1",
+      "fecha": "2024-11-30 00:00:00",
+      "cliente": {
+        "_id": "d4117351-46b5-4c44-a082-4fa2b0cc7c15",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-468-940-3399"
+      },
+      "doctor": {
+        "_id": "6f3229d6-31fb-4d87-8c50-46b3eb72bec4",
+        "nombre": "María Rodríguez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+          "medicamento_nombre": "Salbutamol",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "c5f07edc-dbd0-4a82-aa6f-c30bd7d9c084",
+      "fecha": "2025-11-07 00:00:00",
+      "cliente": {
+        "_id": "9e248f1f-7b57-4c86-ba9c-49bda95ffb56",
+        "nombre": "Miguel García",
+        "telefono": "+52-692-822-9305"
+      },
+      "doctor": {
+        "_id": "8c189162-b759-49de-b1ee-dc4f378421d2",
+        "nombre": "María López",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+          "medicamento_nombre": "Omeprazol",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "91cc5fa3-f422-4e11-9769-408a9d04eb1c",
+          "medicamento_nombre": "Paracetamol",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "f45b8977-750d-41b8-bb0e-fae5da209fb0",
+          "medicamento_nombre": "Salbutamol",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "6b17ca24-4f44-4fe1-9e79-cf7633345c9a",
+          "medicamento_nombre": "Fluoxetina",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "de87549d-517a-4296-a091-84426cd85f15",
+      "fecha": "2025-06-10 00:00:00",
+      "cliente": {
+        "_id": "cb02ad62-d8fb-44c2-a617-dde70e9a8da2",
+        "nombre": "Juan Pérez",
+        "telefono": "+52-641-650-5994"
+      },
+      "doctor": {
+        "_id": "8c189162-b759-49de-b1ee-dc4f378421d2",
+        "nombre": "María López",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "e86657d1-b39f-4bc8-b205-b5f062a8e6a9",
+          "medicamento_nombre": "Hidroclorotiazida",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "8 días"
+        },
+        {
+          "medicamento_id": "e919d171-a398-483c-a0ce-842714243a4e",
+          "medicamento_nombre": "Clonazepam",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "1d125f2a-ccf1-45fb-bf1b-9a85df297a79",
+          "medicamento_nombre": "Levotiroxina",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "c1f999b8-568d-4516-95e1-3049d16ce622",
+      "fecha": "2024-10-19 00:00:00",
+      "cliente": {
+        "_id": "aa2c1d79-05ff-440a-99d5-09f389d43cd8",
+        "nombre": "Carlos Sánchez",
+        "telefono": "+52-493-616-1010"
+      },
+      "doctor": {
+        "_id": "6f3229d6-31fb-4d87-8c50-46b3eb72bec4",
+        "nombre": "María Rodríguez",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "8d5239ba-4e46-417f-95ad-01a84045f4ce",
+          "medicamento_nombre": "Prednisona",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "13 días"
+        },
+        {
+          "medicamento_id": "469fd196-794d-48ae-88ee-9315d3cf7874",
+          "medicamento_nombre": "Omeprazol",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "10 días"
+        },
+        {
+          "medicamento_id": "be3dd8a7-a1f4-4c50-982d-40dff151f48e",
+          "medicamento_nombre": "Calcio",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "4f5cdf49-47c7-462c-9300-1c59838cfb50",
+      "fecha": "2024-08-29 00:00:00",
+      "cliente": {
+        "_id": "d58f0ed4-9722-4d7c-91c6-4e7f4b355044",
+        "nombre": "Carlos González",
+        "telefono": "+52-167-292-6368"
+      },
+      "doctor": {
+        "_id": "39181e28-99ea-46ae-94cc-c0d8c5207c44",
+        "nombre": "Juan Sánchez",
+        "especialidad": "Dermatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "f0228dd4-6e80-4165-bdf7-93df49c43c4f",
+          "medicamento_nombre": "Ketoconazol",
+          "dosis": "3 tableta(s) cada 24 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "efdc498d-4b1c-411a-9788-50ef24343a06",
+          "medicamento_nombre": "Cetirizina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "1d125f2a-ccf1-45fb-bf1b-9a85df297a79",
+          "medicamento_nombre": "Levotiroxina",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "12 días"
+        }
+      ]
+    },
+    {
+      "_id": "2481359d-a29f-4972-9700-8c2646b0ca8c",
+      "fecha": "2025-07-19 00:00:00",
+      "cliente": {
+        "_id": "b2180d74-e7c3-4d3f-94e7-70b4af9b36d2",
+        "nombre": "Ana Ramírez",
+        "telefono": "+52-475-928-5775"
+      },
+      "doctor": {
+        "_id": "f54fb2a1-c118-4f44-8c02-8aa2b8167491",
+        "nombre": "Laura López",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "36a68c22-6e41-495f-b241-44cc3df91d9a",
+          "medicamento_nombre": "Morfina",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "4d3b04d5-8b70-4b73-9517-042593e67e20",
+          "medicamento_nombre": "Amlodipino",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "c4c4cf90-e33c-4bc6-8ca3-bce2005228c6",
+      "fecha": "2024-03-28 00:00:00",
+      "cliente": {
+        "_id": "cb02ad62-d8fb-44c2-a617-dde70e9a8da2",
+        "nombre": "Juan Pérez",
+        "telefono": "+52-641-650-5994"
+      },
+      "doctor": {
+        "_id": "969b56d7-2eb8-4f90-8275-d3926a6bdebe",
+        "nombre": "María Rodríguez",
+        "especialidad": "Traumatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "66a4d54f-c905-436f-97bf-f87796a6289f",
+          "medicamento_nombre": "Losartán",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "5a409007-0577-4a40-925c-e8c2e9cbe50a",
+      "fecha": "2024-10-06 00:00:00",
+      "cliente": {
+        "_id": "12a093c9-f71b-4b55-8cc4-58d9ccd1b0ff",
+        "nombre": "Carmen López",
+        "telefono": "+52-122-308-9990"
+      },
+      "doctor": {
+        "_id": "7af81a67-6c8f-419d-8ab8-b20b714725ac",
+        "nombre": "Laura García",
+        "especialidad": "Pediatría"
+      },
+      "receta": [
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "b1fb28e6-f6c3-461b-842b-69b222c989cf",
+      "fecha": "2025-01-03 00:00:00",
+      "cliente": {
+        "_id": "709c81d0-a384-41c4-890a-387c35b158f0",
+        "nombre": "Luis López",
+        "telefono": "+52-732-561-4792"
+      },
+      "doctor": {
+        "_id": "dc26ef46-5ee7-4fa3-a2e9-a684f3d81fdd",
+        "nombre": "Miguel Rodríguez",
+        "especialidad": "Neurología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "6b17ca24-4f44-4fe1-9e79-cf7633345c9a",
+          "medicamento_nombre": "Fluoxetina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "6dbeafb5-ab1c-47c1-b2ac-c5e34a5155aa",
+          "medicamento_nombre": "Aciclovir",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "3e1438b9-af7c-4ec8-9b20-4473b6b676ea",
+          "medicamento_nombre": "Captopril",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "7 días"
+        }
+      ]
+    },
+    {
+      "_id": "4370d5c3-ab00-4439-8263-237545cd04d2",
+      "fecha": "2024-10-02 00:00:00",
+      "cliente": {
+        "_id": "a5cab69d-51d8-4849-b1b3-31f2d71e4145",
+        "nombre": "Miguel Torres",
+        "telefono": "+52-693-795-2541"
+      },
+      "doctor": {
+        "_id": "67f5c522-9080-4722-81db-cd4b1c705402",
+        "nombre": "Miguel Sánchez",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "035e78b2-1318-45ac-9253-35d64523ef97",
+          "medicamento_nombre": "Ranitidina",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "12 días"
+        },
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "608b23ed-d02d-44ba-af7a-66e3a8507ddd",
+          "medicamento_nombre": "Gabapentina",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "6 días"
+        }
+      ]
+    },
+    {
+      "_id": "c2055f29-b4f6-4970-80b6-ad9bdee7be81",
+      "fecha": "2024-07-17 00:00:00",
+      "cliente": {
+        "_id": "cfe7772d-50b7-4e3b-856f-93f61894f052",
+        "nombre": "Ana Flores",
+        "telefono": "+52-258-890-8746"
+      },
+      "doctor": {
+        "_id": "8a6fec28-6049-4ace-af57-67dc7792ba09",
+        "nombre": "Juan Martínez",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "17c20c1e-8b85-4f1a-9a83-ab7eb0c3032f",
+          "medicamento_nombre": "Complejo B",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "8 días"
+        }
+      ]
+    },
+    {
+      "_id": "5be84db4-5bff-4d08-8bad-2c52efac57c8",
+      "fecha": "2024-12-01 00:00:00",
+      "cliente": {
+        "_id": "d9a3f231-78f6-498a-b707-8c1da1ffb63a",
+        "nombre": "José López",
+        "telefono": "+52-154-526-5159"
+      },
+      "doctor": {
+        "_id": "c88ea570-8445-446a-8c16-69dbbf63c577",
+        "nombre": "Juan Sánchez",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+          "medicamento_nombre": "Metformina",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "14 días"
+        }
+      ]
+    },
+    {
+      "_id": "6993393d-ba07-4049-80d6-0aecca939076",
+      "fecha": "2024-03-17 00:00:00",
+      "cliente": {
+        "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+        "nombre": "Ana García",
+        "telefono": "+52-473-779-9990"
+      },
+      "doctor": {
+        "_id": "44b7bc3f-2dd9-4ae6-a203-9a4327571715",
+        "nombre": "Juan González",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "608b23ed-d02d-44ba-af7a-66e3a8507ddd",
+          "medicamento_nombre": "Gabapentina",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "45a6dabd-fa04-42c7-849c-1e270fa283dc",
+          "medicamento_nombre": "Vitamina C",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "98ae5a82-e8db-424b-8c6a-5bd64997aa1f",
+      "fecha": "2024-10-23 00:00:00",
+      "cliente": {
+        "_id": "5eefb9f0-e931-470f-9848-6e3ff25abefc",
+        "nombre": "Patricia González",
+        "telefono": "+52-599-634-5276"
+      },
+      "doctor": {
+        "_id": "85a1830e-2881-471f-8c9a-64a86709c5cb",
+        "nombre": "José García",
+        "especialidad": "Neurología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "5115eee7-d2a4-4be6-bbeb-ff30bb3f99e4",
+          "medicamento_nombre": "Amoxicilina",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+          "medicamento_nombre": "Vitamina D",
+          "dosis": "2 tableta(s) cada 4 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "5c43cb1e-e4e0-4633-ba65-24d26c556e6d",
+          "medicamento_nombre": "Clopidogrel",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "efdc498d-4b1c-411a-9788-50ef24343a06",
+          "medicamento_nombre": "Cetirizina",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "5de944d6-5dd8-44ff-9b35-98179858e69a",
+      "fecha": "2025-04-26 00:00:00",
+      "cliente": {
+        "_id": "733592d2-8390-464c-8c45-75a541c2c58a",
+        "nombre": "Carlos Ramírez",
+        "telefono": "+52-395-558-9805"
+      },
+      "doctor": {
+        "_id": "3217c3e4-8997-4132-8568-afa672392c2f",
+        "nombre": "Miguel Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+          "medicamento_nombre": "Loratadina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "45a6dabd-fa04-42c7-849c-1e270fa283dc",
+          "medicamento_nombre": "Vitamina C",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "0f739ffd-361a-4e26-9412-6632e5ffd0a4",
+          "medicamento_nombre": "Glibenclamida",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "6 días"
+        },
+        {
+          "medicamento_id": "f5b0afec-2ef1-4355-ba34-29d343f44fd1",
+          "medicamento_nombre": "Dexametasona",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        }
+      ]
+    },
+    {
+      "_id": "c110a1ce-1f89-40d2-aa1e-1ec82fcdf7ab",
+      "fecha": "2025-08-10 00:00:00",
+      "cliente": {
+        "_id": "12a093c9-f71b-4b55-8cc4-58d9ccd1b0ff",
+        "nombre": "Carmen López",
+        "telefono": "+52-122-308-9990"
+      },
+      "doctor": {
+        "_id": "969b56d7-2eb8-4f90-8275-d3926a6bdebe",
+        "nombre": "María Rodríguez",
+        "especialidad": "Traumatología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "69648970-c8b6-4e36-8c0a-e38678545ebf",
+          "medicamento_nombre": "Vitamina D",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "0f739ffd-361a-4e26-9412-6632e5ffd0a4",
+          "medicamento_nombre": "Glibenclamida",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "2a348419-7268-4f7e-aa1f-0d22dc440226",
+          "medicamento_nombre": "Ibuprofeno",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "12 días"
+        }
+      ]
+    },
+    {
+      "_id": "987f0dfb-befd-444c-b48c-0c64444149e5",
+      "fecha": "2024-03-16 00:00:00",
+      "cliente": {
+        "_id": "6bdcc323-bf8c-4fce-84dd-8046a7417915",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-617-305-4649"
+      },
+      "doctor": {
+        "_id": "c02687d0-231b-405b-9ef1-4ed876d19d5c",
+        "nombre": "Juan Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+          "medicamento_nombre": "Metformina",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        },
+        {
+          "medicamento_id": "fdc61546-cfea-47a6-a2f9-3b35cd792376",
+          "medicamento_nombre": "Warfarina",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "36a68c22-6e41-495f-b241-44cc3df91d9a",
+          "medicamento_nombre": "Morfina",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "10 días"
+        },
+        {
+          "medicamento_id": "4d3b04d5-8b70-4b73-9517-042593e67e20",
+          "medicamento_nombre": "Amlodipino",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "14 días"
+        }
+      ]
+    },
+    {
+      "_id": "54919da8-111e-4a55-82ef-3674a478c704",
+      "fecha": "2024-01-30 00:00:00",
+      "cliente": {
+        "_id": "aa2c1d79-05ff-440a-99d5-09f389d43cd8",
+        "nombre": "Carlos Sánchez",
+        "telefono": "+52-493-616-1010"
+      },
+      "doctor": {
+        "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+        "nombre": "Juan González",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "0f739ffd-361a-4e26-9412-6632e5ffd0a4",
+          "medicamento_nombre": "Glibenclamida",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "8 días"
+        },
+        {
+          "medicamento_id": "608b23ed-d02d-44ba-af7a-66e3a8507ddd",
+          "medicamento_nombre": "Gabapentina",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "ebd34571-31c8-4a72-a32c-dff298a1bc99",
+          "medicamento_nombre": "Clotrimazol",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "dc424bc9-9d65-4da7-b9d8-4252d501d67c",
+      "fecha": "2024-08-09 00:00:00",
+      "cliente": {
+        "_id": "5fd4b44f-cc26-4552-b814-6f901096601b",
+        "nombre": "María Sánchez",
+        "telefono": "+52-662-824-2380"
+      },
+      "doctor": {
+        "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+        "nombre": "Juan González",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "f0228dd4-6e80-4165-bdf7-93df49c43c4f",
+          "medicamento_nombre": "Ketoconazol",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "6 días"
+        }
+      ]
+    },
+    {
+      "_id": "3a5ff36f-b4e3-4310-aef8-01be1c4f8b5d",
+      "fecha": "2025-11-25 00:00:00",
+      "cliente": {
+        "_id": "9e248f1f-7b57-4c86-ba9c-49bda95ffb56",
+        "nombre": "Miguel García",
+        "telefono": "+52-692-822-9305"
+      },
+      "doctor": {
+        "_id": "dc26ef46-5ee7-4fa3-a2e9-a684f3d81fdd",
+        "nombre": "Miguel Rodríguez",
+        "especialidad": "Neurología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "45a6dabd-fa04-42c7-849c-1e270fa283dc",
+          "medicamento_nombre": "Vitamina C",
+          "dosis": "2 tableta(s) cada 8 horas",
+          "duracion": "13 días"
+        },
+        {
+          "medicamento_id": "5c43cb1e-e4e0-4633-ba65-24d26c556e6d",
+          "medicamento_nombre": "Clopidogrel",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "8 días"
+        },
+        {
+          "medicamento_id": "e86657d1-b39f-4bc8-b205-b5f062a8e6a9",
+          "medicamento_nombre": "Hidroclorotiazida",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "f2a1db19-28c6-47da-bfcd-b787d4b3190d",
+      "fecha": "2025-05-12 00:00:00",
+      "cliente": {
+        "_id": "6bdcc323-bf8c-4fce-84dd-8046a7417915",
+        "nombre": "Luis Pérez",
+        "telefono": "+52-617-305-4649"
+      },
+      "doctor": {
+        "_id": "654b2320-1b55-489b-88f3-088dfff8624a",
+        "nombre": "Miguel Flores",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "91cc5fa3-f422-4e11-9769-408a9d04eb1c",
+          "medicamento_nombre": "Paracetamol",
+          "dosis": "2 tableta(s) cada 24 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "36a68c22-6e41-495f-b241-44cc3df91d9a",
+          "medicamento_nombre": "Morfina",
+          "dosis": "3 tableta(s) cada 24 horas",
+          "duracion": "13 días"
+        },
+        {
+          "medicamento_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+          "medicamento_nombre": "Loratadina",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "e919d171-a398-483c-a0ce-842714243a4e",
+          "medicamento_nombre": "Clonazepam",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "7 días"
+        }
+      ]
+    },
+    {
+      "_id": "41da1221-b386-48d6-bc99-ad810ce22447",
+      "fecha": "2025-10-12 00:00:00",
+      "cliente": {
+        "_id": "190ca360-3cb5-4bf7-a9bb-fbe25c973663",
+        "nombre": "Ana García",
+        "telefono": "+52-473-779-9990"
+      },
+      "doctor": {
+        "_id": "8a6fec28-6049-4ace-af57-67dc7792ba09",
+        "nombre": "Juan Martínez",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "c7f9799e-7aa7-4bb9-84fc-1f5fe6d4224c",
+          "medicamento_nombre": "Pregabalina",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+          "medicamento_nombre": "Metformina",
+          "dosis": "1 tableta(s) cada 6 horas",
+          "duracion": "10 días"
+        },
+        {
+          "medicamento_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+          "medicamento_nombre": "Loratadina",
+          "dosis": "3 tableta(s) cada 6 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "de21e345-81c1-4ae7-b348-c993dbe2e272",
+      "fecha": "2024-04-18 00:00:00",
+      "cliente": {
+        "_id": "62194205-d6cc-422e-81ac-0faf783b0007",
+        "nombre": "Patricia Rodríguez",
+        "telefono": "+52-902-687-7146"
+      },
+      "doctor": {
+        "_id": "3217c3e4-8997-4132-8568-afa672392c2f",
+        "nombre": "Miguel Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "f0228dd4-6e80-4165-bdf7-93df49c43c4f",
+          "medicamento_nombre": "Ketoconazol",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "5 días"
+        },
+        {
+          "medicamento_id": "71706b62-58ed-487a-b767-695dd5fee37b",
+          "medicamento_nombre": "Loratadina",
+          "dosis": "2 tableta(s) cada 6 horas",
+          "duracion": "11 días"
+        }
+      ]
+    },
+    {
+      "_id": "6c6d525a-92e2-414c-b104-2243c03eb01a",
+      "fecha": "2025-08-23 00:00:00",
+      "cliente": {
+        "_id": "cb02ad62-d8fb-44c2-a617-dde70e9a8da2",
+        "nombre": "Juan Pérez",
+        "telefono": "+52-641-650-5994"
+      },
+      "doctor": {
+        "_id": "44b7bc3f-2dd9-4ae6-a203-9a4327571715",
+        "nombre": "Juan González",
+        "especialidad": "Cardiología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "8d5239ba-4e46-417f-95ad-01a84045f4ce",
+          "medicamento_nombre": "Prednisona",
+          "dosis": "1 tableta(s) cada 24 horas",
+          "duracion": "7 días"
+        }
+      ]
+    },
+    {
+      "_id": "de1fa1b8-9e6c-4def-bb94-68bc35968ad6",
+      "fecha": "2024-10-01 00:00:00",
+      "cliente": {
+        "_id": "1e03f535-9467-465a-86dd-6eaab40cf784",
+        "nombre": "Laura Flores",
+        "telefono": "+52-527-176-7138"
+      },
+      "doctor": {
+        "_id": "9f72d1ca-2b89-4e3f-b84b-da1977d3cae7",
+        "nombre": "Laura Torres",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "2a083d8c-16b8-44a8-b04f-d9af2bffb8da",
+          "medicamento_nombre": "Sertralina",
+          "dosis": "3 tableta(s) cada 4 horas",
+          "duracion": "9 días"
+        },
+        {
+          "medicamento_id": "ab2aebda-52a2-42d8-ac21-84ed8f1fbf46",
+          "medicamento_nombre": "Tramadol",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "691ce346-9e5f-4e41-bfa5-e044fb85c79b",
+      "fecha": "2025-11-24 00:00:00",
+      "cliente": {
+        "_id": "44a0efb6-b524-4002-82f7-167185ac702a",
+        "nombre": "María Rodríguez",
+        "telefono": "+52-889-102-1284"
+      },
+      "doctor": {
+        "_id": "8a6fec28-6049-4ace-af57-67dc7792ba09",
+        "nombre": "Juan Martínez",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "335c6a82-6855-428b-90d4-e8758c033988",
+          "medicamento_nombre": "Insulina",
+          "dosis": "3 tableta(s) cada 12 horas",
+          "duracion": "10 días"
+        },
+        {
+          "medicamento_id": "e919d171-a398-483c-a0ce-842714243a4e",
+          "medicamento_nombre": "Clonazepam",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "3e1438b9-af7c-4ec8-9b20-4473b6b676ea",
+          "medicamento_nombre": "Captopril",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "3 días"
+        }
+      ]
+    },
+    {
+      "_id": "8d91dd69-093e-4ca6-8f9f-829e146657a8",
+      "fecha": "2024-01-17 00:00:00",
+      "cliente": {
+        "_id": "44a0efb6-b524-4002-82f7-167185ac702a",
+        "nombre": "María Rodríguez",
+        "telefono": "+52-889-102-1284"
+      },
+      "doctor": {
+        "_id": "3217c3e4-8997-4132-8568-afa672392c2f",
+        "nombre": "Miguel Torres",
+        "especialidad": "Oftalmología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "7 días"
+        },
+        {
+          "medicamento_id": "744b8874-dd8f-4bb4-8e69-e61a2ce546ce",
+          "medicamento_nombre": "Metformina",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "14 días"
+        },
+        {
+          "medicamento_id": "e86657d1-b39f-4bc8-b205-b5f062a8e6a9",
+          "medicamento_nombre": "Hidroclorotiazida",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "5115eee7-d2a4-4be6-bbeb-ff30bb3f99e4",
+          "medicamento_nombre": "Amoxicilina",
+          "dosis": "3 tableta(s) cada 8 horas",
+          "duracion": "13 días"
+        }
+      ]
+    },
+    {
+      "_id": "117efafc-33cc-473e-b721-72f8054fbd7e",
+      "fecha": "2024-12-06 00:00:00",
+      "cliente": {
+        "_id": "733592d2-8390-464c-8c45-75a541c2c58a",
+        "nombre": "Carlos Ramírez",
+        "telefono": "+52-395-558-9805"
+      },
+      "doctor": {
+        "_id": "0432a3c5-e592-441d-b696-b11ca3aa34ae",
+        "nombre": "Juan González",
+        "especialidad": "Ginecología"
+      },
+      "receta": [
+        {
+          "medicamento_id": "5ba0eae3-7d52-48d3-8f1d-391bc3eac7c1",
+          "medicamento_nombre": "Carvedilol",
+          "dosis": "1 tableta(s) cada 8 horas",
+          "duracion": "11 días"
+        },
+        {
+          "medicamento_id": "360bfa73-69e3-47ed-b53c-5331e9456f5d",
+          "medicamento_nombre": "Simvastatina",
+          "dosis": "1 tableta(s) cada 4 horas",
+          "duracion": "5 días"
+        }
+      ]
+    },
+    {
+      "_id": "654a2a92-c8ea-4398-a991-1746278597d5",
+      "fecha": "2024-06-07 00:00:00",
+      "cliente": {
+        "_id": "2aa00ab6-b1b8-40a7-8763-f31c93156155",
+        "nombre": "José Martínez",
+        "telefono": "+52-561-649-7219"
+      },
+      "doctor": {
+        "_id": "c88ea570-8445-446a-8c16-69dbbf63c577",
+        "nombre": "Juan Sánchez",
+        "especialidad": "Medicina General"
+      },
+      "receta": [
+        {
+          "medicamento_id": "372f274e-9aea-49a6-a517-414155bbc312",
+          "medicamento_nombre": "Furosemida",
+          "dosis": "1 tableta(s) cada 12 horas",
+          "duracion": "4 días"
+        },
+        {
+          "medicamento_id": "4c711c99-4d06-42be-8458-c37cbca6cf18",
+          "medicamento_nombre": "Pantoprazol",
+          "dosis": "2 tableta(s) cada 12 horas",
+          "duracion": "12 días"
+        }
+      ]
+    }
+  ],
+  "transacciones": [
+    {
+      "_id": "ba86b852-7a8c-46ea-8ea5-9e489277b8c4",
+      "fecha": "2025-02-09 00:00:00",
+      "totalpagado": 4984.34,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "24356fbd-4636-42e3-bee2-39ca3c7a9b1e"
+    },
+    {
+      "_id": "b152a6d8-bf08-48a2-afd9-f70575c18e2c",
+      "fecha": "2025-02-06 00:00:00",
+      "totalpagado": 4302.93,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "930a509f-7164-44d4-953f-86feeba44eb5"
+    },
+    {
+      "_id": "9402ad66-639d-4319-848a-7bc72ef4392c",
+      "fecha": "2024-08-28 00:00:00",
+      "totalpagado": 3338.55,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "e669cec8-847d-4e36-9c85-e5f5cbc520db",
+      "fecha": "2025-06-05 00:00:00",
+      "totalpagado": 287.66,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "31cf4684-97dc-4219-909c-9008a34e65e1",
+          "nombre": "Ana González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "51a8624f-d98d-446d-b90b-9bb8b917f8e3"
+    },
+    {
+      "_id": "71e21ea8-9e92-4477-93ea-e59ee2b48776",
+      "fecha": "2024-08-21 00:00:00",
+      "totalpagado": 4436.48,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "5a30f7eb-fa19-404e-a424-4cddd21c849c",
+          "nombre": "Ana Torres",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "41da1221-b386-48d6-bc99-ad810ce22447"
+    },
+    {
+      "_id": "35407dde-ad09-4981-a7f9-7a8f1c5332b7",
+      "fecha": "2025-11-24 00:00:00",
+      "totalpagado": 2389.73,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "0574c3c1-14d1-40e8-bbc7-bc2122461de2",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "6c6d525a-92e2-414c-b104-2243c03eb01a"
+    },
+    {
+      "_id": "bd2c89a5-6e0b-425a-886f-269ab8114598",
+      "fecha": "2025-04-28 00:00:00",
+      "totalpagado": 4939.29,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "2feff975-ca7a-4fd1-827b-673d1d6dde14",
+          "nombre": "Laura Flores",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "41da1221-b386-48d6-bc99-ad810ce22447"
+    },
+    {
+      "_id": "45c97e86-a494-473f-b30d-de0c807051af",
+      "fecha": "2024-10-30 00:00:00",
+      "totalpagado": 4996.51,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "f9f824cf-591b-43e4-8005-417bb6404a5b",
+          "nombre": "Patricia Rodríguez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "930a509f-7164-44d4-953f-86feeba44eb5"
+    },
+    {
+      "_id": "adef61ae-8fb7-47d7-a06d-9a1ebb6077bd",
+      "fecha": "2025-10-11 00:00:00",
+      "totalpagado": 879.16,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "22fd78fa-33af-4d24-9a42-0deb740e9334"
+    },
+    {
+      "_id": "dd38c9b9-293e-4f88-8a4b-47b5169b84dd",
+      "fecha": "2024-03-28 00:00:00",
+      "totalpagado": 183.65,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "38d2a9cd-ac76-43a3-a2e9-17f3ee8bbec9",
+          "nombre": "Juan Torres",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "09f2169f-4603-47f1-bd32-35dbca984530",
+      "fecha": "2024-06-03 00:00:00",
+      "totalpagado": 2451.03,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "c1f999b8-568d-4516-95e1-3049d16ce622"
+    },
+    {
+      "_id": "f602412e-58fe-4650-b8e4-18df9cca2575",
+      "fecha": "2025-06-02 00:00:00",
+      "totalpagado": 687.74,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "b11d52ac-4a98-42fe-b5da-f262683eb7d6",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "e0f5e3a9-0114-452c-aa7f-46ec6cc21952",
+      "fecha": "2025-03-22 00:00:00",
+      "totalpagado": 4567.18,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "f2640f72-668b-42d6-8fdd-f4e1433d040a"
+    },
+    {
+      "_id": "405f89ac-ccd0-4400-aead-eda0e02acbb8",
+      "fecha": "2024-07-28 00:00:00",
+      "totalpagado": 1350.74,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "31cf4684-97dc-4219-909c-9008a34e65e1",
+          "nombre": "Ana González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "30e646f9-cf52-4891-855a-db99dffa3290",
+      "fecha": "2024-09-12 00:00:00",
+      "totalpagado": 1752.23,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "b11d52ac-4a98-42fe-b5da-f262683eb7d6",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "59572f7e-de45-4004-9e35-e62b877f7c3e"
+    },
+    {
+      "_id": "bc5420fb-a8f7-4e6b-ab91-a427d4a72891",
+      "fecha": "2025-01-24 00:00:00",
+      "totalpagado": 3585.52,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "5ac294f6-ca7e-4e81-902e-d61d76519b40",
+          "nombre": "José López",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "4370d5c3-ab00-4439-8263-237545cd04d2"
+    },
+    {
+      "_id": "d2fb57ab-7f86-43a6-85c9-79a17e5e8e53",
+      "fecha": "2024-11-20 00:00:00",
+      "totalpagado": 4857.66,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "4acf1768-00ba-4ef6-8274-fb058ce9da2a",
+          "nombre": "Miguel Ramírez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "7b2aa4c8-fa98-4f1d-aaa0-5a6cac0756b1"
+    },
+    {
+      "_id": "f9d66bd5-dc40-4d2d-bb3d-c5e18ab4fc7a",
+      "fecha": "2024-09-11 00:00:00",
+      "totalpagado": 2382.1,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "98ae5a82-e8db-424b-8c6a-5bd64997aa1f"
+    },
+    {
+      "_id": "47245b5a-8b76-4b8b-a311-93e2596e5265",
+      "fecha": "2024-06-30 00:00:00",
+      "totalpagado": 2801.94,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "bdf9e108-5aa0-49b7-a3ca-74587b5b5c0e",
+          "nombre": "Laura Martínez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "649a6124-2574-4b12-b8fd-c6bee6d86cb2"
+    },
+    {
+      "_id": "f2c05160-9446-415f-89f4-4943c4606065",
+      "fecha": "2025-11-12 00:00:00",
+      "totalpagado": 1541.42,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "2481359d-a29f-4972-9700-8c2646b0ca8c"
+    },
+    {
+      "_id": "24fadb7a-80ad-4698-809e-399fc948ec8b",
+      "fecha": "2024-06-20 00:00:00",
+      "totalpagado": 2753.98,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "c4c4cf90-e33c-4bc6-8ca3-bce2005228c6"
+    },
+    {
+      "_id": "6a690588-488a-4e35-816b-11b135fc095d",
+      "fecha": "2025-04-22 00:00:00",
+      "totalpagado": 3944.92,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "bdf9e108-5aa0-49b7-a3ca-74587b5b5c0e",
+          "nombre": "Laura Martínez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "ad696587-7a85-427c-8d8d-a875ca02680e",
+      "fecha": "2024-08-30 00:00:00",
+      "totalpagado": 2883.74,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "1f2ff0ec-209d-4d6c-92ea-bf5a58570a3d"
+    },
+    {
+      "_id": "13b0bf44-0c6d-416f-acc4-198dfe6269db",
+      "fecha": "2025-03-03 00:00:00",
+      "totalpagado": 4540.13,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "40fb856b-3167-483e-a8fb-8a823131a9af",
+          "nombre": "Luis Flores",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "4370d5c3-ab00-4439-8263-237545cd04d2"
+    },
+    {
+      "_id": "98e83f17-14b8-4699-b233-6b4e3e4379c2",
+      "fecha": "2024-02-28 00:00:00",
+      "totalpagado": 3188.18,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "40fb856b-3167-483e-a8fb-8a823131a9af",
+          "nombre": "Luis Flores",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "5a2c22ab-d351-4260-b9ed-95a833a9a5a1"
+    },
+    {
+      "_id": "0f15ebcf-af6d-4b89-8ba0-a1e23d19279b",
+      "fecha": "2024-11-07 00:00:00",
+      "totalpagado": 2907.61,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "f9f824cf-591b-43e4-8005-417bb6404a5b",
+          "nombre": "Patricia Rodríguez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "5de944d6-5dd8-44ff-9b35-98179858e69a"
+    },
+    {
+      "_id": "030c64a2-bbc6-4475-b06f-73aef1ef7783",
+      "fecha": "2025-06-14 00:00:00",
+      "totalpagado": 4335.66,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "0b14c3c0-b9bb-495d-8b0f-853722a54b96",
+          "nombre": "Ana López",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "36d456ca-2e9d-4eec-906d-cdb037cd159b"
+    },
+    {
+      "_id": "226bd310-ecb6-4970-a441-11e910a89247",
+      "fecha": "2025-12-30 00:00:00",
+      "totalpagado": 984.97,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "0574c3c1-14d1-40e8-bbc7-bc2122461de2",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "1acfeb19-68f4-4d0e-90f0-d58a381de338"
+    },
+    {
+      "_id": "d5a59c1e-c2ed-4a71-87fd-3a6f7a378862",
+      "fecha": "2025-09-22 00:00:00",
+      "totalpagado": 2623.76,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "f9f824cf-591b-43e4-8005-417bb6404a5b",
+          "nombre": "Patricia Rodríguez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "51a8624f-d98d-446d-b90b-9bb8b917f8e3"
+    },
+    {
+      "_id": "74f41956-0e5e-4fc7-be68-1200679aab32",
+      "fecha": "2025-09-12 00:00:00",
+      "totalpagado": 4958.38,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "f2a1db19-28c6-47da-bfcd-b787d4b3190d"
+    },
+    {
+      "_id": "e2306a31-c6b2-408e-b396-50f66e910ae2",
+      "fecha": "2024-06-11 00:00:00",
+      "totalpagado": 1030.05,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "f7bed36a-7263-4ec0-a2a7-b9312e8da7af"
+    },
+    {
+      "_id": "559565dc-328d-418f-8b73-1d280dcd8b29",
+      "fecha": "2024-01-18 00:00:00",
+      "totalpagado": 4437.17,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "40fb856b-3167-483e-a8fb-8a823131a9af",
+          "nombre": "Luis Flores",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "de21e345-81c1-4ae7-b348-c993dbe2e272"
+    },
+    {
+      "_id": "ad4883dc-e9d6-41db-90e4-74dd481791ac",
+      "fecha": "2025-04-25 00:00:00",
+      "totalpagado": 4539.53,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "88eaf800-e497-44d2-b6ca-77c14f45dbe5",
+          "nombre": "María Ramírez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "1257528a-a9fb-49d4-92b1-462d3261d88d",
+      "fecha": "2024-08-16 00:00:00",
+      "totalpagado": 4532.47,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "ece8fbf0-df67-4bf2-8059-1b2f8af302a9",
+      "fecha": "2024-11-22 00:00:00",
+      "totalpagado": 3603.05,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "2feff975-ca7a-4fd1-827b-673d1d6dde14",
+          "nombre": "Laura Flores",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "bbce7062-959c-4e57-b5b7-daf8bbdeea4b",
+      "fecha": "2025-08-21 00:00:00",
+      "totalpagado": 1713.72,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "7b2aa4c8-fa98-4f1d-aaa0-5a6cac0756b1"
+    },
+    {
+      "_id": "523be582-9e5f-4d14-b8c5-7cea17603213",
+      "fecha": "2024-10-31 00:00:00",
+      "totalpagado": 1401.97,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "442a314a-eda0-4bca-8302-a1405b62a2d6"
+    },
+    {
+      "_id": "d17ccb3f-2b70-44d3-9a7c-fcfab8f69c7f",
+      "fecha": "2025-06-14 00:00:00",
+      "totalpagado": 233.31,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "c5f07edc-dbd0-4a82-aa6f-c30bd7d9c084"
+    },
+    {
+      "_id": "02a2f2c1-d1ff-4f98-8b82-9855606a6fac",
+      "fecha": "2024-11-01 00:00:00",
+      "totalpagado": 2855.61,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "40fb856b-3167-483e-a8fb-8a823131a9af",
+          "nombre": "Luis Flores",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "b8ca6b4e-16bc-4ec7-b0d8-91404a47143c"
+    },
+    {
+      "_id": "9921910a-6ef7-45d6-9b46-8cd1f3687e67",
+      "fecha": "2024-09-14 00:00:00",
+      "totalpagado": 3935.08,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "636e1064-eed5-4904-bfe4-7bdad42cb282",
+          "nombre": "Miguel García",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "f2059535-b7d8-4247-b64b-b8a749b36a9e",
+      "fecha": "2024-02-21 00:00:00",
+      "totalpagado": 1798.79,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "800c51bb-6026-48a3-bb82-cbb37adb7829",
+          "nombre": "José García",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "659515eb-5409-4ebd-983b-5a2729037d01",
+      "fecha": "2024-02-25 00:00:00",
+      "totalpagado": 1657.79,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "f9f824cf-591b-43e4-8005-417bb6404a5b",
+          "nombre": "Patricia Rodríguez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "265f418a-f422-4ef3-8018-f6858f0b6859",
+      "fecha": "2025-07-18 00:00:00",
+      "totalpagado": 3398.18,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "5be84db4-5bff-4d08-8bad-2c52efac57c8"
+    },
+    {
+      "_id": "f862a19b-6e4d-4081-8687-7ce316acf8c9",
+      "fecha": "2024-01-25 00:00:00",
+      "totalpagado": 584.38,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "54919da8-111e-4a55-82ef-3674a478c704"
+    },
+    {
+      "_id": "ef903236-0598-4d5f-b730-4c727b187d82",
+      "fecha": "2024-12-29 00:00:00",
+      "totalpagado": 3428.64,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "65c581f3-7d29-47e9-a613-8242bca31d7e",
+          "nombre": "Luis Martínez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "026d8cbf-8019-4030-aa12-e64eda3fdf76",
+      "fecha": "2024-01-07 00:00:00",
+      "totalpagado": 2746.83,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "d178843a-d3aa-4217-8fca-41def62723af",
+          "nombre": "Patricia Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "1acfeb19-68f4-4d0e-90f0-d58a381de338"
+    },
+    {
+      "_id": "57b63eaf-967d-469e-88db-c9c483208318",
+      "fecha": "2025-10-27 00:00:00",
+      "totalpagado": 781.47,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "38d2a9cd-ac76-43a3-a2e9-17f3ee8bbec9",
+          "nombre": "Juan Torres",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "6aeba772-a005-49a7-aef1-fee3fa4ceacd"
+    },
+    {
+      "_id": "2056c2de-1993-48ed-a341-b7707f496b2d",
+      "fecha": "2025-06-13 00:00:00",
+      "totalpagado": 546.04,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "0b14c3c0-b9bb-495d-8b0f-853722a54b96",
+          "nombre": "Ana López",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "4160494e-fc80-4a00-b91b-ab780c3abb80",
+      "fecha": "2024-05-29 00:00:00",
+      "totalpagado": 369.03,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "0b14c3c0-b9bb-495d-8b0f-853722a54b96",
+          "nombre": "Ana López",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "1d47236d-d689-4a38-8eb1-7103c1ed2795"
+    },
+    {
+      "_id": "acf85139-e477-41b9-92ef-4439d3a48ed6",
+      "fecha": "2025-08-11 00:00:00",
+      "totalpagado": 4322.47,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "3117e123-7989-4064-890d-4af1a32c753d",
+          "nombre": "Juan López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "a9e48427-0cb8-4963-992c-cb83a8885226"
+    },
+    {
+      "_id": "2fefc847-a330-4c26-a1bb-8ff77fe32393",
+      "fecha": "2024-10-03 00:00:00",
+      "totalpagado": 2727.72,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "6f9e2cca-59f2-49ba-b563-4e021b8afaa3",
+          "nombre": "Miguel Martínez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "d81bc2d0-4b4e-49c2-bdab-77533ca9f8fa"
+    },
+    {
+      "_id": "a6a62f38-5d5b-47eb-bbdc-b32a5e7d30a0",
+      "fecha": "2025-03-05 00:00:00",
+      "totalpagado": 2325.11,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "b11d52ac-4a98-42fe-b5da-f262683eb7d6",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "c5f07edc-dbd0-4a82-aa6f-c30bd7d9c084"
+    },
+    {
+      "_id": "9934cb78-16b1-47c6-8b62-ece85896f44d",
+      "fecha": "2025-03-08 00:00:00",
+      "totalpagado": 2500.03,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "4f88723d-e420-423c-9ca5-1bdda149cb9c",
+          "nombre": "María González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "649a6124-2574-4b12-b8fd-c6bee6d86cb2"
+    },
+    {
+      "_id": "bbadb092-25c5-41b4-8126-8f4411b01548",
+      "fecha": "2024-03-09 00:00:00",
+      "totalpagado": 3455.73,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "800c51bb-6026-48a3-bb82-cbb37adb7829",
+          "nombre": "José García",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "6b2e16ac-df99-4e2d-b636-7b9a9e24a828",
+      "fecha": "2025-06-07 00:00:00",
+      "totalpagado": 4296.3,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "38d2a9cd-ac76-43a3-a2e9-17f3ee8bbec9",
+          "nombre": "Juan Torres",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "dc424bc9-9d65-4da7-b9d8-4252d501d67c"
+    },
+    {
+      "_id": "52487466-62db-400e-83d0-115f8afd9ffa",
+      "fecha": "2024-04-02 00:00:00",
+      "totalpagado": 4706.8,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "9c1866f1-4cb2-4d51-adff-d3ae08140085",
+          "nombre": "María López",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "8d91dd69-093e-4ca6-8f9f-829e146657a8"
+    },
+    {
+      "_id": "251db58a-653e-457b-be3d-2f9459e57324",
+      "fecha": "2024-04-06 00:00:00",
+      "totalpagado": 1248.29,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "4acf1768-00ba-4ef6-8274-fb058ce9da2a",
+          "nombre": "Miguel Ramírez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "2de492de-2c21-437d-a7e4-a4b0db1350de"
+    },
+    {
+      "_id": "8b16b37d-8ed5-4645-bdba-2240ece7d495",
+      "fecha": "2025-06-13 00:00:00",
+      "totalpagado": 896.81,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "4f88723d-e420-423c-9ca5-1bdda149cb9c",
+          "nombre": "María González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "59572f7e-de45-4004-9e35-e62b877f7c3e"
+    },
+    {
+      "_id": "a50e18f9-2226-4da7-ad07-bc631fcc10fd",
+      "fecha": "2024-08-02 00:00:00",
+      "totalpagado": 3071.43,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "3105c82c-37bd-49a6-bae5-2790abd9ad00",
+          "nombre": "María Pérez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "1f290bfb-20d9-4d50-84d8-1eaf620c81f8",
+      "fecha": "2025-02-14 00:00:00",
+      "totalpagado": 2016.58,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "d47d4c00-c02d-4e7e-a71f-8feb82bb912f"
+    },
+    {
+      "_id": "d3592c5f-6d1c-47ab-b7da-07511cd2be34",
+      "fecha": "2025-12-12 00:00:00",
+      "totalpagado": 451.59,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "2feff975-ca7a-4fd1-827b-673d1d6dde14",
+          "nombre": "Laura Flores",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "96a3bb0b-9396-47a1-8094-f2f6f94c730e",
+      "fecha": "2024-07-01 00:00:00",
+      "totalpagado": 1631.72,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "8c514b9c-8182-4f85-903e-a617a180ad0b",
+          "nombre": "Laura Flores",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "e49d1e84-2765-4ae1-bff3-e716afe71dfe",
+      "fecha": "2025-09-24 00:00:00",
+      "totalpagado": 440.47,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "2372ea5e-a178-4107-a05f-65b3850343be",
+          "nombre": "Ana Rodríguez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "3824e86b-3d39-46eb-a8ae-e0873e2d2d4f",
+      "fecha": "2025-01-07 00:00:00",
+      "totalpagado": 4068.09,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "0574c3c1-14d1-40e8-bbc7-bc2122461de2",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "7783dbc6-c758-45de-8fc3-bbc48357ba55",
+      "fecha": "2024-02-16 00:00:00",
+      "totalpagado": 2014.36,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "adc4a4bc-0dff-48bd-b324-4db79f9893d6",
+          "nombre": "Luis Rodríguez",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "c00e1f97-43cb-4799-9eef-33e46319e47d",
+      "fecha": "2024-08-03 00:00:00",
+      "totalpagado": 279.17,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "3117e123-7989-4064-890d-4af1a32c753d",
+          "nombre": "Juan López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "d81bc2d0-4b4e-49c2-bdab-77533ca9f8fa"
+    },
+    {
+      "_id": "7eb69504-0b1a-42cb-80f4-b06580a41a68",
+      "fecha": "2025-09-23 00:00:00",
+      "totalpagado": 3438.03,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "98ae5a82-e8db-424b-8c6a-5bd64997aa1f"
+    },
+    {
+      "_id": "6abdd1f9-57f8-4574-a27d-7d1e625a1604",
+      "fecha": "2024-11-04 00:00:00",
+      "totalpagado": 2333.21,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "38d2a9cd-ac76-43a3-a2e9-17f3ee8bbec9",
+          "nombre": "Juan Torres",
+          "puesto": "Cajero"
+        }
+      ],
+      "citaref": "22fd78fa-33af-4d24-9a42-0deb740e9334"
+    },
+    {
+      "_id": "8fad82e0-759f-4046-bdc8-c270be1eff66",
+      "fecha": "2024-11-01 00:00:00",
+      "totalpagado": 1896.0,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "b11d52ac-4a98-42fe-b5da-f262683eb7d6",
+          "nombre": "Patricia Pérez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "f2a1db19-28c6-47da-bfcd-b787d4b3190d"
+    },
+    {
+      "_id": "d6791d36-be2b-45c8-a757-aac377634d54",
+      "fecha": "2024-03-27 00:00:00",
+      "totalpagado": 3417.23,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "800c51bb-6026-48a3-bb82-cbb37adb7829",
+          "nombre": "José García",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "02953ace-ad26-4b18-bb2b-6f35ca749091",
+      "fecha": "2024-08-03 00:00:00",
+      "totalpagado": 3918.74,
+      "metodopago": "Tarjeta de Crédito",
+      "empleado": [
+        {
+          "_id": "0b14c3c0-b9bb-495d-8b0f-853722a54b96",
+          "nombre": "Ana López",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "5464f666-bf3f-41d8-92ee-da729f22b692",
+      "fecha": "2025-07-18 00:00:00",
+      "totalpagado": 1319.32,
+      "metodopago": "Efectivo",
+      "empleado": [
+        {
+          "_id": "5ac294f6-ca7e-4e81-902e-d61d76519b40",
+          "nombre": "José López",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "54fb68ef-2fe6-47d5-9af1-bc55ac6570fa"
+    },
+    {
+      "_id": "460903f5-fcfb-4a16-aee9-e0bbc0685016",
+      "fecha": "2024-01-11 00:00:00",
+      "totalpagado": 2373.75,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "8c514b9c-8182-4f85-903e-a617a180ad0b",
+          "nombre": "Laura Flores",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "cf147003-09a3-4a2f-a591-1ee0becda0ea",
+      "fecha": "2024-09-26 00:00:00",
+      "totalpagado": 1549.87,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "636e1064-eed5-4904-bfe4-7bdad42cb282",
+          "nombre": "Miguel García",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "c1f999b8-568d-4516-95e1-3049d16ce622"
+    },
+    {
+      "_id": "bf8f9bb3-533e-4ebb-b691-9ad996fafc3e",
+      "fecha": "2024-09-10 00:00:00",
+      "totalpagado": 1728.73,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "33ce4c8b-bcd4-49ad-bd56-a8e0be86e7cd",
+          "nombre": "José González",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": "41da1221-b386-48d6-bc99-ad810ce22447"
+    },
+    {
+      "_id": "0b234336-c41b-4e08-a3b0-89ed4160faed",
+      "fecha": "2024-01-03 00:00:00",
+      "totalpagado": 3425.43,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "71a23cb5-38cb-409f-be56-19c146b07023",
+          "nombre": "Carmen Ramírez",
+          "puesto": "Auxiliar"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "b34742aa-c8f5-4908-b9ca-cd8749439d99",
+      "fecha": "2024-09-12 00:00:00",
+      "totalpagado": 579.47,
+      "metodopago": "Cheque",
+      "empleado": [
+        {
+          "_id": "f89aa62f-80f9-41b4-9c2c-9dd65d9b53ff",
+          "nombre": "Carlos López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": "de87549d-517a-4296-a091-84426cd85f15"
+    },
+    {
+      "_id": "8f378de9-8d6c-4b67-9355-514da84276d4",
+      "fecha": "2025-02-02 00:00:00",
+      "totalpagado": 993.78,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "3117e123-7989-4064-890d-4af1a32c753d",
+          "nombre": "Juan López",
+          "puesto": "Gerente"
+        }
+      ],
+      "citaref": null
+    },
+    {
+      "_id": "4dd04d5a-37d4-4943-9727-9e6b157aef1c",
+      "fecha": "2024-10-09 00:00:00",
+      "totalpagado": 1689.25,
+      "metodopago": "Tarjeta de Débito",
+      "empleado": [
+        {
+          "_id": "88eaf800-e497-44d2-b6ca-77c14f45dbe5",
+          "nombre": "María Ramírez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "1d47236d-d689-4a38-8eb1-7103c1ed2795"
+    },
+    {
+      "_id": "a16859db-c4ee-4a2d-8de8-66b2ba14b600",
+      "fecha": "2025-07-09 00:00:00",
+      "totalpagado": 1099.56,
+      "metodopago": "Transferencia",
+      "empleado": [
+        {
+          "_id": "2372ea5e-a178-4107-a05f-65b3850343be",
+          "nombre": "Ana Rodríguez",
+          "puesto": "Farmacéutico"
+        }
+      ],
+      "citaref": "6c6d525a-92e2-414c-b104-2243c03eb01a"
+    }
+  ]
+}

@@ -1,6 +1,13 @@
-pymongo
-python-dotenv
-fastapi
-uvicorn
-sentence-transformers
-numpy
+
+# MongoDB
+pymongo>=4.6.0
+
+# Data generation
+faker>=22.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# API (optional - solo si vas a usar la API)
+fastapi>=0.109.0
+uvicorn>=0.27.0

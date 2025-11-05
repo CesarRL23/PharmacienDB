@@ -1,1111 +1,1797 @@
 {
-  "generated_at": "2025-10-22T01:59:17.233059",
+  "generated_at": "2025-10-29T13:49:35.634128",
   "counts": {
     "text_documents": 100,
     "images": 50
   },
   "images": [
     {
-      "_id": "47d37984-c93b-4254-b6cc-e5281cde9e03",
+      "_id": "61e55092-45ec-41ff-b1a8-ac961435e7ed",
       "filename": "med_image_1.jpg",
-      "url": "https://picsum.photos/seed/47d37984-c93b-4254-b6cc-e5281cde9e03/1024/768",
+      "url": "https://picsum.photos/seed/61e55092-45ec-41ff-b1a8-ac961435e7ed/1024/768",
       "caption": "Imagen de producto medicamento #1",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2020-10-01T00:00:00"
+        "created_at": "2019-05-10T00:00:00"
       },
-      "related_med_id": "M0014",
+      "related_med_id": "M0089",
       "embeddings": null
     },
     {
-      "_id": "02bc2769-6e16-4c91-80a7-3baa8188d4fb",
+      "_id": "8c973eeb-62cb-476b-a74c-e571dbfc2e35",
       "filename": "med_image_2.jpg",
-      "url": "https://picsum.photos/seed/02bc2769-6e16-4c91-80a7-3baa8188d4fb/1024/768",
+      "url": "https://picsum.photos/seed/8c973eeb-62cb-476b-a74c-e571dbfc2e35/1024/768",
       "caption": "Imagen de producto medicamento #2",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2023-05-18T00:00:00"
-      },
-      "related_med_id": "M0063",
-      "embeddings": null
-    },
-    {
-      "_id": "ca15d808-6cec-4f12-97e9-5cf55f8b3af9",
-      "filename": "med_image_3.jpg",
-      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tuasaude.com%2Fes%2Fvias-de-administracion-de-medicamentos%2F&psig=AOvVaw1aWWoOYD5v7TIaLFcvp14B&ust=1761227229777000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKje1-n4t5ADFQAAAAAdAAAAABAE",
-      "caption": "Imagen de producto medicamento #3",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-04-30T00:00:00"
-      },
-      "related_med_id": "M0088",
-      "embeddings": null
-    },
-    {
-      "_id": "4e68465e-9c2d-4e61-9180-c58bd96c3b1d",
-      "filename": "med_image_4.jpg",
-      "url": "https://picsum.photos/seed/4e68465e-9c2d-4e61-9180-c58bd96c3b1d/1024/768",
-      "caption": "Imagen de producto medicamento #4",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2021-07-01T00:00:00"
-      },
-      "related_med_id": "M0062",
-      "embeddings": null
-    },
-    {
-      "_id": "fb00478a-3273-4d95-9276-7e297fdd79de",
-      "filename": "med_image_5.jpg",
-      "url": "https://picsum.photos/seed/fb00478a-3273-4d95-9276-7e297fdd79de/1024/768",
-      "caption": "Imagen de producto medicamento #5",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-12-28T00:00:00"
-      },
-      "related_med_id": "M0037",
-      "embeddings": null
-    },
-    {
-      "_id": "930588dd-1b6a-494f-8ee4-1818a0356e5c",
-      "filename": "med_image_6.jpg",
-      "url": "https://picsum.photos/seed/930588dd-1b6a-494f-8ee4-1818a0356e5c/1024/768",
-      "caption": "Imagen de producto medicamento #6",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-04-07T00:00:00"
-      },
-      "related_med_id": "M0044",
-      "embeddings": null
-    },
-    {
-      "_id": "73ecf9ec-89f4-497b-931d-231fc3be82c9",
-      "filename": "med_image_7.jpg",
-      "url": "https://picsum.photos/seed/73ecf9ec-89f4-497b-931d-231fc3be82c9/1024/768",
-      "caption": "Imagen de producto medicamento #7",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2020-01-21T00:00:00"
-      },
-      "related_med_id": "M0108",
-      "embeddings": null
-    },
-    {
-      "_id": "c30914ca-dc51-45ff-a152-042504a060d2",
-      "filename": "med_image_8.jpg",
-      "url": "https://picsum.photos/seed/c30914ca-dc51-45ff-a152-042504a060d2/1024/768",
-      "caption": "Imagen de producto medicamento #8",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2021-05-23T00:00:00"
-      },
-      "related_med_id": "M0116",
-      "embeddings": null
-    },
-    {
-      "_id": "831eb73c-a772-4fcc-8df7-b4934c4cfa7c",
-      "filename": "med_image_9.jpg",
-      "url": "https://picsum.photos/seed/831eb73c-a772-4fcc-8df7-b4934c4cfa7c/1024/768",
-      "caption": "Imagen de producto medicamento #9",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-05-02T00:00:00"
-      },
-      "related_med_id": "M0117",
-      "embeddings": null
-    },
-    {
-      "_id": "f148bf2e-cb79-448d-9780-9552e4aa2b21",
-      "filename": "med_image_10.jpg",
-      "url": "https://picsum.photos/seed/f148bf2e-cb79-448d-9780-9552e4aa2b21/1024/768",
-      "caption": "Imagen de producto medicamento #10",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2021-04-24T00:00:00"
-      },
-      "related_med_id": "M0044",
-      "embeddings": null
-    },
-    {
-      "_id": "3ca1c795-af72-4ba1-8a18-e1f5d794c2d2",
-      "filename": "med_image_11.jpg",
-      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.painfreenyc.com%2Fes%2F14-doctor-recommended-otc-medications-you-should-always-have-on-hand%2F&psig=AOvVaw1aWWoOYD5v7TIaLFcvp14B&ust=1761227229777000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKje1-n4t5ADFQAAAAAdAAAAABAL",
-      "caption": "Imagen de producto medicamento #11",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2020-02-04T00:00:00"
-      },
-      "related_med_id": "M0063",
-      "embeddings": null
-    },
-    {
-      "_id": "9a8ab976-6ba7-4470-8ce8-5b51c90ffefa",
-      "filename": "med_image_12.jpg",
-      "url": "https://picsum.photos/seed/9a8ab976-6ba7-4470-8ce8-5b51c90ffefa/1024/768",
-      "caption": "Imagen de producto medicamento #12",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2025-06-16T00:00:00"
-      },
-      "related_med_id": "M0084",
-      "embeddings": null
-    },
-    {
-      "_id": "7500dda2-b124-4cba-bb81-61cc7f380976",
-      "filename": "med_image_13.jpg",
-      "url": "https://picsum.photos/seed/7500dda2-b124-4cba-bb81-61cc7f380976/1024/768",
-      "caption": "Imagen de producto medicamento #13",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2021-09-06T00:00:00"
-      },
-      "related_med_id": "M0069",
-      "embeddings": null
-    },
-    {
-      "_id": "e681140a-dee9-4622-9806-ddc6aff227e8",
-      "filename": "med_image_14.jpg",
-      "url": "https://picsum.photos/seed/e681140a-dee9-4622-9806-ddc6aff227e8/1024/768",
-      "caption": "Imagen de producto medicamento #14",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-11-21T00:00:00"
-      },
-      "related_med_id": "M0079",
-      "embeddings": null
-    },
-    {
-      "_id": "2df82506-397a-402a-95f7-7d98d88805fa",
-      "filename": "med_image_15.jpg",
-      "url": "https://picsum.photos/seed/2df82506-397a-402a-95f7-7d98d88805fa/1024/768",
-      "caption": "Imagen de producto medicamento #15",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2025-01-26T00:00:00"
-      },
-      "related_med_id": "M0062",
-      "embeddings": null
-    },
-    {
-      "_id": "11d8af0b-33af-4dc0-a5a0-1fbf6403321d",
-      "filename": "med_image_16.jpg",
-      "url": "https://picsum.photos/seed/11d8af0b-33af-4dc0-a5a0-1fbf6403321d/1024/768",
-      "caption": "Imagen de producto medicamento #16",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2025-01-25T00:00:00"
-      },
-      "related_med_id": "M0016",
-      "embeddings": null
-    },
-    {
-      "_id": "8649238a-85c8-43ac-b3b3-96ec2f098d5d",
-      "filename": "med_image_17.jpg",
-      "url": "https://picsum.photos/seed/8649238a-85c8-43ac-b3b3-96ec2f098d5d/1024/768",
-      "caption": "Imagen de producto medicamento #17",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-09-01T00:00:00"
-      },
-      "related_med_id": "M0115",
-      "embeddings": null
-    },
-    {
-      "_id": "269f667d-6c7c-4154-b1e4-58a6747c9c8e",
-      "filename": "med_image_18.jpg",
-      "url": "https://picsum.photos/seed/269f667d-6c7c-4154-b1e4-58a6747c9c8e/1024/768",
-      "caption": "Imagen de producto medicamento #18",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-06-06T00:00:00"
-      },
-      "related_med_id": "M0011",
-      "embeddings": null
-    },
-    {
-      "_id": "77a0511c-2cb6-4502-83a6-a1eda6ba184c",
-      "filename": "med_image_19.jpg",
-      "url": "https://picsum.photos/seed/77a0511c-2cb6-4502-83a6-a1eda6ba184c/1024/768",
-      "caption": "Imagen de producto medicamento #19",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-04-06T00:00:00"
-      },
-      "related_med_id": "M0062",
-      "embeddings": null
-    },
-    {
-      "_id": "14cbc9f5-825e-4e3b-b301-ed07fc70835f",
-      "filename": "med_image_20.jpg",
-      "url": "https://picsum.photos/seed/14cbc9f5-825e-4e3b-b301-ed07fc70835f/1024/768",
-      "caption": "Imagen de producto medicamento #20",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-07-04T00:00:00"
-      },
-      "related_med_id": "M0088",
-      "embeddings": null
-    },
-    {
-      "_id": "63f4c5f8-f404-4a92-8b4e-b61eb18c7310",
-      "filename": "med_image_21.jpg",
-      "url": "https://picsum.photos/seed/63f4c5f8-f404-4a92-8b4e-b61eb18c7310/1024/768",
-      "caption": "Imagen de producto medicamento #21",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-07-25T00:00:00"
-      },
-      "related_med_id": "M0057",
-      "embeddings": null
-    },
-    {
-      "_id": "eaef2d51-0de9-4afc-b3ba-8ac48e743ae4",
-      "filename": "med_image_22.jpg",
-      "url": "https://picsum.photos/seed/eaef2d51-0de9-4afc-b3ba-8ac48e743ae4/1024/768",
-      "caption": "Imagen de producto medicamento #22",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2024-11-01T00:00:00"
-      },
-      "related_med_id": "M0077",
-      "embeddings": null
-    },
-    {
-      "_id": "446c82a9-e39d-421e-9fd5-5e0321e9a99c",
-      "filename": "med_image_23.jpg",
-      "url": "https://picsum.photos/seed/446c82a9-e39d-421e-9fd5-5e0321e9a99c/1024/768",
-      "caption": "Imagen de producto medicamento #23",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2021-07-31T00:00:00"
-      },
-      "related_med_id": "M0110",
-      "embeddings": null
-    },
-    {
-      "_id": "0f268cda-6674-4c33-b325-01c63d2f1c18",
-      "filename": "med_image_24.jpg",
-      "url": "https://picsum.photos/seed/0f268cda-6674-4c33-b325-01c63d2f1c18/1024/768",
-      "caption": "Imagen de producto medicamento #24",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-10-03T00:00:00"
-      },
-      "related_med_id": "M0022",
-      "embeddings": null
-    },
-    {
-      "_id": "b2b876eb-7ffc-4d7e-8ce0-190749fa9bd8",
-      "filename": "med_image_25.jpg",
-      "url": "https://picsum.photos/seed/b2b876eb-7ffc-4d7e-8ce0-190749fa9bd8/1024/768",
-      "caption": "Imagen de producto medicamento #25",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-04-08T00:00:00"
-      },
-      "related_med_id": "M0074",
-      "embeddings": null
-    },
-    {
-      "_id": "181ff7ec-837d-44d1-aafe-590da498b21f",
-      "filename": "med_image_26.jpg",
-      "url": "https://picsum.photos/seed/181ff7ec-837d-44d1-aafe-590da498b21f/1024/768",
-      "caption": "Imagen de producto medicamento #26",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2020-08-30T00:00:00"
-      },
-      "related_med_id": "M0108",
-      "embeddings": null
-    },
-    {
-      "_id": "b66a67e2-3241-44b0-8aa8-e7e88eb0414e",
-      "filename": "med_image_27.jpg",
-      "url": "https://picsum.photos/seed/b66a67e2-3241-44b0-8aa8-e7e88eb0414e/1024/768",
-      "caption": "Imagen de producto medicamento #27",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2020-05-09T00:00:00"
-      },
-      "related_med_id": "M0108",
-      "embeddings": null
-    },
-    {
-      "_id": "0df849d9-f499-4d98-867f-4f2fb2f5fce8",
-      "filename": "med_image_28.jpg",
-      "url": "https://picsum.photos/seed/0df849d9-f499-4d98-867f-4f2fb2f5fce8/1024/768",
-      "caption": "Imagen de producto medicamento #28",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2023-11-08T00:00:00"
-      },
-      "related_med_id": "M0027",
-      "embeddings": null
-    },
-    {
-      "_id": "69254f99-49e7-486b-9ba0-2f959d0dcf25",
-      "filename": "med_image_29.jpg",
-      "url": "https://picsum.photos/seed/69254f99-49e7-486b-9ba0-2f959d0dcf25/1024/768",
-      "caption": "Imagen de producto medicamento #29",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-08-16T00:00:00"
-      },
-      "related_med_id": "M0118",
-      "embeddings": null
-    },
-    {
-      "_id": "84c8a542-79fd-4b59-98ac-1229a4e8282d",
-      "filename": "med_image_30.jpg",
-      "url": "https://picsum.photos/seed/84c8a542-79fd-4b59-98ac-1229a4e8282d/1024/768",
-      "caption": "Imagen de producto medicamento #30",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2020-02-19T00:00:00"
-      },
-      "related_med_id": "M0077",
-      "embeddings": null
-    },
-    {
-      "_id": "0044fc7a-c7eb-47c4-9b4d-4d0abb7def3b",
-      "filename": "med_image_31.jpg",
-      "url": "https://picsum.photos/seed/0044fc7a-c7eb-47c4-9b4d-4d0abb7def3b/1024/768",
-      "caption": "Imagen de producto medicamento #31",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-06-10T00:00:00"
-      },
-      "related_med_id": "M0059",
-      "embeddings": null
-    },
-    {
-      "_id": "eb8812a1-9d43-4037-b36c-3a829ce86c39",
-      "filename": "med_image_32.jpg",
-      "url": "https://picsum.photos/seed/eb8812a1-9d43-4037-b36c-3a829ce86c39/1024/768",
-      "caption": "Imagen de producto medicamento #32",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-12-20T00:00:00"
-      },
-      "related_med_id": "M0099",
-      "embeddings": null
-    },
-    {
-      "_id": "998decd1-db1d-4b27-ad4d-65c63e2830e5",
-      "filename": "med_image_33.jpg",
-      "url": "https://picsum.photos/seed/998decd1-db1d-4b27-ad4d-65c63e2830e5/1024/768",
-      "caption": "Imagen de producto medicamento #33",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2022-12-01T00:00:00"
+        "created_at": "2023-12-27T00:00:00"
       },
       "related_med_id": "M0014",
       "embeddings": null
     },
     {
-      "_id": "b491483d-0e06-4caf-92b2-96d246e476f7",
-      "filename": "med_image_34.jpg",
-      "url": "https://picsum.photos/seed/b491483d-0e06-4caf-92b2-96d246e476f7/1024/768",
-      "caption": "Imagen de producto medicamento #34",
+      "_id": "6c1a0005-797b-473c-bcb0-353e4cf10c43",
+      "filename": "med_image_3.jpg",
+      "url": "https://picsum.photos/seed/6c1a0005-797b-473c-bcb0-353e4cf10c43/1024/768",
+      "caption": "Imagen de producto medicamento #3",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-10-06T00:00:00"
+        "created_at": "2020-09-16T00:00:00"
       },
-      "related_med_id": "M0045",
+      "related_med_id": "M0033",
       "embeddings": null
     },
     {
-      "_id": "8cd002a2-578e-4602-86b9-59678d5344df",
-      "filename": "med_image_35.jpg",
-      "url": "https://picsum.photos/seed/8cd002a2-578e-4602-86b9-59678d5344df/1024/768",
-      "caption": "Imagen de producto medicamento #35",
+      "_id": "4c9fed48-7df5-4a73-8797-5c4ad2ffe9e9",
+      "filename": "med_image_4.jpg",
+      "url": "https://picsum.photos/seed/4c9fed48-7df5-4a73-8797-5c4ad2ffe9e9/1024/768",
+      "caption": "Imagen de producto medicamento #4",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-05-22T00:00:00"
+        "created_at": "2024-02-29T00:00:00"
       },
-      "related_med_id": "M0018",
+      "related_med_id": "M0016",
       "embeddings": null
     },
     {
-      "_id": "32c47176-2110-40c7-a31a-1b8f0ee14870",
-      "filename": "med_image_36.jpg",
-      "url": "https://picsum.photos/seed/32c47176-2110-40c7-a31a-1b8f0ee14870/1024/768",
-      "caption": "Imagen de producto medicamento #36",
+      "_id": "3b23de93-1431-4279-8a9b-34bdfc05c2fc",
+      "filename": "med_image_5.jpg",
+      "url": "https://picsum.photos/seed/3b23de93-1431-4279-8a9b-34bdfc05c2fc/1024/768",
+      "caption": "Imagen de producto medicamento #5",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-06-09T00:00:00"
+        "created_at": "2021-10-30T00:00:00"
       },
-      "related_med_id": "M0057",
+      "related_med_id": "M0003",
       "embeddings": null
     },
     {
-      "_id": "25862199-9836-41dc-9851-2d43b4dbfccd",
-      "filename": "med_image_37.jpg",
-      "url": "https://picsum.photos/seed/25862199-9836-41dc-9851-2d43b4dbfccd/1024/768",
-      "caption": "Imagen de producto medicamento #37",
+      "_id": "0c959ba1-8b4d-4d95-90fb-c9d4694e841e",
+      "filename": "med_image_6.jpg",
+      "url": "https://picsum.photos/seed/0c959ba1-8b4d-4d95-90fb-c9d4694e841e/1024/768",
+      "caption": "Imagen de producto medicamento #6",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-08-08T00:00:00"
+        "created_at": "2022-07-21T00:00:00"
       },
-      "related_med_id": "M0096",
+      "related_med_id": "M0039",
       "embeddings": null
     },
     {
-      "_id": "6e37b32b-2f09-42e3-974e-aaf57d04f632",
-      "filename": "med_image_38.jpg",
-      "url": "https://picsum.photos/seed/6e37b32b-2f09-42e3-974e-aaf57d04f632/1024/768",
-      "caption": "Imagen de producto medicamento #38",
+      "_id": "0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4",
+      "filename": "med_image_7.jpg",
+      "url": "https://picsum.photos/seed/0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4/1024/768",
+      "caption": "Imagen de producto medicamento #7",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2019-09-26T00:00:00"
+        "created_at": "2020-03-13T00:00:00"
       },
-      "related_med_id": "M0085",
+      "related_med_id": "M0008",
       "embeddings": null
     },
     {
-      "_id": "b581fc13-4720-4659-a133-1889b0b9497a",
-      "filename": "med_image_39.jpg",
-      "url": "https://picsum.photos/seed/b581fc13-4720-4659-a133-1889b0b9497a/1024/768",
-      "caption": "Imagen de producto medicamento #39",
+      "_id": "1bbb868c-94d5-4419-a4e4-910a461af638",
+      "filename": "med_image_8.jpg",
+      "url": "https://picsum.photos/seed/1bbb868c-94d5-4419-a4e4-910a461af638/1024/768",
+      "caption": "Imagen de producto medicamento #8",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2020-05-07T00:00:00"
+      },
+      "related_med_id": "M0113",
+      "embeddings": null
+    },
+    {
+      "_id": "c5f72211-1d47-49e2-94f9-6445d27b11c6",
+      "filename": "med_image_9.jpg",
+      "url": "https://picsum.photos/seed/c5f72211-1d47-49e2-94f9-6445d27b11c6/1024/768",
+      "caption": "Imagen de producto medicamento #9",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-10-13T00:00:00"
+      },
+      "related_med_id": "M0004",
+      "embeddings": null
+    },
+    {
+      "_id": "32567f28-5ec3-41ef-87c0-bfe34d829e13",
+      "filename": "med_image_10.jpg",
+      "url": "https://picsum.photos/seed/32567f28-5ec3-41ef-87c0-bfe34d829e13/1024/768",
+      "caption": "Imagen de producto medicamento #10",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2023-12-25T00:00:00"
+      },
+      "related_med_id": "M0105",
+      "embeddings": null
+    },
+    {
+      "_id": "2a037053-d001-407f-8150-08ea472fba1a",
+      "filename": "med_image_11.jpg",
+      "url": "https://picsum.photos/seed/2a037053-d001-407f-8150-08ea472fba1a/1024/768",
+      "caption": "Imagen de producto medicamento #11",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2023-06-03T00:00:00"
+      },
+      "related_med_id": "M0114",
+      "embeddings": null
+    },
+    {
+      "_id": "f49c30bd-ada8-43ba-a9ec-3655ee424afd",
+      "filename": "med_image_12.jpg",
+      "url": "https://picsum.photos/seed/f49c30bd-ada8-43ba-a9ec-3655ee424afd/1024/768",
+      "caption": "Imagen de producto medicamento #12",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-02-07T00:00:00"
+      },
+      "related_med_id": "M0072",
+      "embeddings": null
+    },
+    {
+      "_id": "24555cf4-89a2-4ec2-9ab2-91dd1c8be924",
+      "filename": "med_image_13.jpg",
+      "url": "https://picsum.photos/seed/24555cf4-89a2-4ec2-9ab2-91dd1c8be924/1024/768",
+      "caption": "Imagen de producto medicamento #13",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2020-09-02T00:00:00"
+      },
+      "related_med_id": "M0086",
+      "embeddings": null
+    },
+    {
+      "_id": "02e90376-ee31-42bc-918d-72a8eed43a83",
+      "filename": "med_image_14.jpg",
+      "url": "https://picsum.photos/seed/02e90376-ee31-42bc-918d-72a8eed43a83/1024/768",
+      "caption": "Imagen de producto medicamento #14",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-04-09T00:00:00"
+      },
+      "related_med_id": "M0025",
+      "embeddings": null
+    },
+    {
+      "_id": "cd89a0d5-091b-4f88-a85d-dfae4921e786",
+      "filename": "med_image_15.jpg",
+      "url": "https://picsum.photos/seed/cd89a0d5-091b-4f88-a85d-dfae4921e786/1024/768",
+      "caption": "Imagen de producto medicamento #15",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-06-04T00:00:00"
+      },
+      "related_med_id": "M0008",
+      "embeddings": null
+    },
+    {
+      "_id": "90e64ec7-a68b-4dd6-9438-1c90c26eb347",
+      "filename": "med_image_16.jpg",
+      "url": "https://picsum.photos/seed/90e64ec7-a68b-4dd6-9438-1c90c26eb347/1024/768",
+      "caption": "Imagen de producto medicamento #16",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-05-11T00:00:00"
+      },
+      "related_med_id": "M0032",
+      "embeddings": null
+    },
+    {
+      "_id": "45bd80e3-8401-461d-b6bb-e027456e83ba",
+      "filename": "med_image_17.jpg",
+      "url": "https://picsum.photos/seed/45bd80e3-8401-461d-b6bb-e027456e83ba/1024/768",
+      "caption": "Imagen de producto medicamento #17",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-10-20T00:00:00"
+      },
+      "related_med_id": "M0113",
+      "embeddings": null
+    },
+    {
+      "_id": "cd20e8b4-9bec-40fa-8353-9182c4d34b5d",
+      "filename": "med_image_18.jpg",
+      "url": "https://picsum.photos/seed/cd20e8b4-9bec-40fa-8353-9182c4d34b5d/1024/768",
+      "caption": "Imagen de producto medicamento #18",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-11-19T00:00:00"
+      },
+      "related_med_id": "M0114",
+      "embeddings": null
+    },
+    {
+      "_id": "668fbc10-9d8c-405e-9d88-db1397e92f32",
+      "filename": "med_image_19.jpg",
+      "url": "https://picsum.photos/seed/668fbc10-9d8c-405e-9d88-db1397e92f32/1024/768",
+      "caption": "Imagen de producto medicamento #19",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-06-11T00:00:00"
+      },
+      "related_med_id": "M0110",
+      "embeddings": null
+    },
+    {
+      "_id": "eb4b878d-a65f-41fc-ac75-8cba69b5fb37",
+      "filename": "med_image_20.jpg",
+      "url": "https://picsum.photos/seed/eb4b878d-a65f-41fc-ac75-8cba69b5fb37/1024/768",
+      "caption": "Imagen de producto medicamento #20",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-01-10T00:00:00"
+      },
+      "related_med_id": "M0087",
+      "embeddings": null
+    },
+    {
+      "_id": "f31b0330-e00f-4969-937f-49f61319dc41",
+      "filename": "med_image_21.jpg",
+      "url": "https://picsum.photos/seed/f31b0330-e00f-4969-937f-49f61319dc41/1024/768",
+      "caption": "Imagen de producto medicamento #21",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-12-27T00:00:00"
+      },
+      "related_med_id": "M0056",
+      "embeddings": null
+    },
+    {
+      "_id": "742e0047-590e-43ea-842a-f73c38208878",
+      "filename": "med_image_22.jpg",
+      "url": "https://picsum.photos/seed/742e0047-590e-43ea-842a-f73c38208878/1024/768",
+      "caption": "Imagen de producto medicamento #22",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2023-10-20T00:00:00"
+      },
+      "related_med_id": "M0010",
+      "embeddings": null
+    },
+    {
+      "_id": "17033c6d-f636-48c5-a8e0-3ad3227970c5",
+      "filename": "med_image_23.jpg",
+      "url": "https://picsum.photos/seed/17033c6d-f636-48c5-a8e0-3ad3227970c5/1024/768",
+      "caption": "Imagen de producto medicamento #23",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2022-01-09T00:00:00"
+      },
+      "related_med_id": "M0037",
+      "embeddings": null
+    },
+    {
+      "_id": "0e353719-c6bc-43f6-af02-ecbf24feaa12",
+      "filename": "med_image_24.jpg",
+      "url": "https://picsum.photos/seed/0e353719-c6bc-43f6-af02-ecbf24feaa12/1024/768",
+      "caption": "Imagen de producto medicamento #24",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-10-24T00:00:00"
+      },
+      "related_med_id": "M0016",
+      "embeddings": null
+    },
+    {
+      "_id": "141546d4-1b1c-4a0f-b639-5cc1addccc8a",
+      "filename": "med_image_25.jpg",
+      "url": "https://picsum.photos/seed/141546d4-1b1c-4a0f-b639-5cc1addccc8a/1024/768",
+      "caption": "Imagen de producto medicamento #25",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2025-03-03T00:00:00"
+      },
+      "related_med_id": "M0111",
+      "embeddings": null
+    },
+    {
+      "_id": "290e2fdb-79e4-4876-9165-76539b82dc3f",
+      "filename": "med_image_26.jpg",
+      "url": "https://picsum.photos/seed/290e2fdb-79e4-4876-9165-76539b82dc3f/1024/768",
+      "caption": "Imagen de producto medicamento #26",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-03-23T00:00:00"
+      },
+      "related_med_id": "M0079",
+      "embeddings": null
+    },
+    {
+      "_id": "4eceb7d7-8fb3-497c-8e30-07d5ce0373a9",
+      "filename": "med_image_27.jpg",
+      "url": "https://picsum.photos/seed/4eceb7d7-8fb3-497c-8e30-07d5ce0373a9/1024/768",
+      "caption": "Imagen de producto medicamento #27",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-03-07T00:00:00"
+      },
+      "related_med_id": "M0092",
+      "embeddings": null
+    },
+    {
+      "_id": "27842b8c-a950-437d-a5de-04ffe6e6852c",
+      "filename": "med_image_28.jpg",
+      "url": "https://picsum.photos/seed/27842b8c-a950-437d-a5de-04ffe6e6852c/1024/768",
+      "caption": "Imagen de producto medicamento #28",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2023-06-14T00:00:00"
+      },
+      "related_med_id": "M0113",
+      "embeddings": null
+    },
+    {
+      "_id": "ebcf85ca-6345-4436-9e2e-94b40fbec614",
+      "filename": "med_image_29.jpg",
+      "url": "https://picsum.photos/seed/ebcf85ca-6345-4436-9e2e-94b40fbec614/1024/768",
+      "caption": "Imagen de producto medicamento #29",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
         "created_at": "2024-02-15T00:00:00"
       },
-      "related_med_id": "M0110",
+      "related_med_id": "M0068",
       "embeddings": null
     },
     {
-      "_id": "a3565522-9e39-489f-a273-9b32adead690",
+      "_id": "cdaba9a9-2062-4f3b-bcf1-4cb799271231",
+      "filename": "med_image_30.jpg",
+      "url": "https://picsum.photos/seed/cdaba9a9-2062-4f3b-bcf1-4cb799271231/1024/768",
+      "caption": "Imagen de producto medicamento #30",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-02-07T00:00:00"
+      },
+      "related_med_id": "M0064",
+      "embeddings": null
+    },
+    {
+      "_id": "f09eba90-4855-451a-a41b-942c21e47b6d",
+      "filename": "med_image_31.jpg",
+      "url": "https://picsum.photos/seed/f09eba90-4855-451a-a41b-942c21e47b6d/1024/768",
+      "caption": "Imagen de producto medicamento #31",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2022-04-18T00:00:00"
+      },
+      "related_med_id": "M0120",
+      "embeddings": null
+    },
+    {
+      "_id": "d6d845cb-272f-4bf2-994f-04325a7218c5",
+      "filename": "med_image_32.jpg",
+      "url": "https://picsum.photos/seed/d6d845cb-272f-4bf2-994f-04325a7218c5/1024/768",
+      "caption": "Imagen de producto medicamento #32",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-05-02T00:00:00"
+      },
+      "related_med_id": "M0091",
+      "embeddings": null
+    },
+    {
+      "_id": "77fe6b2b-bca8-4b5d-a230-6fefe2305a33",
+      "filename": "med_image_33.jpg",
+      "url": "https://picsum.photos/seed/77fe6b2b-bca8-4b5d-a230-6fefe2305a33/1024/768",
+      "caption": "Imagen de producto medicamento #33",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-02-04T00:00:00"
+      },
+      "related_med_id": "M0119",
+      "embeddings": null
+    },
+    {
+      "_id": "b3e82301-9100-47e0-833e-673598d644fe",
+      "filename": "med_image_34.jpg",
+      "url": "https://picsum.photos/seed/b3e82301-9100-47e0-833e-673598d644fe/1024/768",
+      "caption": "Imagen de producto medicamento #34",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2020-02-22T00:00:00"
+      },
+      "related_med_id": "M0017",
+      "embeddings": null
+    },
+    {
+      "_id": "7d4ad2cd-d117-4892-90c9-58afd9ceb842",
+      "filename": "med_image_35.jpg",
+      "url": "https://picsum.photos/seed/7d4ad2cd-d117-4892-90c9-58afd9ceb842/1024/768",
+      "caption": "Imagen de producto medicamento #35",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2022-02-12T00:00:00"
+      },
+      "related_med_id": "M0074",
+      "embeddings": null
+    },
+    {
+      "_id": "4bccb7c0-9053-4c47-bc41-618b730e8442",
+      "filename": "med_image_36.jpg",
+      "url": "https://picsum.photos/seed/4bccb7c0-9053-4c47-bc41-618b730e8442/1024/768",
+      "caption": "Imagen de producto medicamento #36",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2019-08-08T00:00:00"
+      },
+      "related_med_id": "M0057",
+      "embeddings": null
+    },
+    {
+      "_id": "44ee86a4-36a4-4e8a-864d-8ad388d661a2",
+      "filename": "med_image_37.jpg",
+      "url": "https://picsum.photos/seed/44ee86a4-36a4-4e8a-864d-8ad388d661a2/1024/768",
+      "caption": "Imagen de producto medicamento #37",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2023-09-28T00:00:00"
+      },
+      "related_med_id": "M0066",
+      "embeddings": null
+    },
+    {
+      "_id": "69566b0b-492a-4cbc-9e0c-daae3a14299b",
+      "filename": "med_image_38.jpg",
+      "url": "https://picsum.photos/seed/69566b0b-492a-4cbc-9e0c-daae3a14299b/1024/768",
+      "caption": "Imagen de producto medicamento #38",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2022-05-29T00:00:00"
+      },
+      "related_med_id": "M0011",
+      "embeddings": null
+    },
+    {
+      "_id": "f7dafa34-5256-4a04-bbf2-4c43c339ec5b",
+      "filename": "med_image_39.jpg",
+      "url": "https://picsum.photos/seed/f7dafa34-5256-4a04-bbf2-4c43c339ec5b/1024/768",
+      "caption": "Imagen de producto medicamento #39",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2024-04-10T00:00:00"
+      },
+      "related_med_id": "M0095",
+      "embeddings": null
+    },
+    {
+      "_id": "3db929cc-4b9d-4984-97bd-cec3361d684b",
       "filename": "med_image_40.jpg",
-      "url": "https://picsum.photos/seed/a3565522-9e39-489f-a273-9b32adead690/1024/768",
+      "url": "https://picsum.photos/seed/3db929cc-4b9d-4984-97bd-cec3361d684b/1024/768",
       "caption": "Imagen de producto medicamento #40",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2020-06-08T00:00:00"
+        "created_at": "2019-04-12T00:00:00"
       },
-      "related_med_id": "M0112",
+      "related_med_id": "M0024",
       "embeddings": null
     },
     {
-      "_id": "c7336c0a-48ed-4a1c-bca1-c1be434b81e5",
+      "_id": "56d85c30-3c35-4f42-81d6-9ac9846e0bf0",
       "filename": "med_image_41.jpg",
-      "url": "https://picsum.photos/seed/c7336c0a-48ed-4a1c-bca1-c1be434b81e5/1024/768",
+      "url": "https://picsum.photos/seed/56d85c30-3c35-4f42-81d6-9ac9846e0bf0/1024/768",
       "caption": "Imagen de producto medicamento #41",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2022-11-12T00:00:00"
-      },
-      "related_med_id": "M0106",
-      "embeddings": null
-    },
-    {
-      "_id": "043a6446-25dd-4388-a4a1-1854c1b01a05",
-      "filename": "med_image_42.jpg",
-      "url": "https://picsum.photos/seed/043a6446-25dd-4388-a4a1-1854c1b01a05/1024/768",
-      "caption": "Imagen de producto medicamento #42",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2019-12-09T00:00:00"
-      },
-      "related_med_id": "M0008",
-      "embeddings": null
-    },
-    {
-      "_id": "7fee4c96-b599-43c1-9d31-06a18c17eee2",
-      "filename": "med_image_43.jpg",
-      "url": "https://picsum.photos/seed/7fee4c96-b599-43c1-9d31-06a18c17eee2/1024/768",
-      "caption": "Imagen de producto medicamento #43",
-      "metadata": {
-        "resolution": "1024x768",
-        "format": "jpeg",
-        "source": "placeholder_picsum",
-        "created_at": "2024-03-24T00:00:00"
+        "created_at": "2022-12-03T00:00:00"
       },
       "related_med_id": "M0071",
       "embeddings": null
     },
     {
-      "_id": "faed462f-de9d-420f-82bd-3fd2c77739c0",
+      "_id": "2f8351c1-0bb6-40af-b3f8-a32ec042e9f4",
+      "filename": "med_image_42.jpg",
+      "url": "https://picsum.photos/seed/2f8351c1-0bb6-40af-b3f8-a32ec042e9f4/1024/768",
+      "caption": "Imagen de producto medicamento #42",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2025-08-03T00:00:00"
+      },
+      "related_med_id": "M0063",
+      "embeddings": null
+    },
+    {
+      "_id": "e7fcb4c9-0fc1-4958-a7d2-a1fa5cbcffeb",
+      "filename": "med_image_43.jpg",
+      "url": "https://picsum.photos/seed/e7fcb4c9-0fc1-4958-a7d2-a1fa5cbcffeb/1024/768",
+      "caption": "Imagen de producto medicamento #43",
+      "metadata": {
+        "resolution": "1024x768",
+        "format": "jpeg",
+        "source": "placeholder_picsum",
+        "created_at": "2021-08-09T00:00:00"
+      },
+      "related_med_id": "M0067",
+      "embeddings": null
+    },
+    {
+      "_id": "1b654bae-2e8e-4090-96ad-b3a562b55c04",
       "filename": "med_image_44.jpg",
-      "url": "https://picsum.photos/seed/faed462f-de9d-420f-82bd-3fd2c77739c0/1024/768",
+      "url": "https://picsum.photos/seed/1b654bae-2e8e-4090-96ad-b3a562b55c04/1024/768",
       "caption": "Imagen de producto medicamento #44",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2024-11-12T00:00:00"
+        "created_at": "2021-12-03T00:00:00"
       },
-      "related_med_id": "M0031",
+      "related_med_id": "M0096",
       "embeddings": null
     },
     {
-      "_id": "b1b4ba5e-d0e4-408f-9394-d46d500a7af4",
+      "_id": "e105771d-da05-480b-beb8-a652cb18acb6",
       "filename": "med_image_45.jpg",
-      "url": "https://picsum.photos/seed/b1b4ba5e-d0e4-408f-9394-d46d500a7af4/1024/768",
+      "url": "https://picsum.photos/seed/e105771d-da05-480b-beb8-a652cb18acb6/1024/768",
       "caption": "Imagen de producto medicamento #45",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-01-26T00:00:00"
+        "created_at": "2025-08-27T00:00:00"
       },
-      "related_med_id": "M0101",
+      "related_med_id": "M0102",
       "embeddings": null
     },
     {
-      "_id": "2a1de917-e813-4c94-932d-16bb923b3e34",
+      "_id": "aee89eb3-0825-47a0-9e93-7e4e84e396e0",
       "filename": "med_image_46.jpg",
-      "url": "https://picsum.photos/seed/2a1de917-e813-4c94-932d-16bb923b3e34/1024/768",
+      "url": "https://picsum.photos/seed/aee89eb3-0825-47a0-9e93-7e4e84e396e0/1024/768",
       "caption": "Imagen de producto medicamento #46",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2019-01-09T00:00:00"
+        "created_at": "2022-11-06T00:00:00"
       },
-      "related_med_id": "M0049",
+      "related_med_id": "M0001",
       "embeddings": null
     },
     {
-      "_id": "dec651ce-5bf6-462c-91af-f720be2f2a54",
+      "_id": "13c177cd-7f64-488c-86dd-baff81d3198e",
       "filename": "med_image_47.jpg",
-      "url": "https://picsum.photos/seed/dec651ce-5bf6-462c-91af-f720be2f2a54/1024/768",
+      "url": "https://picsum.photos/seed/13c177cd-7f64-488c-86dd-baff81d3198e/1024/768",
       "caption": "Imagen de producto medicamento #47",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2025-04-19T00:00:00"
+        "created_at": "2024-04-26T00:00:00"
       },
-      "related_med_id": "M0022",
+      "related_med_id": "M0090",
       "embeddings": null
     },
     {
-      "_id": "41b3eb47-f2ec-453c-b110-62fffef7b38a",
+      "_id": "85156968-4628-4f24-8677-3e4cb2a31684",
       "filename": "med_image_48.jpg",
-      "url": "https://picsum.photos/seed/41b3eb47-f2ec-453c-b110-62fffef7b38a/1024/768",
+      "url": "https://picsum.photos/seed/85156968-4628-4f24-8677-3e4cb2a31684/1024/768",
       "caption": "Imagen de producto medicamento #48",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2021-04-06T00:00:00"
+        "created_at": "2022-10-24T00:00:00"
       },
       "related_med_id": "M0117",
       "embeddings": null
     },
     {
-      "_id": "53688192-3217-46fe-8200-9b6500c9167c",
+      "_id": "7c9066d8-db3d-465f-9cbe-3c34ea5b6c83",
       "filename": "med_image_49.jpg",
-      "url": "https://picsum.photos/seed/53688192-3217-46fe-8200-9b6500c9167c/1024/768",
+      "url": "https://picsum.photos/seed/7c9066d8-db3d-465f-9cbe-3c34ea5b6c83/1024/768",
       "caption": "Imagen de producto medicamento #49",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2024-03-25T00:00:00"
+        "created_at": "2020-02-24T00:00:00"
       },
-      "related_med_id": "M0020",
+      "related_med_id": "M0003",
       "embeddings": null
     },
     {
-      "_id": "e71b4eed-9402-440b-ba44-1430ba08f014",
+      "_id": "d55e4636-a525-4d3c-9b43-ac612ce6219c",
       "filename": "med_image_50.jpg",
-      "url": "https://picsum.photos/seed/e71b4eed-9402-440b-ba44-1430ba08f014/1024/768",
+      "url": "https://picsum.photos/seed/d55e4636-a525-4d3c-9b43-ac612ce6219c/1024/768",
       "caption": "Imagen de producto medicamento #50",
       "metadata": {
         "resolution": "1024x768",
         "format": "jpeg",
         "source": "placeholder_picsum",
-        "created_at": "2024-01-28T00:00:00"
+        "created_at": "2023-06-26T00:00:00"
       },
-      "related_med_id": "M0030",
+      "related_med_id": "M0033",
       "embeddings": null
     }
   ],
   "text_documents": [
     {
-      "_id": "cd7676f7-2abd-4b5d-8eab-40a529770bea",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0061",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1",
+      "_id": "f0d957f7-643e-4b9c-a3f1-607f8cad557b",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0001",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
       "language": "es",
-      "related_medicamento": "M0061",
+      "related_medicamento": "M0001",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "patient_upload",
+        "length_words": 33
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.632475"
+    },
+    {
+      "_id": "813bd21e-cb62-4081-a751-3d810d5e5657",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0111 - Caso 2",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "language": "es",
+      "related_medicamento": "M0111",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [
+        "2a037053-d001-407f-8150-08ea472fba1a"
+      ],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "doctor_note",
+        "length_words": 21
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "96d84776-ec09-4a2e-bc5e-18c03c92b612",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0050 - Caso 3",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3",
+      "language": "es",
+      "related_medicamento": "M0050",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 15
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "a29a1268-5537-461e-965b-3e6999f5060e",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0046",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "language": "es",
+      "related_medicamento": "M0046",
+      "tags": [
+        "Antiinflamatorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "doctor_note",
+        "length_words": 31
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "66fc7c7b-1871-4035-bc48-016f2000f8be",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0105",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "language": "es",
+      "related_medicamento": "M0105",
+      "tags": [
+        "Dermatologicos"
+      ],
+      "images": [
+        "c5f72211-1d47-49e2-94f9-6445d27b11c6",
+        "02e90376-ee31-42bc-918d-72a8eed43a83"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "7b7f3bb5-7979-4a35-a962-794a5f0649f5",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0046",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "language": "es",
+      "related_medicamento": "M0046",
+      "tags": [
+        "Vitaminas"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 24
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "36c5501d-5cbc-4fbf-9e64-ccc22857187f",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0040",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. ",
+      "language": "es",
+      "related_medicamento": "M0040",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "manufacturer",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "f4bac67f-723b-4a07-b913-af20ebf452f9",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0040",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3",
+      "language": "es",
+      "related_medicamento": "M0040",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "internal",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "46c712bd-ae44-4fa1-b6a4-1c7ac3659b67",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0109",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "language": "es",
+      "related_medicamento": "M0109",
+      "tags": [
+        "Antiinflamatorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "86ae72e6-4c29-46d4-8a9e-9fe22ebe0700",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0098 - Caso 10",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. ",
+      "language": "es",
+      "related_medicamento": "M0098",
       "tags": [
         "Dermatologicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Dr. X",
+        "author": "Sistema",
         "source": "internal",
-        "length_words": 15
+        "length_words": 11
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.222993"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "cd9ead60-110a-4d59-bdae-f11b05588cad",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0106",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
+      "_id": "000e2e06-5735-4c1e-b819-d16631da9d1b",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0049",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
       "language": "es",
-      "related_medicamento": "M0106",
+      "related_medicamento": "M0049",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "742e0047-590e-43ea-842a-f73c38208878"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 26
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "f9ee8763-86a1-4bc9-9ae2-4241ea0f36cd",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0004",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "language": "es",
+      "related_medicamento": "M0004",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [
+        "f7dafa34-5256-4a04-bbf2-4c43c339ec5b"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 20
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "1da5e0e7-9f59-4bb3-9faf-ae5a135edd17",
+      "doc_type": "pharmacy_notice",
+      "title": "Aviso de farmacia F7",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "language": "es",
+      "related_medicamento": "M0042",
       "tags": [
         "Analgesicos"
       ],
       "images": [],
       "metadata": {
         "author": "Dr. X",
-        "source": "internal",
-        "length_words": 33
+        "source": "patient_upload",
+        "length_words": 26
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.222993"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "17bf2297-2d9d-4a74-86f0-38c795f6ce83",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0111 - Caso 3",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "_id": "4025213b-9895-42c8-a178-b06954c601c7",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0071",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0",
       "language": "es",
-      "related_medicamento": "M0111",
+      "related_medicamento": "M0071",
       "tags": [
-        "Vitaminas"
+        "Gastrointestinales"
       ],
-      "images": [
-        "2df82506-397a-402a-95f7-7d98d88805fa",
-        "446c82a9-e39d-421e-9fd5-5e0321e9a99c"
-      ],
+      "images": [],
       "metadata": {
         "author": "Farmacéutico A",
         "source": "patient_upload",
-        "length_words": 28
+        "length_words": 14
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.222993"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "9c461c9a-b213-4b0d-8edf-c211d52f0934",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0031",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "_id": "1efca387-a9b6-40b0-a055-a543314cbdfb",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0090",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
       "language": "es",
-      "related_medicamento": "M0031",
+      "related_medicamento": "M0090",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [
+        "c5f72211-1d47-49e2-94f9-6445d27b11c6"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 36
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "cff40877-d2c8-45ab-a590-15605581c595",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0075",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
+      "language": "es",
+      "related_medicamento": "M0075",
       "tags": [
         "Dermatologicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
+        "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 37
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "9607dfea-ac57-401d-8414-e5a50798522b",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0088 - Caso 17",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
+      "language": "es",
+      "related_medicamento": "M0088",
+      "tags": [
+        "Antiinflamatorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "patient_upload",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "95740c16-3178-428f-a848-46b3970ab4b7",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0010",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0",
+      "language": "es",
+      "related_medicamento": "M0010",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [
+        "aee89eb3-0825-47a0-9e93-7e4e84e396e0"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 16
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "647c70e4-a46e-45c5-ba81-4ea717f48c98",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0042 - Caso 19",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
+      "language": "es",
+      "related_medicamento": "M0042",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "27842b8c-a950-437d-a5de-04ffe6e6852c"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
         "length_words": 25
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "65ba3970-1d3c-4d05-bbd3-70e3008b980f",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0037",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "_id": "a638a267-2d3d-4cfd-9c9b-2bce1736d09e",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0096",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1",
       "language": "es",
-      "related_medicamento": "M0037",
+      "related_medicamento": "M0096",
       "tags": [
-        "Gastrointestinales"
+        "Vitaminas"
       ],
       "images": [],
       "metadata": {
         "author": "Sistema",
         "source": "manufacturer",
-        "length_words": 31
+        "length_words": 19
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "6a6bfdaa-06a1-4c40-960c-0148a6617d29",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0115",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "_id": "9696eae1-83fd-4bc9-9d04-81e8f8801891",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0022",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1",
       "language": "es",
-      "related_medicamento": "M0115",
+      "related_medicamento": "M0022",
       "tags": [
-        "Gastrointestinales"
+        "Respiratorios"
       ],
       "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "69cdd4c4-f3c0-4a8a-9220-ae4db9a4b8b7",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0102",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "language": "es",
+      "related_medicamento": "M0102",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [
+        "0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4"
+      ],
       "metadata": {
         "author": "Dr. X",
         "source": "internal",
         "length_words": 22
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "5b9a958b-00f1-4078-a5d6-450b51d655d0",
+      "_id": "c88d515d-8f66-4013-a727-83374139ef6a",
       "doc_type": "clinical_note",
-      "title": "Nota clínica M0048 - Caso 7",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
+      "title": "Nota clínica M0100 - Caso 23",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
       "language": "es",
-      "related_medicamento": "M0048",
+      "related_medicamento": "M0100",
+      "tags": [
+        "Dermatologicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "3bbea429-0a59-49c2-ae7e-62b6a053ce80",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0008",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
+      "language": "es",
+      "related_medicamento": "M0008",
       "tags": [
         "Cardiologicos"
       ],
-      "images": [],
+      "images": [
+        "e105771d-da05-480b-beb8-a652cb18acb6"
+      ],
       "metadata": {
         "author": "Farmacéutico A",
-        "source": "internal",
-        "length_words": 31
+        "source": "doctor_note",
+        "length_words": 29
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "8b59ecd7-ecfe-4fef-a795-f621bdd41184",
-      "doc_type": "pharmacy_notice",
-      "title": "Aviso de farmacia F4",
-      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "_id": "46dd6ec2-66ea-4a23-b293-2e40459f364e",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0029",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3",
       "language": "es",
-      "related_medicamento": "M0091",
+      "related_medicamento": "M0029",
       "tags": [
-        "Cardiologicos"
+        "Gastrointestinales"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 21
+        "author": "Dr. X",
+        "source": "internal",
+        "length_words": 17
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "640f37b0-f769-488d-8af3-529eac01ec8e",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0064",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
+      "_id": "f3f8762e-67af-4264-a2a3-e7d073e68f2d",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0010",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
       "language": "es",
-      "related_medicamento": "M0064",
+      "related_medicamento": "M0010",
       "tags": [
-        "Antihistaminicos"
+        "Dermatologicos"
       ],
       "images": [],
       "metadata": {
         "author": "Dr. X",
         "source": "doctor_note",
-        "length_words": 26
+        "length_words": 30
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "da5b7a2c-e178-474e-aabf-f8b740adae08",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0034 - Caso 10",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
+      "_id": "d6570c64-74c8-4501-9fd4-a351f128394b",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0007",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1",
       "language": "es",
-      "related_medicamento": "M0034",
+      "related_medicamento": "M0007",
       "tags": [
-        "Gastrointestinales"
+        "Antiinflamatorios"
       ],
       "images": [
-        "dec651ce-5bf6-462c-91af-f720be2f2a54"
+        "141546d4-1b1c-4a0f-b639-5cc1addccc8a"
       ],
       "metadata": {
         "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 26
+        "source": "internal",
+        "length_words": 15
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "ee07bf44-ae72-4720-b1d2-7f9ce842655a",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0050 - Caso 11",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
+      "_id": "dd9df35f-5f1e-48b8-947e-5a548dc8e5f7",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0012",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
+      "language": "es",
+      "related_medicamento": "M0012",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 30
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "8da13647-c659-4165-b795-e8a0ff469576",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0005",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "language": "es",
+      "related_medicamento": "M0005",
+      "tags": [
+        "Antihistaminicos"
+      ],
+      "images": [
+        "17033c6d-f636-48c5-a8e0-3ad3227970c5",
+        "77fe6b2b-bca8-4b5d-a230-6fefe2305a33"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "doctor_note",
+        "length_words": 25
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "08051846-224c-47af-9d92-1dca564eb3a6",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0099",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "language": "es",
+      "related_medicamento": "M0099",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "internal",
+        "length_words": 34
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "47cc3441-37e0-4270-bbc1-3706adea5bec",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0050",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
       "language": "es",
       "related_medicamento": "M0050",
       "tags": [
         "Vitaminas"
       ],
-      "images": [],
+      "images": [
+        "1bbb868c-94d5-4419-a4e4-910a461af638"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 34
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "133ebdac-9c2e-4054-b578-791d02b00dea",
+      "doc_type": "pharmacy_notice",
+      "title": "Aviso de farmacia F5",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
+      "language": "es",
+      "related_medicamento": "M0020",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [
+        "f09eba90-4855-451a-a41b-942c21e47b6d"
+      ],
       "metadata": {
         "author": "Sistema",
         "source": "manufacturer",
-        "length_words": 25
+        "length_words": 27
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "e05e6f06-91a5-491b-8353-7c2a0e513e92",
+      "_id": "2bd122b7-f364-4045-a335-3dee7dfafd99",
       "doc_type": "pharmacy_notice",
-      "title": "Aviso de farmacia F2",
-      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
+      "title": "Aviso de farmacia F6",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. ",
       "language": "es",
-      "related_medicamento": "M0115",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "manufacturer",
-        "length_words": 25
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
-    },
-    {
-      "_id": "12c0ac64-037c-4e97-b47a-a79473412de3",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0045",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
-      "language": "es",
-      "related_medicamento": "M0045",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
-        "length_words": 30
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
-    },
-    {
-      "_id": "23dcf652-eac9-4639-8426-ce0ef2d1faaa",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0011",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
-      "language": "es",
-      "related_medicamento": "M0011",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 31
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
-    },
-    {
-      "_id": "7ef46555-bdb0-41d2-a094-e3592ef53849",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0037",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
-      "language": "es",
-      "related_medicamento": "M0037",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [
-        "b581fc13-4720-4659-a133-1889b0b9497a",
-        "8649238a-85c8-43ac-b3b3-96ec2f098d5d"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 30
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.223994"
-    },
-    {
-      "_id": "a77652b0-3956-4ac8-9268-681aa7339487",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0091",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
-      "language": "es",
-      "related_medicamento": "M0091",
+      "related_medicamento": "M0075",
       "tags": [
         "Antibioticos"
       ],
       "images": [],
       "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 27
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "cad31a56-9b01-41be-81bd-c0ee3a6bb031",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0022 - Caso 17",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
-      "language": "es",
-      "related_medicamento": "M0022",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [
-        "831eb73c-a772-4fcc-8df7-b4934c4cfa7c",
-        "84c8a542-79fd-4b59-98ac-1229a4e8282d"
-      ],
-      "metadata": {
         "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 25
+        "source": "internal",
+        "length_words": 13
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "93410366-ed9b-46c1-aa7d-e77c27caa527",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0018",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3",
-      "language": "es",
-      "related_medicamento": "M0018",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [
-        "043a6446-25dd-4388-a4a1-1854c1b01a05",
-        "eb8812a1-9d43-4037-b36c-3a829ce86c39"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "doctor_note",
-        "length_words": 21
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "3845c2b8-ec18-4a33-8dc1-ad26dde0ab52",
+      "_id": "29d0fe75-91d5-4eb0-b159-d6c98778e6c2",
       "doc_type": "product_description",
       "title": "Ficha técnica M0005",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
       "language": "es",
       "related_medicamento": "M0005",
       "tags": [
-        "Dermatologicos"
+        "Respiratorios"
+      ],
+      "images": [
+        "7d4ad2cd-d117-4892-90c9-58afd9ceb842"
+      ],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 32
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "78a1cca7-882a-41ae-8cd9-50d48353b8eb",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0065 - Caso 35",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
+      "language": "es",
+      "related_medicamento": "M0065",
+      "tags": [
+        "Vitaminas"
       ],
       "images": [],
       "metadata": {
-        "author": "Dr. X",
+        "author": "Sistema",
         "source": "patient_upload",
         "length_words": 27
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "5d09c442-8114-4603-ba89-1cbba10b5971",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0037",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "_id": "26bc4dfc-f544-40f4-91a8-e8c283e916bf",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0071",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
       "language": "es",
-      "related_medicamento": "M0037",
+      "related_medicamento": "M0071",
+      "tags": [
+        "Vitaminas"
+      ],
+      "images": [
+        "eb4b878d-a65f-41fc-ac75-8cba69b5fb37"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "manufacturer",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "5dfe07b8-a2ac-4bc3-8f73-c853e186aa66",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0045",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
+      "language": "es",
+      "related_medicamento": "M0045",
+      "tags": [
+        "Dermatologicos"
+      ],
+      "images": [
+        "44ee86a4-36a4-4e8a-864d-8ad388d661a2"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 29
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "2f869bde-711a-451a-8d95-2591f8bc584b",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0020",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
+      "language": "es",
+      "related_medicamento": "M0020",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [
+        "f49c30bd-ada8-43ba-a9ec-3655ee424afd"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "manufacturer",
+        "length_words": 33
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "d021affb-4470-4a33-9645-109c0635f4dc",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0055 - Caso 39",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
+      "language": "es",
+      "related_medicamento": "M0055",
       "tags": [
         "Antihistaminicos"
       ],
       "images": [],
       "metadata": {
         "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 30
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "d9879567-2f20-498c-8a25-aefa3918fd51",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0112",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "language": "es",
+      "related_medicamento": "M0112",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
         "source": "doctor_note",
+        "length_words": 31
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "7fc5d5e3-cb11-4de1-a433-4f4f5f0674ce",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0089",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "language": "es",
+      "related_medicamento": "M0089",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "90e64ec7-a68b-4dd6-9438-1c90c26eb347",
+        "cd20e8b4-9bec-40fa-8353-9182c4d34b5d"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 23
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "f21b1209-8e67-451e-8703-0addd95b2060",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0040",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "language": "es",
+      "related_medicamento": "M0040",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [
+        "24555cf4-89a2-4ec2-9ab2-91dd1c8be924"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "internal",
+        "length_words": 30
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "db6e44ad-acee-4b4f-9b3e-c7351c575794",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0038",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "language": "es",
+      "related_medicamento": "M0038",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "7c9066d8-db3d-465f-9cbe-3c34ea5b6c83",
+        "1b654bae-2e8e-4090-96ad-b3a562b55c04"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "internal",
         "length_words": 25
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "f77bb98b-1f1e-44e5-8be2-ebef59b73bec",
+      "_id": "a545ef8f-9726-46e6-8717-a2b0ac93d50d",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0005",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
+      "language": "es",
+      "related_medicamento": "M0005",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 24
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "2e831bf5-de59-4ef0-9dd0-fb2cd2d8332a",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0102",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
+      "language": "es",
+      "related_medicamento": "M0102",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "manufacturer",
+        "length_words": 22
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "a7c265fd-2446-4623-a566-82024bb09967",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0056",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
+      "language": "es",
+      "related_medicamento": "M0056",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [
+        "c5f72211-1d47-49e2-94f9-6445d27b11c6"
+      ],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "internal",
+        "length_words": 27
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "465cd678-6c40-4f3e-9a5e-45583604c9e3",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0062",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
+      "language": "es",
+      "related_medicamento": "M0062",
+      "tags": [
+        "Dermatologicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "manufacturer",
+        "length_words": 25
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "01d25333-adc8-467a-96a7-95f4e69bc023",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0041 - Caso 48",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "language": "es",
+      "related_medicamento": "M0041",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "manufacturer",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "b9e70c1a-e69f-42e7-b2d1-f4ff6dd88dc6",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0028",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "title": "Ficha técnica M0045",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
+      "language": "es",
+      "related_medicamento": "M0045",
+      "tags": [
+        "Dermatologicos"
+      ],
+      "images": [
+        "4eceb7d7-8fb3-497c-8e30-07d5ce0373a9",
+        "141546d4-1b1c-4a0f-b639-5cc1addccc8a"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 28
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "7aceb83a-129f-465b-b7fb-fbfe46f46019",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0051",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "language": "es",
+      "related_medicamento": "M0051",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "doctor_note",
+        "length_words": 30
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "a0d27f7d-c2ac-4758-8692-c1a5b1f0e11c",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0020 - Caso 51",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
+      "language": "es",
+      "related_medicamento": "M0020",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "manufacturer",
+        "length_words": 22
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "428d0b51-0342-4cbb-b7ba-c6394af4c29a",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0095",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "language": "es",
+      "related_medicamento": "M0095",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "internal",
+        "length_words": 30
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "cac37860-d429-41ec-97da-dbb6f699d1df",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0059 - Caso 53",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
+      "language": "es",
+      "related_medicamento": "M0059",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [
+        "d6d845cb-272f-4bf2-994f-04325a7218c5"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 27
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "ff33fd5b-bc3e-4670-a975-a07bd575489d",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0098 - Caso 54",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2",
+      "language": "es",
+      "related_medicamento": "M0098",
+      "tags": [
+        "Antihistaminicos"
+      ],
+      "images": [
+        "cdaba9a9-2062-4f3b-bcf1-4cb799271231",
+        "742e0047-590e-43ea-842a-f73c38208878"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "doctor_note",
+        "length_words": 14
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.633130"
+    },
+    {
+      "_id": "ccf99cb3-51b3-49f8-a3e6-5c697c9f0900",
+      "doc_type": "pharmacy_notice",
+      "title": "Aviso de farmacia F5",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3",
       "language": "es",
       "related_medicamento": "M0028",
       "tags": [
@@ -1113,304 +1799,80 @@
       ],
       "images": [],
       "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 24
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "fc77e26c-146d-468b-92d5-339365c6d214",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0016",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
-      "language": "es",
-      "related_medicamento": "M0016",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [
-        "eb8812a1-9d43-4037-b36c-3a829ce86c39"
-      ],
-      "metadata": {
         "author": "Dr. X",
         "source": "doctor_note",
-        "length_words": 25
+        "length_words": 17
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "35353fef-6d6a-4854-9a86-26b21109320e",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0085",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
-      "language": "es",
-      "related_medicamento": "M0085",
-      "tags": [
-        "Antibioticos"
-      ],
-      "images": [
-        "3ca1c795-af72-4ba1-8a18-e1f5d794c2d2"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "internal",
-        "length_words": 24
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "1c65b625-04ac-4f67-96a0-9c11b2bac9fe",
+      "_id": "c1c59821-8376-46a3-ad92-dc395db44eac",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0051",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3",
+      "title": "Ficha técnica M0027",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1",
       "language": "es",
-      "related_medicamento": "M0051",
+      "related_medicamento": "M0027",
       "tags": [
-        "Dermatologicos"
+        "Respiratorios"
       ],
-      "images": [
-        "b2b876eb-7ffc-4d7e-8ce0-190749fa9bd8"
-      ],
+      "images": [],
       "metadata": {
         "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 21
+        "source": "patient_upload",
+        "length_words": 19
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "afbae618-673a-433d-8ecf-90bf93254bca",
+      "_id": "dcb90b14-e7a2-4209-9978-cee9793e4c62",
       "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0072",
+      "title": "Explicación de receta para M0085",
       "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2",
       "language": "es",
-      "related_medicamento": "M0072",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [
-        "446c82a9-e39d-421e-9fd5-5e0321e9a99c",
-        "2a1de917-e813-4c94-932d-16bb923b3e34"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "manufacturer",
-        "length_words": 16
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "04a06280-4ebb-4e58-9e67-6659e9cff2fc",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0059",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0059",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 14
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "77b3ae23-e537-44f5-923d-616bd5e9a8ba",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0083",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
-      "language": "es",
-      "related_medicamento": "M0083",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
-        "length_words": 29
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
-    },
-    {
-      "_id": "c1ab4470-e108-4542-85dc-40a4602c1e8b",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0024",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
-      "language": "es",
-      "related_medicamento": "M0024",
+      "related_medicamento": "M0085",
       "tags": [
         "Cardiologicos"
       ],
       "images": [
-        "269f667d-6c7c-4154-b1e4-58a6747c9c8e"
+        "668fbc10-9d8c-405e-9d88-db1397e92f32",
+        "b3e82301-9100-47e0-833e-673598d644fe"
       ],
       "metadata": {
         "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 31
+        "source": "doctor_note",
+        "length_words": 16
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.224994"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "448fa8ff-0528-467a-ad50-2da6170bc6b3",
+      "_id": "41713f38-c474-4b06-b2d5-d151c5bcf61b",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0050",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "title": "Ficha técnica M0078",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
       "language": "es",
-      "related_medicamento": "M0050",
+      "related_medicamento": "M0078",
       "tags": [
-        "Respiratorios"
+        "Analgesicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
-        "source": "internal",
-        "length_words": 27
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.225995"
-    },
-    {
-      "_id": "e7c08f4e-fef5-43f5-9230-180ff433f035",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0005",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
-      "language": "es",
-      "related_medicamento": "M0005",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
+        "author": "Dr. X",
         "source": "manufacturer",
-        "length_words": 27
+        "length_words": 30
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.225995"
+      "ingest_ts": "2025-10-29T13:49:35.633130"
     },
     {
-      "_id": "d1728c91-a4ba-4464-80be-400b157733b8",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0010",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
-      "language": "es",
-      "related_medicamento": "M0010",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "internal",
-        "length_words": 20
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.225995"
-    },
-    {
-      "_id": "785aa1b6-a65e-45d7-bad5-47b768fa0e63",
+      "_id": "880c9327-8e3c-45dc-8bca-67e455319c8d",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0013",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "title": "Ficha técnica M0073",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
       "language": "es",
-      "related_medicamento": "M0013",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [
-        "ca15d808-6cec-4f12-97e9-5cf55f8b3af9",
-        "269f667d-6c7c-4154-b1e4-58a6747c9c8e"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 34
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.225995"
-    },
-    {
-      "_id": "8278f819-0239-4f44-b8d1-a97f09d73fb9",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0053",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
-      "language": "es",
-      "related_medicamento": "M0053",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 37
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.225995"
-    },
-    {
-      "_id": "7a6f4f41-50ea-4918-92e3-88c4fb431833",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0074",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
-      "language": "es",
-      "related_medicamento": "M0074",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [
-        "a3565522-9e39-489f-a273-9b32adead690"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 22
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "95b1df7d-237c-411c-ae9c-a7e8ef23d34b",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0069",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
-      "language": "es",
-      "related_medicamento": "M0069",
-      "tags": [
-        "Respiratorios"
-      ],
-      "images": [
-        "446c82a9-e39d-421e-9fd5-5e0321e9a99c"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "internal",
-        "length_words": 20
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "a3055414-8747-4d55-abc1-d46423ac706d",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0043",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
-      "language": "es",
-      "related_medicamento": "M0043",
+      "related_medicamento": "M0073",
       "tags": [
         "Analgesicos"
       ],
@@ -1418,197 +1880,101 @@
       "metadata": {
         "author": "Dr. X",
         "source": "internal",
-        "length_words": 29
+        "length_words": 31
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "d54fe6d5-bac4-4f1c-bf46-839baaa42055",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0024",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "_id": "00096295-2055-405e-b753-9e049e7f75ad",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0047",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
       "language": "es",
-      "related_medicamento": "M0024",
+      "related_medicamento": "M0047",
       "tags": [
         "Respiratorios"
       ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 23
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "34fc413e-471e-471e-9b8a-6f6bc89de438",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0066",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
-      "language": "es",
-      "related_medicamento": "M0066",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 28
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "50d1bfce-9367-40a8-951c-c9637526fa6f",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0096",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
-      "language": "es",
-      "related_medicamento": "M0096",
-      "tags": [
-        "Dermatologicos"
-      ],
       "images": [
-        "b66a67e2-3241-44b0-8aa8-e7e88eb0414e"
+        "0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4"
       ],
       "metadata": {
         "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 27
+        "source": "manufacturer",
+        "length_words": 37
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "1421565b-4176-4561-9d7e-0f30664837dc",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0074",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "_id": "94b6b72b-6077-4a74-a6d3-f7b0c6c8778f",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0101 - Caso 61",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
       "language": "es",
-      "related_medicamento": "M0074",
+      "related_medicamento": "M0101",
       "tags": [
         "Antihistaminicos"
       ],
       "images": [
-        "043a6446-25dd-4388-a4a1-1854c1b01a05"
+        "3b23de93-1431-4279-8a9b-34bdfc05c2fc",
+        "ebcf85ca-6345-4436-9e2e-94b40fbec614"
       ],
       "metadata": {
-        "author": "Farmacéutico A",
-        "source": "manufacturer",
+        "author": "Sistema",
+        "source": "doctor_note",
         "length_words": 26
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "af18fb68-1052-433d-b311-4a3263139bc5",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0089",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2",
+      "_id": "59cd2a8b-0ec7-4e76-9da2-8f3286db0ee3",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0009 - Caso 62",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
       "language": "es",
-      "related_medicamento": "M0089",
+      "related_medicamento": "M0009",
       "tags": [
-        "Vitaminas"
+        "Analgesicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
-        "source": "internal",
-        "length_words": 20
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 22
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "e52cb4de-eb1f-4d05-9f90-d6cd044f9eac",
+      "_id": "9828d033-fb13-42ad-86bf-0ad2bb80a544",
       "doc_type": "product_description",
       "title": "Ficha técnica M0019",
       "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
       "language": "es",
       "related_medicamento": "M0019",
       "tags": [
-        "Analgesicos"
-      ],
-      "images": [
-        "69254f99-49e7-486b-9ba0-2f959d0dcf25"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 28
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "fa38fd0e-4ad6-446d-99c4-b8adfd9e268a",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0097",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0097",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 18
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.226995"
-    },
-    {
-      "_id": "7f346951-e8f5-44ea-b07e-56b6ee7f2a77",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0100",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
-      "language": "es",
-      "related_medicamento": "M0100",
-      "tags": [
         "Cardiologicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
+        "author": "Dr. X",
         "source": "doctor_note",
         "length_words": 28
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "aa081c95-911a-4896-913e-557ab9513d09",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0078",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "_id": "075c9e94-60af-44af-914e-eaddc7903fa9",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0023",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
       "language": "es",
-      "related_medicamento": "M0078",
+      "related_medicamento": "M0023",
       "tags": [
-        "Dermatologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 24
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "41063545-6151-4ca4-ba76-1d220c38aad2",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0027",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
-      "language": "es",
-      "related_medicamento": "M0027",
-      "tags": [
-        "Antibioticos"
+        "Vitaminas"
       ],
       "images": [],
       "metadata": {
@@ -1617,745 +1983,624 @@
         "length_words": 30
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "e34afadd-856f-44b4-b460-5b5bc675abaf",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0075",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "_id": "e9be66d8-f94e-41ed-af89-70ebc24237c7",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0005",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
       "language": "es",
-      "related_medicamento": "M0075",
+      "related_medicamento": "M0005",
       "tags": [
-        "Antibioticos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "internal",
-        "length_words": 24
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "3a0d80be-8abb-4d11-84f9-713e75cf3919",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0088",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
-      "language": "es",
-      "related_medicamento": "M0088",
-      "tags": [
-        "Respiratorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
-        "length_words": 33
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "a008f12f-949e-4673-afb7-c511fc0e1b7d",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0016 - Caso 49",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
-      "language": "es",
-      "related_medicamento": "M0016",
-      "tags": [
-        "Analgesicos"
+        "Antiinflamatorios"
       ],
       "images": [
-        "11d8af0b-33af-4dc0-a5a0-1fbf6403321d"
+        "0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4"
       ],
       "metadata": {
-        "author": "Sistema",
+        "author": "Farmacéutico A",
         "source": "manufacturer",
-        "length_words": 25
+        "length_words": 28
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "9cb8ffcc-b77b-4935-b3c4-0b1961f417f5",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0052",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
+      "_id": "5ed202eb-8cf3-4b81-bc08-a312f3ace202",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0055",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. ",
       "language": "es",
-      "related_medicamento": "M0052",
+      "related_medicamento": "M0055",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 15
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "630e679f-e595-49f1-971a-1bd3caee3a3d",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0119",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
+      "language": "es",
+      "related_medicamento": "M0119",
       "tags": [
         "Antihistaminicos"
       ],
       "images": [
-        "b1b4ba5e-d0e4-408f-9394-d46d500a7af4"
+        "2f8351c1-0bb6-40af-b3f8-a32ec042e9f4"
       ],
       "metadata": {
         "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 31
+        "source": "internal",
+        "length_words": 23
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "5e1a643c-96d3-48a4-9ce1-b6a2371ac65d",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0072",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
+      "_id": "988bb16c-0909-4352-ba46-cf097ada41e7",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0014 - Caso 68",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3",
       "language": "es",
-      "related_medicamento": "M0072",
+      "related_medicamento": "M0014",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "17033c6d-f636-48c5-a8e0-3ad3227970c5"
+      ],
+      "metadata": {
+        "author": "Sistema",
+        "source": "doctor_note",
+        "length_words": 15
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "3cf8e190-a62f-4d36-8416-116abf66e05b",
+      "doc_type": "pharmacy_notice",
+      "title": "Aviso de farmacia F5",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "language": "es",
+      "related_medicamento": "M0016",
       "tags": [
         "Cardiologicos"
       ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "internal",
-        "length_words": 18
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "d660f15c-ac56-4521-a057-297724f6921c",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0083",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
-      "language": "es",
-      "related_medicamento": "M0083",
-      "tags": [
-        "Cardiologicos"
+      "images": [
+        "742e0047-590e-43ea-842a-f73c38208878"
       ],
-      "images": [],
       "metadata": {
         "author": "Sistema",
-        "source": "internal",
-        "length_words": 30
+        "source": "doctor_note",
+        "length_words": 23
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "2277b537-af1d-4aa8-b3e5-30af5d836885",
+      "_id": "0b0a1f7f-af84-4089-a9ea-04feaf9ddd9b",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0028",
+      "title": "Ficha técnica M0117",
       "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
       "language": "es",
-      "related_medicamento": "M0028",
+      "related_medicamento": "M0117",
       "tags": [
-        "Antiinflamatorios"
+        "Cardiologicos"
       ],
-      "images": [],
+      "images": [
+        "44ee86a4-36a4-4e8a-864d-8ad388d661a2",
+        "45bd80e3-8401-461d-b6bb-e027456e83ba"
+      ],
       "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
+        "author": "Dr. X",
+        "source": "manufacturer",
         "length_words": 32
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "1d5ee12f-c4a1-4b1d-8c20-5d9bec08fb83",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0034",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1",
+      "_id": "2491447f-aabe-4e33-a3e5-d21075bf5794",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0070",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0",
       "language": "es",
-      "related_medicamento": "M0034",
+      "related_medicamento": "M0070",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "bb4a8ae3-ac61-4288-aadc-4cd15c4540d5",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0077",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "language": "es",
+      "related_medicamento": "M0077",
+      "tags": [
+        "Cardiologicos"
+      ],
+      "images": [
+        "61e55092-45ec-41ff-b1a8-ac961435e7ed"
+      ],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "manufacturer",
+        "length_words": 27
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "9bae6deb-ba77-4971-802c-044595e6d6a5",
+      "doc_type": "pharmacy_notice",
+      "title": "Aviso de farmacia F4",
+      "content": "Horario de atención extendido esta semana por inventario. Llevar receta original para controlados. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "language": "es",
+      "related_medicamento": "M0010",
       "tags": [
         "Analgesicos"
       ],
       "images": [
-        "8649238a-85c8-43ac-b3b3-96ec2f098d5d",
-        "8cd002a2-578e-4602-86b9-59678d5344df"
+        "f09eba90-4855-451a-a41b-942c21e47b6d",
+        "61e55092-45ec-41ff-b1a8-ac961435e7ed"
       ],
       "metadata": {
-        "author": "Sistema",
+        "author": "Farmacéutico A",
         "source": "internal",
-        "length_words": 15
+        "length_words": 26
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "5aee873d-6785-4485-95de-d96f6dc62229",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0026 - Caso 55",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
+      "_id": "cb8c8d9f-72b8-46c5-8f17-11ac9f2303c6",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0072",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
       "language": "es",
-      "related_medicamento": "M0026",
+      "related_medicamento": "M0072",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "f09eba90-4855-451a-a41b-942c21e47b6d"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "patient_upload",
+        "length_words": 25
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "a7ff0c98-2323-43da-b31a-5cfc55240a35",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0100",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "language": "es",
+      "related_medicamento": "M0100",
       "tags": [
         "Dermatologicos"
       ],
-      "images": [],
+      "images": [
+        "aee89eb3-0825-47a0-9e93-7e4e84e396e0"
+      ],
       "metadata": {
         "author": "Farmacéutico A",
-        "source": "doctor_note",
-        "length_words": 17
+        "source": "internal",
+        "length_words": 27
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "1f4ecc26-794b-4106-a02b-ec8c402167d0",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0028",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "_id": "bd8b836c-edd9-4a01-b86f-96241c4df1a3",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0066",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
       "language": "es",
-      "related_medicamento": "M0028",
+      "related_medicamento": "M0066",
       "tags": [
         "Antibioticos"
       ],
       "images": [],
       "metadata": {
         "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 25
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "314474ca-c1f9-4f00-9c4f-e5bd79062d34",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0116",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
-      "language": "es",
-      "related_medicamento": "M0116",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [
-        "b491483d-0e06-4caf-92b2-96d246e476f7"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "manufacturer",
-        "length_words": 21
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.228504"
-    },
-    {
-      "_id": "8c35bf7e-1c2b-4e6c-971e-36f6e5fdf611",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0007",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
-      "language": "es",
-      "related_medicamento": "M0007",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 22
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
-    },
-    {
-      "_id": "133117f9-4d50-485d-82e8-b585347f440c",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0075",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0075",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "manufacturer",
-        "length_words": 18
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
-    },
-    {
-      "_id": "9a295391-348d-4030-95cb-e48826d7f752",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0072",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
-      "language": "es",
-      "related_medicamento": "M0072",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [
-        "eaef2d51-0de9-4afc-b3ba-8ac48e743ae4",
-        "b581fc13-4720-4659-a133-1889b0b9497a"
-      ],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 23
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
-    },
-    {
-      "_id": "259d7225-69da-4bfb-8ba5-3621abbf7b2b",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0090",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
-      "language": "es",
-      "related_medicamento": "M0090",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
-        "length_words": 23
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
-    },
-    {
-      "_id": "a6f0e460-f445-46e7-a1a4-891cd242f58c",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0062 - Caso 62",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
-      "language": "es",
-      "related_medicamento": "M0062",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [
-        "9a8ab976-6ba7-4470-8ce8-5b51c90ffefa"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 27
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
-    },
-    {
-      "_id": "ecd134f5-af24-47f8-af45-744ba261188f",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0013",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
-      "language": "es",
-      "related_medicamento": "M0013",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
+        "source": "doctor_note",
         "length_words": 32
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "752af54e-cc2d-427a-b645-a3f793d57e0c",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0059",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
+      "_id": "59410f82-7045-4396-925b-e300dc704d17",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0025 - Caso 77",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
       "language": "es",
-      "related_medicamento": "M0059",
+      "related_medicamento": "M0025",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
+        "source": "internal",
+        "length_words": 16
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "cbafedfb-7ea0-49e9-a427-d1460c0b91b3",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0068",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "language": "es",
+      "related_medicamento": "M0068",
       "tags": [
         "Cardiologicos"
       ],
-      "images": [],
+      "images": [
+        "90e64ec7-a68b-4dd6-9438-1c90c26eb347",
+        "0cfd30b2-6bcc-4b4a-8c8c-29434d4cdda4"
+      ],
       "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
+        "author": "Dr. X",
+        "source": "patient_upload",
         "length_words": 28
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.230016"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "ae25bbea-9679-45ca-bc09-f703313a29a7",
+      "_id": "b683f3fc-6ce6-4179-ab20-c6f0aa9a9520",
       "doc_type": "clinical_note",
-      "title": "Nota clínica M0016 - Caso 65",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "title": "Nota clínica M0048 - Caso 79",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
       "language": "es",
-      "related_medicamento": "M0016",
+      "related_medicamento": "M0048",
       "tags": [
-        "Analgesicos"
-      ],
-      "images": [
-        "73ecf9ec-89f4-497b-931d-231fc3be82c9"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "internal",
-        "length_words": 18
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "2d27d2c6-d402-480d-85fa-52446d5c8367",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0103",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
-      "language": "es",
-      "related_medicamento": "M0103",
-      "tags": [
-        "Analgesicos"
+        "Gastrointestinales"
       ],
       "images": [],
       "metadata": {
-        "author": "Farmacéutico A",
+        "author": "Sistema",
+        "source": "patient_upload",
+        "length_words": 22
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "c6b44f98-d3c3-48d5-8cad-1df8d3970726",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0113 - Caso 80",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "language": "es",
+      "related_medicamento": "M0113",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "doctor_note",
+        "length_words": 18
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "47354a4d-6ea6-44e6-92e3-88d74d3fc3f0",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0002",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
+      "language": "es",
+      "related_medicamento": "M0002",
+      "tags": [
+        "Antihistaminicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Sistema",
         "source": "manufacturer",
         "length_words": 34
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "34ac0cf5-e124-4382-a7cb-3f67385fe643",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0071",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13",
-      "language": "es",
-      "related_medicamento": "M0071",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [
-        "4e68465e-9c2d-4e61-9180-c58bd96c3b1d",
-        "6e37b32b-2f09-42e3-974e-aaf57d04f632"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "doctor_note",
-        "length_words": 29
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "1f6e1da6-ba84-4ae0-a827-e7bc3dec5c97",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0004",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
-      "language": "es",
-      "related_medicamento": "M0004",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
-        "length_words": 33
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "40c635ff-7588-48e0-a0c4-2fc648744db7",
+      "_id": "6d4fe212-5546-4b6b-aa44-d00e5025fc08",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0009",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
+      "title": "Ficha técnica M0104",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
       "language": "es",
-      "related_medicamento": "M0009",
-      "tags": [
-        "Dermatologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 26
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "5c1d10c9-09b0-4c63-b36a-565bd59862aa",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0071",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4",
-      "language": "es",
-      "related_medicamento": "M0071",
-      "tags": [
-        "Antibioticos"
-      ],
-      "images": [
-        "77a0511c-2cb6-4502-83a6-a1eda6ba184c"
-      ],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 22
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "9a507d0c-54c6-4b26-9758-14c90b27d8cc",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0084",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
-      "language": "es",
-      "related_medicamento": "M0084",
+      "related_medicamento": "M0104",
       "tags": [
         "Antiinflamatorios"
-      ],
-      "images": [
-        "6e37b32b-2f09-42e3-974e-aaf57d04f632"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "manufacturer",
-        "length_words": 31
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "2a07ffa5-6557-41bb-9678-0e7b9fc692d3",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0113",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16",
-      "language": "es",
-      "related_medicamento": "M0113",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "internal",
-        "length_words": 30
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "83dd59ba-3b5c-4624-aa35-e81d221ecb00",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0018",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
-      "language": "es",
-      "related_medicamento": "M0018",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 37
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "690382e7-b1e7-4da3-aca9-0f688e987871",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0029",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1",
-      "language": "es",
-      "related_medicamento": "M0029",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [
-        "3ca1c795-af72-4ba1-8a18-e1f5d794c2d2"
-      ],
-      "metadata": {
-        "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 15
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "bf1f515d-a6a7-4124-9753-e781765352a6",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0089",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
-      "language": "es",
-      "related_medicamento": "M0089",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 31
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "f7ea4fb9-1e00-483e-aab6-f8ae67cd3f61",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0101",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
-      "language": "es",
-      "related_medicamento": "M0101",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "patient_upload",
-        "length_words": 32
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "8e602271-cc4c-4604-95f8-c7208f0099ce",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0098",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
-      "language": "es",
-      "related_medicamento": "M0098",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 28
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.231051"
-    },
-    {
-      "_id": "a6d2d174-39fa-44d0-8ca4-3bef6db4bf68",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0038",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
-      "language": "es",
-      "related_medicamento": "M0038",
-      "tags": [
-        "Gastrointestinales"
       ],
       "images": [],
       "metadata": {
         "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 30
+        "source": "manufacturer",
+        "length_words": 24
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "f1a2ec2c-3fb2-4b74-b722-bcef25ada6a8",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0016",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1",
+      "_id": "8642247c-1337-4115-ba05-b87e34aa48f1",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0109",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2",
       "language": "es",
-      "related_medicamento": "M0016",
+      "related_medicamento": "M0109",
       "tags": [
         "Gastrointestinales"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
-        "source": "patient_upload",
-        "length_words": 19
+        "author": "Dr. X",
+        "source": "internal",
+        "length_words": 18
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "69ef1367-d159-4fab-8945-21e9810f44e3",
+      "_id": "6bb88365-1ca2-483c-b026-b33533c9a9a5",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0029",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6",
+      "title": "Ficha técnica M0112",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0",
       "language": "es",
-      "related_medicamento": "M0029",
+      "related_medicamento": "M0112",
       "tags": [
         "Cardiologicos"
       ],
       "images": [],
       "metadata": {
-        "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 24
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 18
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "3f84e74b-a3d4-4507-9c1f-b7fc5ed2f384",
+      "_id": "845d9734-b827-4968-9edb-3f9775ee2dc2",
       "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0012",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12",
+      "title": "Explicación de receta para M0069",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
       "language": "es",
-      "related_medicamento": "M0012",
+      "related_medicamento": "M0069",
       "tags": [
         "Antibioticos"
       ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "internal",
-        "length_words": 26
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
-    },
-    {
-      "_id": "e696102d-e940-4a7e-b787-e810ed619a2e",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0102",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
-      "language": "es",
-      "related_medicamento": "M0102",
-      "tags": [
-        "Cardiologicos"
+      "images": [
+        "0c959ba1-8b4d-4d95-90fb-c9d4694e841e",
+        "c5f72211-1d47-49e2-94f9-6445d27b11c6"
       ],
-      "images": [],
       "metadata": {
         "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 19
+        "source": "doctor_note",
+        "length_words": 31
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "87ae3633-77fb-45c1-a2a1-f4ced21daf92",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0093",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "_id": "0a9c447f-443e-4f44-b808-100113c26cb0",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0032 - Caso 86",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
+      "language": "es",
+      "related_medicamento": "M0032",
+      "tags": [
+        "Gastrointestinales"
+      ],
+      "images": [
+        "cdaba9a9-2062-4f3b-bcf1-4cb799271231"
+      ],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "internal",
+        "length_words": 20
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "fc0eefdb-7172-456a-a3cc-62aabf93d577",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0093 - Caso 87",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
       "language": "es",
       "related_medicamento": "M0093",
       "tags": [
         "Cardiologicos"
       ],
       "images": [
-        "faed462f-de9d-420f-82bd-3fd2c77739c0"
+        "6c1a0005-797b-473c-bcb0-353e4cf10c43",
+        "13c177cd-7f64-488c-86dd-baff81d3198e"
       ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "internal",
+        "length_words": 22
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "3b8ee5e6-744b-4262-805f-4b44772948bc",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0027",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
+      "language": "es",
+      "related_medicamento": "M0027",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "patient_upload",
+        "length_words": 24
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "a3a34c71-df19-4286-a23c-8324a945a25c",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0022 - Caso 89",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9",
+      "language": "es",
+      "related_medicamento": "M0022",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [
+        "8c973eeb-62cb-476b-a74c-e571dbfc2e35"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "patient_upload",
+        "length_words": 21
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "c9b32422-937e-4b10-aecc-8d785f3679c2",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0051",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "language": "es",
+      "related_medicamento": "M0051",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [],
       "metadata": {
         "author": "Dr. X",
         "source": "patient_upload",
-        "length_words": 31
+        "length_words": 35
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "57212ef2-4989-49de-825d-8d07e9f5d129",
+      "_id": "d5351d64-515d-4059-a7db-80eb65370497",
       "doc_type": "product_description",
-      "title": "Ficha técnica M0052",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
+      "title": "Ficha técnica M0113",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
       "language": "es",
-      "related_medicamento": "M0052",
+      "related_medicamento": "M0113",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "internal",
+        "length_words": 37
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "914cb39c-5821-4683-9efb-9e24313cc309",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0081",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. ",
+      "language": "es",
+      "related_medicamento": "M0081",
+      "tags": [
+        "Respiratorios"
+      ],
+      "images": [
+        "45bd80e3-8401-461d-b6bb-e027456e83ba",
+        "cdaba9a9-2062-4f3b-bcf1-4cb799271231"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "doctor_note",
+        "length_words": 17
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "862dd8ec-950b-4e85-988f-9d8b4a7adbb1",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0109",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
+      "language": "es",
+      "related_medicamento": "M0109",
+      "tags": [
+        "Antiinflamatorios"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 19
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "4b7151ad-7fc0-422a-80cc-03a2688bc824",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0045",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
+      "language": "es",
+      "related_medicamento": "M0045",
+      "tags": [
+        "Analgesicos"
+      ],
+      "images": [
+        "4bccb7c0-9053-4c47-bc41-618b730e8442",
+        "290e2fdb-79e4-4876-9165-76539b82dc3f"
+      ],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "manufacturer",
+        "length_words": 25
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "8c2d1044-79c6-4eff-bf72-bc17d25aaba5",
+      "doc_type": "usage_guide",
+      "title": "Guía de uso de M0020",
+      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0",
+      "language": "es",
+      "related_medicamento": "M0020",
       "tags": [
         "Antibioticos"
       ],
@@ -2363,323 +2608,105 @@
       "metadata": {
         "author": "Sistema",
         "source": "internal",
-        "length_words": 32
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
-    },
-    {
-      "_id": "8a2d2baf-bd08-48ce-8391-6d40df26ad6d",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0008",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1",
-      "language": "es",
-      "related_medicamento": "M0008",
-      "tags": [
-        "Analgesicos"
-      ],
-      "images": [
-        "f148bf2e-cb79-448d-9780-9552e4aa2b21"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
-        "length_words": 19
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
-    },
-    {
-      "_id": "d02dfe80-a091-4bc2-bcee-de37d39404f0",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0012 - Caso 86",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1",
-      "language": "es",
-      "related_medicamento": "M0012",
-      "tags": [
-        "Respiratorios"
-      ],
-      "images": [
-        "2df82506-397a-402a-95f7-7d98d88805fa",
-        "a3565522-9e39-489f-a273-9b32adead690"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "doctor_note",
-        "length_words": 13
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
-    },
-    {
-      "_id": "4442ac09-91f9-488d-9e5a-1b4c20df5fc7",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0018",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
-      "language": "es",
-      "related_medicamento": "M0018",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "patient_upload",
-        "length_words": 31
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.232052"
-    },
-    {
-      "_id": "da939169-26a4-4d90-a91b-16a8aae095f9",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0045",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
-      "language": "es",
-      "related_medicamento": "M0045",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [
-        "63f4c5f8-f404-4a92-8b4e-b61eb18c7310"
-      ],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
-        "length_words": 36
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "b287c543-1e80-4c03-95b9-55656f292cde",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0001",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0001",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 14
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "349e6b15-8551-4565-908a-9d6feb51abfe",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0032 - Caso 90",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8",
-      "language": "es",
-      "related_medicamento": "M0032",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "patient_upload",
-        "length_words": 20
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "dd81b264-2d53-44d8-b511-9b23dfc47450",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0116",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15",
-      "language": "es",
-      "related_medicamento": "M0116",
-      "tags": [
-        "Analgesicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "patient_upload",
-        "length_words": 33
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "56d6a065-ebec-457e-9ac5-211d632d7ea9",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0030",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1",
-      "language": "es",
-      "related_medicamento": "M0030",
-      "tags": [
-        "Cardiologicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "doctor_note",
-        "length_words": 19
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "926db911-9224-46c5-a613-e90069fc43aa",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0013 - Caso 93",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7",
-      "language": "es",
-      "related_medicamento": "M0013",
-      "tags": [
-        "Antiinflamatorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Farmacéutico A",
-        "source": "doctor_note",
-        "length_words": 19
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "4894a3fa-6a6b-426a-a47e-012fd80c8828",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0012 - Caso 94",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14",
-      "language": "es",
-      "related_medicamento": "M0012",
-      "tags": [
-        "Vitaminas"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "patient_upload",
-        "length_words": 26
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "92bfa371-5e51-48a1-b121-a2aea84bbc20",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0009",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0009",
-      "tags": [
-        "Antihistaminicos"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "patient_upload",
         "length_words": 16
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     },
     {
-      "_id": "a815aae8-4f45-40e8-b5a3-b78139cafd97",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0006",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5",
+      "_id": "a06b2cde-5624-48d4-93ae-2dcc32f43521",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0118 - Caso 96",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18 detalle_19",
       "language": "es",
-      "related_medicamento": "M0006",
+      "related_medicamento": "M0118",
+      "tags": [
+        "Vitaminas"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "doctor_note",
+        "length_words": 31
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "6082c2ee-0fc1-4c3c-b0d9-ca0c3cda4e80",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0020",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. ",
+      "language": "es",
+      "related_medicamento": "M0020",
+      "tags": [
+        "Antibioticos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 13
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "ec876330-48d2-4b03-a653-873a63099f9d",
+      "doc_type": "clinical_note",
+      "title": "Nota clínica M0050 - Caso 98",
+      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
+      "language": "es",
+      "related_medicamento": "M0050",
+      "tags": [
+        "Vitaminas"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Dr. X",
+        "source": "patient_upload",
+        "length_words": 22
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "7e889062-d748-42ad-b383-e3b5de174fdd",
+      "doc_type": "product_description",
+      "title": "Ficha técnica M0033",
+      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17",
+      "language": "es",
+      "related_medicamento": "M0033",
+      "tags": [
+        "Antihistaminicos"
+      ],
+      "images": [],
+      "metadata": {
+        "author": "Farmacéutico A",
+        "source": "doctor_note",
+        "length_words": 35
+      },
+      "embeddings": null,
+      "ingest_ts": "2025-10-29T13:49:35.634128"
+    },
+    {
+      "_id": "598a0884-883b-43c2-b57e-34b104f085e3",
+      "doc_type": "prescription_explanation",
+      "title": "Explicación de receta para M0105",
+      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11 detalle_12 detalle_13 detalle_14 detalle_15 detalle_16 detalle_17 detalle_18",
+      "language": "es",
+      "related_medicamento": "M0105",
       "tags": [
         "Antihistaminicos"
       ],
       "images": [],
       "metadata": {
         "author": "Dr. X",
-        "source": "doctor_note",
-        "length_words": 21
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "e12086da-77a3-4aaf-9845-4917baa3ddd6",
-      "doc_type": "usage_guide",
-      "title": "Guía de uso de M0071",
-      "content": "Lea el prospecto antes de usar. No exceder la dosis indicada. Conservar a temperatura ambiente. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10",
-      "language": "es",
-      "related_medicamento": "M0071",
-      "tags": [
-        "Gastrointestinales"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 26
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "a7e1a89c-fafa-4337-8729-3721409b92fd",
-      "doc_type": "prescription_explanation",
-      "title": "Explicación de receta para M0111",
-      "content": "Administrar 1 tableta cada 8 horas durante 7 días. No tomar con alcohol. detalle_0",
-      "language": "es",
-      "related_medicamento": "M0111",
-      "tags": [
-        "Respiratorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
-        "source": "manufacturer",
-        "length_words": 14
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "fe8e18a4-5c6e-4c6f-8b15-43a0b20cd0ae",
-      "doc_type": "product_description",
-      "title": "Ficha técnica M0061",
-      "content": "Descripción del medicamento, indicaciones, dosis y precauciones. Presentación en tabletas/jarabe/crema. Mantener fuera del alcance de los niños. detalle_0 detalle_1 detalle_2 detalle_3 detalle_4 detalle_5 detalle_6 detalle_7 detalle_8 detalle_9 detalle_10 detalle_11",
-      "language": "es",
-      "related_medicamento": "M0061",
-      "tags": [
-        "Analgesicos"
-      ],
-      "images": [
-        "b66a67e2-3241-44b0-8aa8-e7e88eb0414e"
-      ],
-      "metadata": {
-        "author": "Dr. X",
-        "source": "doctor_note",
-        "length_words": 29
-      },
-      "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
-    },
-    {
-      "_id": "a39c567b-f427-485e-b3cb-9158b9c265ca",
-      "doc_type": "clinical_note",
-      "title": "Nota clínica M0100 - Caso 100",
-      "content": "Paciente presenta síntomas leves. Recomendado seguimiento clínico y revisión de interacciones. detalle_0 detalle_1",
-      "language": "es",
-      "related_medicamento": "M0100",
-      "tags": [
-        "Respiratorios"
-      ],
-      "images": [],
-      "metadata": {
-        "author": "Sistema",
         "source": "patient_upload",
-        "length_words": 13
+        "length_words": 32
       },
       "embeddings": null,
-      "ingest_ts": "2025-10-22T01:59:17.233059"
+      "ingest_ts": "2025-10-29T13:49:35.634128"
     }
   ]
 }
